@@ -1,0 +1,39 @@
+@relation category
+
+@attribute Text string
+@attribute category {airplane,quake,train}
+
+@data
+
+'2007 January 1 � Adam Air Flight 574, a Boeing 737-400 with 102 people on board, crashes into the ocean off the island of Sulawesi in Indonesia, killing all on board. ',airplane
+'2009 June 1 � Air France Flight 447, an Airbus A330-200 flying from Rio de Janeiro, Brazil to Paris, France, crashes in the Atlantic Ocean killing all 228 occupants, including 12 crew; bodies and aircraft debris are not recovered until several days later. ',airplane
+'1988 July 3 � Iran Air Flight 655, an Airbus A300, is shot down over Iranian waters by the missile cruiser USS Vincennes; all 290 people on board are killed. ',airplane
+'2001 July 4 � Vladivostok Air Flight 352, a Tupolev Tu-154 enters a flat spin on approach to Irkutsk Airport in Irkutsk, Russia, crashes down onto its belly and bursts into flames in a wooded area killing all 145 aboard. ',airplane
+'2009 August 4 � Bangkok Airways Flight 266, an ATR 72-200 carrying 68 passengers crashes in severe weather on landing at Samui airport in the resort island of Ko Samui in Thailand, resulting in at least 1 confirmed death and 37 injuries. ',airplane
+'2010 November 4 - Aero Caribbean Flight 883, an ATR-72-200, crashes in Sancti Sp�ritus, Cuba killing all 68 on board in the worst ever accident involving the ATR 72. ',airplane
+'2005 September 5 � Mandala Airlines Flight 091, a Boeing 737-200, crashes in Medan, Indonesia, killing 103 of the 111 passengers and all 5 crew members on the plane and an additional 47 people on the ground. ',airplane
+'2010 10.04.2010 Poland 101 Russia Smolensk96/96 Crashed on final approach in thick fog on an airfield with no ILS. President Lech Kaczynski and other high ranking officials were onboard and died in the crash ',airplane
+'2009 February 12 � Colgan Air Flight 3407, a Bombardier Dash 8 Q400 flying from Newark Liberty International in New Jersey to Buffalo Niagara International Airport in New York crashes into a house in Clarence, New York at 10:17 pm local time; all 49 aboard the plane are killed, with one fatality on the ground. ',airplane
+'2001 November 12 � American Airlines Flight 587, an Airbus A300, crashes into a Queens neighborhood in New York City when the plane s vertical tail fin snaps just after takeoff. All 251 passengers and 9 crew members on board are killed as well as 5 people on the ground. ',airplane
+'1996 November 12 � Saudi Arabian Airlines Flight 763, a Boeing 747, collides in mid-air with Air Kazakhstan Flight 1907, an Ilyushin Il-76, near Charkhi Dadri, India. All 312 on board the Boeing 747 and all 37 on board the Ilyushin Il-76 are killed. ',airplane
+'2009 January 15 � US Airways Flight 1549, an Airbus A320 ditches in the Hudson River just after taking off from LaGuardia Airport in New York City after total engine failure due to multiple bird strikes, no fatalities. ',airplane
+'2005 August 16 � West Caribbean Airways Flight 708, an McDonnell Douglas MD-82, crashes in western Venezuela. All on board, 152 passengers and 8 crew members, die. ',airplane
+'2010 August 16 - AIRES Flight 8250, a Boeing 737-700 splits in three after being hit by lightning while landing at Gustavo Rojas Pinilla Airport, San Andr�s, Colombia. Out of the 125 passengers and 6 crew members on board, two passengers died and 113 were injured. ',airplane
+'2007 September 16 � One-Two-GO Airlines Flight 269, a McDonnell Douglas MD-82 carrying 130 people, crashes and bursts into flames after attempting to land in Phuket, Thailand during poor weather conditions killing 90 people. ',airplane
+'2008 January 17 � British Airways Flight 38, a Boeing 777-200ER, lands short of the runway at London Heathrow Airport in the United Kingdom. Nine of the 152 people on board are treated for minor injuries, but there are no fatalities; this is the first loss of a Boeing 777. ',airplane
+'2007 July 17 � TAM Airlines Flight 3054, an Airbus A320, crashes at Congonhas-S�o Paulo Airport, Brazil killing all 187 people on board and 12 on the ground. ',airplane
+'1995 December 20 � American Airlines Flight 965, a Boeing 757, crashes into a mountain while approaching Santiago de Cali, Colombia; of the 164 people on board, only 4 people and a dog survive. ',airplane
+'2008 February 21 � Santa B�rbara Airlines Flight 518, an ATR 42-300, crashes shortly after taking off from M�rida, Venezuela killing all 46 on board in the worst ever accident involving the ATR 42. ',airplane
+'2010 May 22 � Air India Express Flight 812, a Boeing 737-800, crashes at Mangalore International Airport after overshooting the runway with 160 passengers and 6 crew members on board. A total of 158 people are killed with just 8 survivors. ',airplane
+'2009 March 23 � FedEx Express Flight 80, a McDonnell Douglas MD-11 flying from Guangzhou, China crashes at Tokyo Narita International Airport, Japan; both the captain and the co-pilot of the plane are killed. ',airplane
+'2001 August 24 � Air Transat Flight 236 runs out of fuel over the Atlantic Ocean and makes an emergency landing in the Azores. Upon landing some of the tires blow out, causing a fire that is extinguished by emergency personnel on the ground. None of the 304 people on board the Airbus A330-200 were seriously injured. ',airplane
+'2008 August 24 � Itek Air Flight 6895, a Boeing 737 crashes just after take-off from Manas Airport in capital Bishkek, Kyrgyzstan. Reports suggest some 71 are killed while 19 survive of the 83 passengers and 7 crew aboard. ',airplane
+'1994 December 24 � Air France Flight 8969, an Airbus A300, is hijacked on the tarmac at Algiers, Algeria by the militant group GIA. After a two-day standoff, the plane is allowed to fly to Marseille, France, where it is stormed by French commandos who kill the hijackers. ',airplane
+'1990 January 25 � Avianca Flight 52, a Boeing 707, runs out of fuel and crashes while attempting to land at John F. Kennedy International Airport in New York. Of the 158 people on board, 85 survive. ',airplane
+'2007 June 25 � PMTair Flight 241, an Antonov An-24, crashes in southwestern Cambodia killing all 22 on board. ',airplane
+'1989 November 27 � Avianca Flight 203, a Boeing 727, explodes in mid-air over Colombia, killing all 107 people on board and three people on the ground. The Medell�n Cartel claimed responsibility for the attack. ',airplane
+'1988 April 28 � Aloha Airlines Flight 243, a Boeing 737, suffers explosive decompression during flight but manages to land safely. Of 95 people on board, one flight attendant is blown out of the plane and killed, and several passengers are injured. ',airplane
+'2010 July 28 � Airblue Flight 202, an Airbus A321, crashes into a hill in the Margalla Hills north-east of Islamabad apparently due to bad weather resulting in 146 passengers and 6 crew members perished. It is the first fatal accident involving an Airbus A321 and Pakistan s worst air disaster. ',airplane
+'2006 September 29 � Gol Transportes A�reos Flight 1907, a Boeing 737-800, collides with an Embraer Legacy business jet and crashes in Mato Grosso, Brazil; the Embraer Legacy, with seven on board, lands safely with no reported injuries while all 154 people on board the Boeing 737 perish; this crash marks the first loss of a Boeing 737-800. ',airplane
+'1991 December 29 - China Airlines Flight 358, a Boeing 747-200F, suffers double engine separation and crashes into a hill near Wanli, Taipei, Taiwan, killing all 5 crew on board. ',airplane
+'2009 June 30 � Yemenia Flight 626, an Airbus A310-300 flying from Sana a, Yemen to Moroni, Comoros, crashes into the Indian Ocean with 153 people aboard; one 12-year-old is found clinging to the wreckage. ',airplane
