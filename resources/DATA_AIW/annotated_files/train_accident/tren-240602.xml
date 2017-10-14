@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-240602e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>June 24, 2002<Node id="13"/> ?<Node id="15"/> Igandu<Node id="22"/> train disaster, <Node id="39"/>Tanzania<Node id="47"/> : Nearly <Node id="57"/>300<Node id="60"/> people die when a <Node id="79"/>passenger train<Node id="94"/> <Node id="95"/>rolls backwards<Node id="110"/> into a <Node id="118"/>goods train<Node id="129"/> .</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Place" StartNode="15" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Place" StartNode="39" EndNode="47">
+</Annotation>
+<Annotation Id="11" Type="NumberOfVictims" StartNode="57" EndNode="60">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="DateOfAccident" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">24/06/2002</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Cause" StartNode="95" EndNode="110">
+</Annotation>
+<Annotation Id="14" Type="TypeOfTrain" StartNode="79" EndNode="94">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="TypeOfTrain" StartNode="118" EndNode="129">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

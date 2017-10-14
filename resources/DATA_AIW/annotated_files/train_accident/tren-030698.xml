@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-030698e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>June 3, 1998<Node id="12"/> ? Eschede train disaster, <Node id="39"/>Eschede, Germany<Node id="55"/> : Part of a <Node id="68"/>high-speed ICE<Node id="82"/> train <Node id="89"/>derails<Node id="96"/> because of a <Node id="110"/>faulty wheel rim<Node id="126"/> and strikes a bridge. The bridge collapses as the third car hits its pylons, the remaining cars and the rear power unit jackknife into the pile. The first three carriages are separated from each other and come to a halt at Eschede railway station whilst the undamaged power car continues for another two kilometres until its brakes are automatically applied. <Node id="486"/>101<Node id="489"/> people are killed.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Place" StartNode="39" EndNode="55">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="TypeOfAccident" StartNode="89" EndNode="96">
+</Annotation>
+<Annotation Id="9" Type="NumberOfVictims" StartNode="486" EndNode="489">
+</Annotation>
+<Annotation Id="10" Type="DateOfAccident" StartNode="0" EndNode="12">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">03/06/1998</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Cause" StartNode="110" EndNode="126">
+</Annotation>
+<Annotation Id="12" Type="TypeOfTrain" StartNode="68" EndNode="82">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

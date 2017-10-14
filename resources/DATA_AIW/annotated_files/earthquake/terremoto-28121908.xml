@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-28121908e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>December 28, 1908
+<Node id="18"/>
+The 1908 Messina earthquake and tsunami took some 100,000? <Node id="78"/>200,000<Node id="85"/> lives on December 28, 1908 in<Node id="115"/> Sicily and Calabria<Node id="135"/> , southern <Node id="147"/>Italy<Node id="152"/> .</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="6" Type="DateOfEarthquake" StartNode="0" EndNode="18">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/12/1908</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="Fatalities" StartNode="78" EndNode="85">
+</Annotation>
+<Annotation Id="8" Type="Country" StartNode="147" EndNode="152">
+</Annotation>
+<Annotation Id="9" Type="Region" StartNode="115" EndNode="135">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

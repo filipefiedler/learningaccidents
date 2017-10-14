@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-200999e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The devastating earthquakes which struck central <Node id="49"/>Taiwan<Node id="55"/> (the largest measured as <Node id="81"/>7.6<Node id="84"/> Richter by USGS and at a depth of 1.1 km by the Central Weather Bureau ROC) beginning on Monday, September 20 and the series of more than 9,000 aftershocks which have followed the first event have resulted in official estimates of <Node id="316"/>2,161 <Node id="322"/>deaths, 8,736 injuries with approximately 150 people still listed as missing. There are over 60 km of surface faulting, substantial lateral displacements up to nine meters. Vertical displacements are large.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="10" Type="Magnitude" StartNode="81" EndNode="84">
+</Annotation>
+<Annotation Id="11" Type="Fatalities" StartNode="316" EndNode="322">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Country" StartNode="49" EndNode="55">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

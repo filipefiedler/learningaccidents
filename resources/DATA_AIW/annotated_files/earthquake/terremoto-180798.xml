@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-180798e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 1998 Papua<Node id="14"/> New Guinea<Node id="25"/> earthquake was a magnitude<Node id="52"/> 7.0<Node id="56"/> earthquake that took place in the early evening of <Node id="108"/>Friday, 17 July 1998<Node id="128"/> . The earthquake struck the <Node id="157"/>north coast region of Papua<Node id="184"/> New Guinea, 25 km (16 mi) from the coast near Aitape, and caused a large undersea landslide, which in turn caused a tsunami that hit the coast, killing more than <Node id="347"/>2200<Node id="351"/> people.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Magnitude" StartNode="52" EndNode="56">
+</Annotation>
+<Annotation Id="8" Type="DateOfEarthquake" StartNode="108" EndNode="128">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">17/07/1998</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Fatalities" StartNode="347" EndNode="351">
+</Annotation>
+<Annotation Id="10" Type="Country" StartNode="14" EndNode="25">
+</Annotation>
+<Annotation Id="11" Type="Region" StartNode="157" EndNode="184">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

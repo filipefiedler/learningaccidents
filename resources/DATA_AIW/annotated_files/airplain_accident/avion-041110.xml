@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-041110e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2010<Node id="4"/>
+<Node id="5"/>November 4 <Node id="16"/>- <Node id="18"/>Aero Caribbean<Node id="32"/> Flight 883<Node id="43"/> , an <Node id="49"/>ATR-72-200<Node id="59"/> , <Node id="62"/>crashes<Node id="69"/> in <Node id="73"/>Sancti Sp?ritus, Cuba<Node id="94"/> killing all <Node id="107"/>68<Node id="109"/> on board in the worst ever accident involving the ATR 72.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="DateOfAccident" StartNode="5" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">04/11/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="TypeOfAircraft" StartNode="49" EndNode="59">
+</Annotation>
+<Annotation Id="10" Type="FlightNumber" StartNode="32" EndNode="43">
+</Annotation>
+<Annotation Id="11" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="12" Type="Place" StartNode="73" EndNode="94">
+</Annotation>
+<Annotation Id="13" Type="TypeOfAccident" StartNode="62" EndNode="69">
+</Annotation>
+<Annotation Id="14" Type="NumberOfVictims" StartNode="107" EndNode="109">
+</Annotation>
+<Annotation Id="15" Type="Airline" StartNode="18" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

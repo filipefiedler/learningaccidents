@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-270210e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>At <Node id="3"/>3:34<Node id="7"/> am local time, today, <Node id="30"/>February 27th 2010<Node id="48"/> , a devastating magnitude <Node id="75"/>8.8<Node id="78"/> earthquake struck <Node id="97"/>Chile<Node id="102"/> , one of the strongest earthquakes ever recorded. According to Chilean authorities, over <Node id="192"/>400<Node id="195"/> people are now known to have been killed. The earthquake also triggered a Tsunami which is right now propagating across the Pacific Ocean, due to arrive in Hawaii in hours (around 11:00 am local time). The severity of the Tsunami is still not known, but alerts are being issued across the Pacific.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="10" Type="Magnitude" StartNode="75" EndNode="78">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="TimeOfEarthquake" StartNode="3" EndNode="7">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="DateOfEarthquake" StartNode="30" EndNode="48">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/02/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Fatalities" StartNode="192" EndNode="195">
+</Annotation>
+<Annotation Id="14" Type="Country" StartNode="97" EndNode="102">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

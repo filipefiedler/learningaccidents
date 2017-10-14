@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-250199e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 1999 Coffee Axis, <Node id="22"/>Colombia<Node id="30"/> earthquake was an earthquake that heavily affected the city of Armenia , Colombia in the Quind?o department, 18 towns and 28 villages in the <Node id="172"/>Colombian Coffee-Growers Axis <Node id="202"/>region departments, and to a lesser degree, the cities of Pereira and Manizales .
+The earthquake occurred on <Node id="311"/>Monday, 25 January 1999<Node id="334"/> <Node id="335"/>13:19 <Node id="341"/>(18:19 UTC) and had a magnitude of <Node id="376"/>6.2<Node id="379"/> . The epicenter was 25 miles (40 km) west south west of Ibague , Colombia.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="11" Type="Magnitude" StartNode="376" EndNode="379">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="TimeOfEarthquake" StartNode="335" EndNode="341">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="DateOfEarthquake" StartNode="311" EndNode="334">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">25/01/1999</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Country" StartNode="22" EndNode="30">
+</Annotation>
+<Annotation Id="15" Type="Region" StartNode="172" EndNode="202">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

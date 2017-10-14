@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-021288e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>December 12, 1988<Node id="17"/> ? <Node id="20"/>Clapham Junction<Node id="36"/> rail <Node id="42"/>crash<Node id="47"/> ,<Node id="49"/> London, England<Node id="65"/> : wrong side failure from electrical short circuit caused by<Node id="126"/> faulty signal<Node id="140"/> maintenance, <Node id="154"/>35<Node id="156"/> people dead, more than <Node id="180"/>100<Node id="183"/> injured.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Cause" StartNode="126" EndNode="140">
+</Annotation>
+<Annotation Id="10" Type="Place" StartNode="20" EndNode="36">
+</Annotation>
+<Annotation Id="11" Type="Place" StartNode="49" EndNode="65">
+</Annotation>
+<Annotation Id="12" Type="TypeOfAccident" StartNode="42" EndNode="47">
+</Annotation>
+<Annotation Id="13" Type="NumberOfVictims" StartNode="154" EndNode="156">
+</Annotation>
+<Annotation Id="14" Type="Survivors" StartNode="180" EndNode="183">
+</Annotation>
+<Annotation Id="15" Type="DateOfAccident" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">12/12/1988</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-100597e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>On <Node id="3"/>May 10, 1997<Node id="15"/> , <Node id="18"/>Northern Iran<Node id="31"/> 's Khorasan Province was struck by a major earthquake known as the Qayen, Ardekul or Qaen earthquake. The largest in the area since 1990, it measured <Node id="182"/>7.3<Node id="185"/> on the moment magnitude scale and was centered approximately 270 kilometers (170 mi) south of Mashhad on the village of Ardekul . The third earthquake that year to cause severe damage, it devastated the Birjand?Qayen region, killing <Node id="419"/>1,567<Node id="424"/> and injuring over 2,300 .</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="10" Type="Magnitude" StartNode="182" EndNode="185">
+</Annotation>
+<Annotation Id="11" Type="DateOfEarthquake" StartNode="3" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">10/05/1997</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Fatalities" StartNode="419" EndNode="424">
+</Annotation>
+<Annotation Id="13" Type="Region" StartNode="18" EndNode="31">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

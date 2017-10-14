@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-270776e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Indonesia<Node id="9"/> - <Node id="12"/>Java<Node id="16"/> Earthquake of 27 May 2006 (updated 31 May 2006)
+<Node id="65"/>May 27, 2006
+<Node id="78"/>
+A powerful earthquake struck Indonesia's central province of Java early Saturday morning at <Node id="171"/>05:54<Node id="176"/> Hrs local time (26 May 2254 Hrs GMT), flattening buildings and killing over <Node id="253"/>4900<Node id="257"/> people. </TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="6" Type="TimeOfEarthquake" StartNode="171" EndNode="176">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="7" Type="DateOfEarthquake" StartNode="65" EndNode="78">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/05/2006</Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="Fatalities" StartNode="253" EndNode="257">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Country" StartNode="12" EndNode="16">
+</Annotation>
+<Annotation Id="10" Type="Region" StartNode="0" EndNode="9">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

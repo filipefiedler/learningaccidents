@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-280488e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>1988<Node id="4"/>
+<Node id="5"/>April 28 <Node id="14"/>? <Node id="16"/>Aloha Airlines<Node id="30"/> Flight 243<Node id="41"/> , a <Node id="46"/>Boeing 737<Node id="56"/> , suffers <Node id="67"/>explosive decompression <Node id="91"/>during flight but manages to land safely. Of 95 people on board, <Node id="156"/>1<Node id="157"/> flight attendant is blown out of the plane and killed, and several passengers are injured.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Airline" StartNode="16" EndNode="30">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="DateOfAccident" StartNode="5" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/04/1988</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="TypeOfAircraft" StartNode="46" EndNode="56">
+</Annotation>
+<Annotation Id="12" Type="FlightNumber" StartNode="30" EndNode="41">
+</Annotation>
+<Annotation Id="13" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="14" Type="TypeOfAccident" StartNode="67" EndNode="91">
+</Annotation>
+<Annotation Id="15" Type="NumberOfVictims" StartNode="156" EndNode="157">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

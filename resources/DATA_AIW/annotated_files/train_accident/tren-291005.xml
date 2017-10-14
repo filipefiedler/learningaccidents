@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-291005e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>October 29, 2005<Node id="16"/> ? Veligonda rail disaster, <Node id="44"/>Veligonda, Andhra Pradesh, India<Node id="76"/> : At least <Node id="88"/>114 <Node id="92"/>people die and many more are injured when part of the <Node id="146"/>track is swept away by a flood<Node id="176"/> , causing a train to <Node id="198"/>derail<Node id="204"/> .</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Place" StartNode="44" EndNode="76">
+</Annotation>
+<Annotation Id="8" Type="TypeOfAccident" StartNode="198" EndNode="204">
+</Annotation>
+<Annotation Id="9" Type="NumberOfVictims" StartNode="88" EndNode="92">
+</Annotation>
+<Annotation Id="10" Type="DateOfAccident" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">29/10/2005</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Cause" StartNode="146" EndNode="176">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

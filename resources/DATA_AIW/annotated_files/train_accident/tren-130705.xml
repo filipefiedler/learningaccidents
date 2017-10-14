@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-130705e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>July 13, 2005 <Node id="14"/>? Ghotki rail crash, <Node id="35"/>Ghotki, Pakistan<Node id="51"/> : A<Node id="55"/> chain reaction accident<Node id="79"/> caused by one<Node id="93"/> train missing a signal <Node id="117"/>and colliding into another results in three trains crashed and over <Node id="185"/>150<Node id="188"/> people dead.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Place" StartNode="35" EndNode="51">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="TypeOfAccident" StartNode="55" EndNode="79">
+</Annotation>
+<Annotation Id="9" Type="NumberOfVictims" StartNode="185" EndNode="188">
+</Annotation>
+<Annotation Id="10" Type="DateOfAccident" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">13/07/2005</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Cause" StartNode="93" EndNode="117">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

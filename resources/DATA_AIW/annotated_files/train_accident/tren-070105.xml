@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-070105e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>January 7, 2005 <Node id="16"/>? A <Node id="20"/>passenger train<Node id="35"/> running from Verona to Bologna<Node id="66"/> fails to stop at a red light <Node id="96"/>and <Node id="100"/>collides frontally<Node id="118"/> with a <Node id="126"/>freight train<Node id="139"/> , near <Node id="147"/>Crevalcore<Node id="157"/> . There was dense fog at the time of the accident. <Node id="209"/>17<Node id="211"/> die.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="TypeOfTrain" StartNode="20" EndNode="35">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="TypeOfTrain" StartNode="126" EndNode="139">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Place" StartNode="147" EndNode="157">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="TypeOfAccident" StartNode="100" EndNode="118">
+</Annotation>
+<Annotation Id="13" Type="NumberOfVictims" StartNode="209" EndNode="211">
+</Annotation>
+<Annotation Id="14" Type="DateOfAccident" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">07/01/2005</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Cause" StartNode="66" EndNode="96">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

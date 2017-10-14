@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-220392e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Earthquake measuring <Node id="21"/>6.8<Node id="24"/> on richter scale hit <Node id="46"/>Turkey<Node id="52"/> about 40 kms <Node id="66"/>east of city of Erzincan<Node id="90"/> (560 kms east of ankara) on <Node id="119"/>13 march  <Node id="129"/>at <Node id="132"/>20.19<Node id="137"/> hrs local time (1719 hrs gmt) preliminary position of epicenter is latitude 40.2 degrees north, longitude 39.5 degrees east.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Magnitude" StartNode="21" EndNode="24">
+</Annotation>
+<Annotation Id="8" Type="TimeOfEarthquake" StartNode="132" EndNode="137">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="DateOfEarthquake" StartNode="119" EndNode="129">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">13/03/1992</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Country" StartNode="46" EndNode="52">
+</Annotation>
+<Annotation Id="11" Type="Region" StartNode="66" EndNode="90">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

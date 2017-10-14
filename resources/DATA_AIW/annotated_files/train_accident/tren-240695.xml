@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-240695e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>June 24, 1995<Node id="13"/> ? <Node id="16"/>Krouna, Czech Republic<Node id="38"/> : 4 runaway <Node id="51"/>carriages smashed<Node id="68"/> into a <Node id="76"/>passenger train<Node id="91"/> carrying 23 people. <Node id="112"/>19<Node id="114"/> people killed, only <Node id="135"/>4<Node id="136"/> passengers survived.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Place" StartNode="16" EndNode="38">
+</Annotation>
+<Annotation Id="10" Type="TypeOfAccident" StartNode="51" EndNode="68">
+</Annotation>
+<Annotation Id="11" Type="NumberOfVictims" StartNode="112" EndNode="114">
+</Annotation>
+<Annotation Id="12" Type="Survivors" StartNode="135" EndNode="136">
+</Annotation>
+<Annotation Id="13" Type="DateOfAccident" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">24/06/1995</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="TypeOfTrain" StartNode="76" EndNode="91">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

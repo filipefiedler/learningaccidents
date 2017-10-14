@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-020899e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>August 2, 1999<Node id="14"/> ? Gauhati rail disaster, <Node id="40"/>Gauhati, India<Node id="54"/> : Two<Node id="60"/> express train<Node id="74"/> s <Node id="77"/>collide head-on<Node id="92"/> . More than <Node id="105"/>285<Node id="108"/> people are killed.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Place" StartNode="40" EndNode="54">
+</Annotation>
+<Annotation Id="10" Type="TypeOfAccident" StartNode="77" EndNode="92">
+</Annotation>
+<Annotation Id="11" Type="NumberOfVictims" StartNode="105" EndNode="108">
+</Annotation>
+<Annotation Id="12" Type="DateOfAccident" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">02/08/1999</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="TypeOfTrain" StartNode="60" EndNode="74">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

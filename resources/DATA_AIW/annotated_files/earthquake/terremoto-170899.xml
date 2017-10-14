@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-170899e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 1999 Izmit earthquake, also known as the Kocaeli earthquake or the G?lc?k earthquake, was a <Node id="96"/>7.6 <Node id="100"/>magnitude earthquake that struck northwestern <Node id="146"/>Turkey<Node id="152"/> on <Node id="156"/>August 17, 1999<Node id="171"/> , at about <Node id="183"/>3:02<Node id="187"/> am local time. The event lasted for 37 seconds, killing around <Node id="251"/>17,000<Node id="257"/> people and leaving approximatel 500000 people homeless. The nearby city of Izmit was very badly damaged.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="10" Type="Magnitude" StartNode="96" EndNode="100">
+</Annotation>
+<Annotation Id="11" Type="TimeOfEarthquake" StartNode="183" EndNode="187">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Fatalities" StartNode="251" EndNode="257">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Country" StartNode="146" EndNode="152">
+</Annotation>
+<Annotation Id="14" Type="Country" StartNode="156" EndNode="171">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">17/08/1999</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

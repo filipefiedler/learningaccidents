@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-260101e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>26 enero 2001
+<Node id="14"/>
+SOUTHERN INDIA. At least <Node id="40"/>20,005<Node id="46"/> people killed, 166,836 injured, approximately 339,000 buildings destroyed and 783,000 damaged in the <Node id="148"/>Bhuj-Ahmadabad-Rajkot<Node id="169"/> area and other parts of Gujarat . Many bridges and roads damaged in Gujarat. At least 18 people killed and some injured in southern Pakistan . Felt throughout northern India and much of Pakistan. Also felt in Bangladesh and western Nepal . The earthquake occurred along an approximately east-west trending thrust fault at shallow depth. The stress that caused this earthquake is due to the Indian plate pushing northward into the Eurasian plate.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="10" Type="DateOfEarthquake" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">26/01/2001</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Fatalities" StartNode="40" EndNode="46">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Region" StartNode="148" EndNode="169">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

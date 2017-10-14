@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-300598e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>May 30 1998<Node id="11"/> , <Node id="14"/>Afghanistan-Tajikistan Border<Node id="43"/> Region, M <Node id="54"/>6.6
+<Node id="58"/>
+At least <Node id="68"/>4,000<Node id="73"/> people killed, many thousands injured and homeless in Badakhshan and Takhar Provinces, <Node id="161"/>Afghanistan<Node id="172"/> . Felt strongly at Mazar-e Sharif , Afghanistan. Felt at Kabul , Afghanistan. Felt at Andijon and Samarqand ; at Toshkent , Uzbekistan . Also felt at Islamabad , Peshawar and Rawalpindi , Pakistan and Dushanbe , Tajikistan . </TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="21" Type="Magnitude" StartNode="54" EndNode="58">
+</Annotation>
+<Annotation Id="22" Type="DateOfEarthquake" StartNode="0" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">30/05/1998</Value>
+</Feature>
+</Annotation>
+<Annotation Id="23" Type="Fatalities" StartNode="68" EndNode="73">
+</Annotation>
+<Annotation Id="24" Type="Country" StartNode="161" EndNode="172">
+</Annotation>
+<Annotation Id="25" Type="Region" StartNode="14" EndNode="43">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

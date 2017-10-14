@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-291291e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>1991
+<Node id="5"/>
+<Node id="6"/>December 29<Node id="17"/> - <Node id="20"/>China Airlines<Node id="34"/> <Node id="35"/>Flight 358<Node id="45"/> , a <Node id="50"/>Boeing 747-200F<Node id="65"/> , suffers double engine separation and <Node id="105"/>crashes<Node id="112"/> into a hill near <Node id="130"/>Wanli, Taipei, Taiwan<Node id="151"/> , killing all <Node id="166"/>5<Node id="167"/> crew on board.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="NumberOfVictims" StartNode="166" EndNode="167">
+</Annotation>
+<Annotation Id="17" Type="Airline" StartNode="20" EndNode="34">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="DateOfAccident" StartNode="6" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">29/12/1991</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="TypeOfAircraft" StartNode="50" EndNode="65">
+</Annotation>
+<Annotation Id="12" Type="FlightNumber" StartNode="35" EndNode="45">
+</Annotation>
+<Annotation Id="13" Type="Year" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="14" Type="Place" StartNode="130" EndNode="151">
+</Annotation>
+<Annotation Id="15" Type="TypeOfAccident" StartNode="105" EndNode="112">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

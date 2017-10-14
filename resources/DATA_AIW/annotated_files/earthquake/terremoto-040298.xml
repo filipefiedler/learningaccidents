@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-040298e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>February 4, 1998<Node id="16"/> - <Node id="19"/>Northeastern Afghanistan<Node id="43"/> . An earthquake of magnitude <Node id="73"/>6.1<Node id="76"/> and subsequent tremors kill some <Node id="110"/>4,500 <Node id="116"/>persons and leave 30,000 homeless.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Magnitude" StartNode="73" EndNode="76">
+</Annotation>
+<Annotation Id="8" Type="DateOfEarthquake" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">04/02/1998</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Fatalities" StartNode="110" EndNode="116">
+</Annotation>
+<Annotation Id="10" Type="Region" StartNode="19" EndNode="43">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

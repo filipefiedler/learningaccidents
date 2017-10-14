@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-210503e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Earthquake in Rouiba , <Node id="23"/>Algeria<Node id="30"/> , Wednesday, <Node id="44"/>May 21 2003<Node id="55"/> . Algeria's worst earthquake in two decades killed more than <Node id="117"/>1,000<Node id="122"/> people, injured thousands and left thousands more homeless. Entire families were killed in the <Node id="218"/>6.8<Node id="221"/> -magnitude quake, which was strongest about 60 miles east of the capital, Algiers. </TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Magnitude" StartNode="218" EndNode="221">
+</Annotation>
+<Annotation Id="8" Type="DateOfEarthquake" StartNode="44" EndNode="55">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">21/05/2003</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Fatalities" StartNode="117" EndNode="122">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Country" StartNode="23" EndNode="30">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

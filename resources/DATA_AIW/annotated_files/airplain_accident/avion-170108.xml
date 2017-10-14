@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-170108e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2008<Node id="4"/>
+<Node id="5"/>January 17<Node id="15"/> ?<Node id="17"/> British Airways<Node id="33"/> <Node id="34"/>Flight 38<Node id="43"/> , a <Node id="48"/>Boeing 777-200ER<Node id="64"/> , <Node id="67"/>lands short of the runway<Node id="92"/> at <Node id="96"/>London Heathrow Airport in the United Kingdom<Node id="141"/> . 9 of the 152 people on board are treated for minor injuries, but there are no fatalities; this is the first loss of a Boeing 777.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="DateOfAccident" StartNode="5" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">17/01/2008</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String">17/01/2008</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="TypeOfAircraft" StartNode="48" EndNode="64">
+</Annotation>
+<Annotation Id="11" Type="FlightNumber" StartNode="34" EndNode="43">
+</Annotation>
+<Annotation Id="12" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="13" Type="Place" StartNode="67" EndNode="92">
+</Annotation>
+<Annotation Id="14" Type="Place" StartNode="96" EndNode="141">
+</Annotation>
+<Annotation Id="15" Type="Airline" StartNode="17" EndNode="33">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

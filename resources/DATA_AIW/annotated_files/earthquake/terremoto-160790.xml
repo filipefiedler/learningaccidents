@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-160790e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The Luzon earthquake occurred on Monday,<Node id="40"/> July 16, 1990<Node id="54"/> , at <Node id="60"/>4:26<Node id="64"/> PM local time in the <Node id="86"/>Philippines<Node id="97"/> . The densely populated island of Luzon was struck by an earthquake with a<Node id="172"/> 7.8<Node id="176"/> Ms (surface-wave magnitude). An estimated <Node id="219"/>1,621<Node id="224"/> people were killed in the earthquake, most of the fatalities located in <Node id="297"/>Central Luzon<Node id="310"/> and the Cordillera region .
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Magnitude" StartNode="172" EndNode="176">
+</Annotation>
+<Annotation Id="10" Type="TimeOfEarthquake" StartNode="60" EndNode="64">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="DateOfEarthquake" StartNode="40" EndNode="54">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">16/07/1990</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Fatalities" StartNode="219" EndNode="224">
+</Annotation>
+<Annotation Id="13" Type="Country" StartNode="86" EndNode="97">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Region" StartNode="297" EndNode="310">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

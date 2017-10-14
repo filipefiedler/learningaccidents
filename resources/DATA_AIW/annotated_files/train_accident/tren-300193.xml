@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-300193e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>January 30, 1993 <Node id="17"/>? <Node id="19"/>Ngai Ndethya, Kenya<Node id="38"/> : <Node id="41"/>65<Node id="43"/> killed in a Mombasa -bound <Node id="71"/>passenger train <Node id="87"/>carrying 600 passengers which <Node id="117"/>plunged into a river<Node id="137"/> a <Node id="140"/>bridge washaway<Node id="155"/> .</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Place" StartNode="19" EndNode="38">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="TypeOfAccident" StartNode="117" EndNode="137">
+</Annotation>
+<Annotation Id="11" Type="NumberOfVictims" StartNode="41" EndNode="43">
+</Annotation>
+<Annotation Id="12" Type="DateOfAccident" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">30/01/1993</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Cause" StartNode="140" EndNode="155">
+</Annotation>
+<Annotation Id="14" Type="TypeOfTrain" StartNode="71" EndNode="87">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-240808e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2008<Node id="4"/>
+<Node id="5"/>August 24<Node id="14"/> ? <Node id="17"/>Itek Air <Node id="26"/>Flight 6895<Node id="37"/> , a <Node id="42"/>Boeing 737<Node id="52"/> <Node id="53"/>crashes<Node id="60"/> just after take-off from <Node id="86"/>Manas Airport in capital Bishkek, Kyrgyzstan<Node id="130"/> . Reports suggest some <Node id="154"/>71<Node id="156"/> are killed while 19 survive of the 83 passengers and 7 crew aboard.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="TypeOfAccident" StartNode="53" EndNode="60">
+</Annotation>
+<Annotation Id="17" Type="NumberOfVictims" StartNode="154" EndNode="156">
+</Annotation>
+<Annotation Id="18" Type="Airline" StartNode="17" EndNode="26">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="DateOfAccident" StartNode="5" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">24/08/2008</Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="TypeOfAircraft" StartNode="42" EndNode="52">
+</Annotation>
+<Annotation Id="13" Type="FlightNumber" StartNode="26" EndNode="37">
+</Annotation>
+<Annotation Id="14" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="15" Type="Place" StartNode="86" EndNode="130">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

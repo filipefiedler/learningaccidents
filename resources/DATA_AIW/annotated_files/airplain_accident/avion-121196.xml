@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-121196e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>1996<Node id="4"/>
+<Node id="5"/>November 12 <Node id="17"/>? <Node id="19"/>Saudi Arabian Airlines<Node id="41"/> <Node id="42"/>Flight 763<Node id="52"/> , a <Node id="57"/>Boeing 747<Node id="67"/> , <Node id="70"/>collides<Node id="78"/> in mid-air with <Node id="95"/>Air Kazakhstan<Node id="109"/> <Node id="110"/>Flight 1907<Node id="121"/> , an <Node id="127"/>Ilyushin Il-76<Node id="141"/> , near <Node id="149"/>Charkhi Dadri, India<Node id="169"/> . All <Node id="176"/>312<Node id="179"/> on board the Boeing 747 and all <Node id="212"/>37<Node id="214"/> on board the Ilyushin Il-76 are killed.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Place" StartNode="149" EndNode="169">
+</Annotation>
+<Annotation Id="17" Type="TypeOfAccident" StartNode="70" EndNode="78">
+</Annotation>
+<Annotation Id="18" Type="NumberOfVictims" StartNode="176" EndNode="179">
+</Annotation>
+<Annotation Id="19" Type="NumberOfVictims" StartNode="212" EndNode="214">
+</Annotation>
+<Annotation Id="20" Type="Airline" StartNode="19" EndNode="41">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="21" Type="Airline" StartNode="95" EndNode="109">
+</Annotation>
+<Annotation Id="22" Type="DateOfAccident" StartNode="5" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">12/11/1996</Value>
+</Feature>
+</Annotation>
+<Annotation Id="23" Type="TypeOfAircraft" StartNode="57" EndNode="67">
+</Annotation>
+<Annotation Id="24" Type="TypeOfAircraft" StartNode="127" EndNode="141">
+</Annotation>
+<Annotation Id="13" Type="FlightNumber" StartNode="42" EndNode="52">
+</Annotation>
+<Annotation Id="14" Type="FlightNumber" StartNode="110" EndNode="121">
+</Annotation>
+<Annotation Id="15" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

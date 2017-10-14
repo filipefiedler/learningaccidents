@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-271189e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>1989<Node id="4"/>
+<Node id="5"/>November 27 <Node id="17"/>? Avianca <Node id="27"/>Flight 203<Node id="37"/> , a <Node id="42"/>Boeing 727<Node id="52"/> , <Node id="55"/>explodes<Node id="63"/> in mid-air over <Node id="80"/>Colombia<Node id="88"/> , killing all <Node id="103"/>107<Node id="106"/> people on board and three people on the ground. The Medell?n Cartel claimed responsibility for the attack .</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="21" Type="FlightNumber" StartNode="27" EndNode="37">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="22" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="23" Type="Place" StartNode="80" EndNode="88">
+</Annotation>
+<Annotation Id="24" Type="TypeOfAccident" StartNode="55" EndNode="63">
+</Annotation>
+<Annotation Id="25" Type="NumberOfVictims" StartNode="103" EndNode="106">
+</Annotation>
+<Annotation Id="26" Type="Airline" StartNode="5" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/11/1989</Value>
+</Feature>
+</Annotation>
+<Annotation Id="27" Type="TypeOfAircraft" StartNode="42" EndNode="52">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

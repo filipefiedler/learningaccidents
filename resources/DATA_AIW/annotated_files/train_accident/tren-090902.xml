@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-090902e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>September 9, 2002<Node id="17"/> ? Rafiganj rail disaster. More than <Node id="54"/>130<Node id="57"/> people die when a <Node id="76"/>passenger train<Node id="91"/> <Node id="92"/>derails<Node id="99"/> and falls into the <Node id="119"/>Dhave River in Bihar<Node id="139"/> because of <Node id="151"/>sabotaged<Node id="160"/> tracks.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Place" StartNode="119" EndNode="139">
+</Annotation>
+<Annotation Id="8" Type="TypeOfAccident" StartNode="92" EndNode="99">
+</Annotation>
+<Annotation Id="9" Type="NumberOfVictims" StartNode="54" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="DateOfAccident" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">09/09/2002</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Cause" StartNode="151" EndNode="160">
+</Annotation>
+<Annotation Id="12" Type="TypeOfTrain" StartNode="76" EndNode="91">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

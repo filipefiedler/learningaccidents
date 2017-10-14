@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-270688e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>June 27, 1988<Node id="13"/> ? Gare de Lyon train accident, <Node id="45"/>Gare de Lyon, Paris, France<Node id="72"/> : After <Node id="81"/>brake failure<Node id="94"/> , <Node id="97"/>runaway train<Node id="110"/> hits<Node id="115"/> stationary <Node id="127"/>rush-hour train<Node id="142"/> in station, <Node id="155"/>56<Node id="157"/> people killed, over <Node id="178"/>50<Node id="180"/> injured.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="DateOfAccident" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">27/06/1988</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="Cause" StartNode="81" EndNode="94">
+</Annotation>
+<Annotation Id="18" Type="TypeOfTrain" StartNode="97" EndNode="110">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="TypeOfTrain" StartNode="127" EndNode="142">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Place" StartNode="45" EndNode="72">
+</Annotation>
+<Annotation Id="13" Type="TypeOfAccident" StartNode="110" EndNode="115">
+</Annotation>
+<Annotation Id="14" Type="NumberOfVictims" StartNode="155" EndNode="157">
+</Annotation>
+<Annotation Id="15" Type="Survivors" StartNode="178" EndNode="180">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

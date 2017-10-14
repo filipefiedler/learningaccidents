@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-150109e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009<Node id="4"/>
+<Node id="5"/>January 15<Node id="15"/> ? <Node id="18"/>US Airways<Node id="28"/> <Node id="29"/>Flight 1549<Node id="40"/> , an<Node id="45"/> Airbus A320<Node id="57"/> <Node id="58"/>ditches<Node id="65"/> in the <Node id="73"/>Hudson River<Node id="85"/> just after taking off from LaGuardia Airport in New York City after total engine failure due to multiple bird strikes , no fatalities.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="TypeOfAircraft" StartNode="45" EndNode="57">
+</Annotation>
+<Annotation Id="10" Type="FlightNumber" StartNode="29" EndNode="40">
+</Annotation>
+<Annotation Id="11" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="12" Type="Place" StartNode="73" EndNode="85">
+</Annotation>
+<Annotation Id="13" Type="TypeOfAccident" StartNode="58" EndNode="65">
+</Annotation>
+<Annotation Id="14" Type="Airline" StartNode="18" EndNode="28">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="DateOfAccident" StartNode="5" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">15/01/2009</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

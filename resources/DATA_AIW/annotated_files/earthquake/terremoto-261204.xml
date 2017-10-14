@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-261204e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 2004 <Node id="9"/>Indian Ocean<Node id="21"/> earthquake was an undersea megathrust earthquake that occurred at <Node id="88"/>00:58:53<Node id="96"/> UTC on Sunday, <Node id="112"/>December 26, 2004<Node id="129"/> , with an epicentre off the west coast of Sumatra , <Node id="182"/>Indonesia<Node id="191"/> . The earthquake was caused by subduction and triggered a series of devastating tsunamis along the coasts of most landmasses bordering the Indian Ocean, killing over 230,000 people in fourteen countries, and inundating coastal communities with waves up to 30 meters (100 feet) high. Indonesia was the hardest hit, followed by Sri Lanka , India , and Thailand . With a magnitude of between 9.1 and <Node id="589"/>9.3<Node id="592"/> , it is the third largest earthquake ever recorded on a seismograph. This earthquake had the longest duration of faulting ever observed, between 8.3 and 10 minutes. It caused the entire planet to vibrate as much as 1 cm (0.4 inches) and triggered other earthquakes as far away as Alaska. Its hypocenter was between Simeulue and mainland Indonesia.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Region" StartNode="9" EndNode="21">
+</Annotation>
+<Annotation Id="12" Type="Magnitude" StartNode="589" EndNode="592">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="DateOfEarthquake" StartNode="88" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="DateOfEarthquake" StartNode="112" EndNode="129">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">26/12/2004</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Fatalities" StartNode="182" EndNode="191">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-210208e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2008<Node id="4"/>
+<Node id="5"/>February 21<Node id="16"/> ? <Node id="19"/>Santa B?rbara Airlines<Node id="41"/> <Node id="42"/>Flight 518<Node id="52"/> , an ATR 42-300, <Node id="70"/>crashes<Node id="77"/> shortly after taking off from M?rida, Venezuela killing all <Node id="138"/>46<Node id="140"/> on board in the worst ever accident involving the ATR 42.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="8" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="9" Type="TypeOfAccident" StartNode="70" EndNode="77">
+</Annotation>
+<Annotation Id="10" Type="NumberOfVictims" StartNode="138" EndNode="140">
+</Annotation>
+<Annotation Id="11" Type="Airline" StartNode="19" EndNode="41">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="DateOfAccident" StartNode="5" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">21/02/2008</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="TypeOfAircraft" StartNode="42" EndNode="52">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

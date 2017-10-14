@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-121292e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 1992 Flores earthquake occurred on <Node id="39"/>December 12, 1992<Node id="56"/> on the <Node id="64"/>island of Flores<Node id="80"/> in <Node id="84"/>Indonesia<Node id="93"/> . With a magnitude of <Node id="116"/>7.8<Node id="119"/> , it was the largest and also the deadliest earthquake in 1992.
+The quake hit at <Node id="201"/>05.29<Node id="206"/> UTC and was followed by several serious aftershocks. At least <Node id="269"/>2,500<Node id="274"/> people were killed or missing near Flores, including 1,490 at Maumere and 700 on Babi . More than 500 people were injured and 90,000 were left homeless.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Region" StartNode="64" EndNode="80">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Magnitude" StartNode="116" EndNode="119">
+</Annotation>
+<Annotation Id="12" Type="TimeOfEarthquake" StartNode="201" EndNode="206">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="DateOfEarthquake" StartNode="39" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">12/12/1992</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Fatalities" StartNode="269" EndNode="274">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Country" StartNode="84" EndNode="93">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

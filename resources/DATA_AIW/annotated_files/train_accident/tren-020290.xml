@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-020290e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Germany <Node id="8"/>February 2, 1990<Node id="24"/> ? <Node id="27"/>R?sselsheim, Germany<Node id="47"/> : Two <Node id="54"/>S-Bahn commuter trains<Node id="76"/> <Node id="77"/>collide<Node id="84"/> , killing <Node id="95"/>17<Node id="97"/> and injuring <Node id="111"/>80<Node id="113"/> .</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="8" Type="Place" StartNode="27" EndNode="47">
+</Annotation>
+<Annotation Id="9" Type="TypeOfAccident" StartNode="77" EndNode="84">
+</Annotation>
+<Annotation Id="10" Type="NumberOfVictims" StartNode="95" EndNode="97">
+</Annotation>
+<Annotation Id="11" Type="Survivors" StartNode="111" EndNode="113">
+</Annotation>
+<Annotation Id="12" Type="DateOfAccident" StartNode="8" EndNode="24">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">02/02/1990</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="TypeOfTrain" StartNode="54" EndNode="76">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-040809e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009<Node id="4"/>
+<Node id="5"/>August 4<Node id="13"/> ? <Node id="16"/>Bangkok Airways<Node id="31"/> <Node id="32"/>Flight 266<Node id="42"/> , an <Node id="48"/>ATR 72-200<Node id="58"/> carrying 68 passengers <Node id="82"/>crashes<Node id="89"/> in severe weather on landing at <Node id="122"/>Samui airport in the resort island of Ko Samui in Thailand<Node id="180"/> , resulting in at least <Node id="205"/>1<Node id="206"/> confirmed death and 37 injuries.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Airline" StartNode="16" EndNode="31">
+</Annotation>
+<Annotation Id="17" Type="DateOfAccident" StartNode="5" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">04/08/2009</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="TypeOfAircraft" StartNode="48" EndNode="58">
+</Annotation>
+<Annotation Id="11" Type="FlightNumber" StartNode="32" EndNode="42">
+</Annotation>
+<Annotation Id="12" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="13" Type="Place" StartNode="122" EndNode="180">
+</Annotation>
+<Annotation Id="14" Type="TypeOfAccident" StartNode="82" EndNode="89">
+</Annotation>
+<Annotation Id="15" Type="NumberOfVictims" StartNode="205" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

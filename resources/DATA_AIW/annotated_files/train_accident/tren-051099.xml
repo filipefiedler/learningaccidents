@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-051099e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>October 5, 1999<Node id="15"/> ? <Node id="18"/>Ladbroke Grove<Node id="32"/> rail crash, England:<Node id="53"/> Two trains collide head-on<Node id="80"/> because of a<Node id="93"/> signal passed at danger<Node id="117"/> and smashed <Node id="130"/>fuel tanks catch fire<Node id="151"/> , killing <Node id="162"/>31<Node id="164"/> people and injuring <Node id="185"/>400<Node id="188"/> .</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="DateOfAccident" StartNode="0" EndNode="15">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">02/10/1999</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="Cause" StartNode="93" EndNode="117">
+</Annotation>
+<Annotation Id="11" Type="Place" StartNode="18" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="TypeOfAccident" StartNode="53" EndNode="80">
+</Annotation>
+<Annotation Id="13" Type="TypeOfAccident" StartNode="130" EndNode="151">
+</Annotation>
+<Annotation Id="14" Type="NumberOfVictims" StartNode="162" EndNode="164">
+</Annotation>
+<Annotation Id="15" Type="Survivors" StartNode="185" EndNode="188">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-220704e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>July 23, 2004<Node id="13"/> ? An Istanbul ? Ankara <Node id="37"/>express<Node id="44"/> with 230 people on board, <Node id="71"/>derails<Node id="78"/> at <Node id="82"/>Pamukova, Sakarya Province, Turkey<Node id="116"/> and the <Node id="125"/>carriages overturn<Node id="143"/> , according to Turkish government official confirmed, killing at least <Node id="215"/>38<Node id="217"/> people, injuring another <Node id="243"/>80<Node id="245"/> .</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Survivors" StartNode="243" EndNode="245">
+</Annotation>
+<Annotation Id="17" Type="DateOfAccident" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">23/07/2004</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="Cause" StartNode="71" EndNode="78">
+</Annotation>
+<Annotation Id="19" Type="TypeOfTrain" StartNode="37" EndNode="44">
+</Annotation>
+<Annotation Id="13" Type="Place" StartNode="82" EndNode="116">
+</Annotation>
+<Annotation Id="14" Type="TypeOfAccident" StartNode="125" EndNode="143">
+</Annotation>
+<Annotation Id="15" Type="NumberOfVictims" StartNode="215" EndNode="217">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

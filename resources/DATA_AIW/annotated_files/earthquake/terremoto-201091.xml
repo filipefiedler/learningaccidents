@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-201091e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 1991 Uttarkashi earthquake occurred on <Node id="43"/>20 October 1991<Node id="58"/> in the <Node id="66"/>Uttarkashi<Node id="76"/> region of the Indian state of Uttarakhand . The earthquake, which measured <Node id="152"/>6.8<Node id="155"/> Mw, killed over a <Node id="174"/>1000<Node id="178"/> people and caused extensive damage to property. The quake occurred within the main thrust system of the Himalayas.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="8" Type="Magnitude" StartNode="152" EndNode="155">
+</Annotation>
+<Annotation Id="9" Type="DateOfEarthquake" StartNode="43" EndNode="58">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">20/10/1991</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Fatalities" StartNode="174" EndNode="178">
+</Annotation>
+<Annotation Id="11" Type="Region" StartNode="66" EndNode="76">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

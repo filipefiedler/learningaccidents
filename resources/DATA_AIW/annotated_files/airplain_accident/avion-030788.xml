@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-030788e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>1988<Node id="4"/>
+<Node id="5"/>July 3<Node id="11"/> ? <Node id="14"/>Iran Air<Node id="22"/> <Node id="23"/>Flight 655<Node id="33"/> , an <Node id="39"/>Airbus A300<Node id="50"/> , is <Node id="56"/>shot down<Node id="65"/> over <Node id="71"/>Iranian waters <Node id="86"/>by the missile cruiser USS Vincennes ; all <Node id="129"/>290<Node id="132"/> people on board are killed.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Airline" StartNode="14" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="DateOfAccident" StartNode="5" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">03/07/1988</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="TypeOfAircraft" StartNode="39" EndNode="50">
+</Annotation>
+<Annotation Id="11" Type="FlightNumber" StartNode="23" EndNode="33">
+</Annotation>
+<Annotation Id="12" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="13" Type="Place" StartNode="71" EndNode="86">
+</Annotation>
+<Annotation Id="14" Type="TypeOfAccident" StartNode="56" EndNode="65">
+</Annotation>
+<Annotation Id="15" Type="NumberOfVictims" StartNode="129" EndNode="132">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

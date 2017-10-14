@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-160810e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2010<Node id="4"/>
+<Node id="5"/>August 16<Node id="14"/> - <Node id="17"/>AIRES<Node id="22"/> <Node id="23"/>Flight 8250<Node id="34"/> , a<Node id="38"/> Boeing 737-700<Node id="53"/> <Node id="54"/>splits in three<Node id="69"/> after being hit by lightning while landing at <Node id="116"/>Gustavo Rojas Pinilla Airport, San Andr?s, Colombia<Node id="167"/> . Out of the 125 passengers and 6 crew members on board, 2 passengers died and 113 were injured.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="DateOfAccident" StartNode="5" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">16/08/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="TypeOfAircraft" StartNode="38" EndNode="53">
+</Annotation>
+<Annotation Id="11" Type="FlightNumber" StartNode="23" EndNode="34">
+</Annotation>
+<Annotation Id="12" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="13" Type="Place" StartNode="116" EndNode="167">
+</Annotation>
+<Annotation Id="14" Type="TypeOfAccident" StartNode="54" EndNode="69">
+</Annotation>
+<Annotation Id="15" Type="Airline" StartNode="17" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

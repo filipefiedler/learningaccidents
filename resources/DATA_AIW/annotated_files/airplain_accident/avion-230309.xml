@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-230309e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009<Node id="4"/>
+<Node id="5"/>March 23<Node id="13"/> ? <Node id="16"/>FedEx Express<Node id="29"/> <Node id="30"/>Flight 80<Node id="39"/> , a <Node id="44"/>McDonnell Douglas MD-11<Node id="67"/> flying from Guangzhou, China <Node id="97"/>crashes<Node id="104"/> at <Node id="108"/>Tokyo Narita International Airport, Japan<Node id="149"/> ; <Node id="152"/>both<Node id="156"/> the captain and the co-pilot of the plane are killed.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Airline" StartNode="16" EndNode="29">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="DateOfAccident" StartNode="5" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">23/03/2009</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="TypeOfAircraft" StartNode="44" EndNode="67">
+</Annotation>
+<Annotation Id="11" Type="FlightNumber" StartNode="30" EndNode="39">
+</Annotation>
+<Annotation Id="12" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="13" Type="Place" StartNode="108" EndNode="149">
+</Annotation>
+<Annotation Id="14" Type="TypeOfAccident" StartNode="97" EndNode="104">
+</Annotation>
+<Annotation Id="15" Type="NumberOfVictims" StartNode="152" EndNode="156">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

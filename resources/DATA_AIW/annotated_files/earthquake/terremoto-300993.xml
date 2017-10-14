@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-300993e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>September 29 1993<Node id="17"/> , <Node id="20"/>India<Node id="25"/> , M <Node id="30"/>6.2
+<Node id="34"/>
+<Node id="35"/>9748<Node id="39"/> people killed, about 30,000 injured and extreme devastation in the <Node id="107"/>Latur-Osmanabad<Node id="122"/> area. Nearly all buildings were destroyed in the village of Khillari . Felt in large parts of central and southern India , including Bangalore , Bombay , Hyderabad and Madras . 
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Country" StartNode="20" EndNode="25">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="17" Type="Region" StartNode="107" EndNode="122">
+</Annotation>
+<Annotation Id="13" Type="Magnitude" StartNode="30" EndNode="34">
+</Annotation>
+<Annotation Id="14" Type="DateOfEarthquake" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">29/09/1993</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Fatalities" StartNode="35" EndNode="39">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

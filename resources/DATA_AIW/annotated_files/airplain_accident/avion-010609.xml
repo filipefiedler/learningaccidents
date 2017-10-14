@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-010609e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009<Node id="4"/>
+<Node id="5"/>June 1<Node id="11"/> ? <Node id="14"/>Air France<Node id="24"/> <Node id="25"/>Flight 447<Node id="35"/> , an <Node id="41"/>Airbus A330-200 <Node id="57"/>flying from Rio de Janeiro, Brazil to Paris, France , <Node id="111"/>crashes<Node id="118"/> in the <Node id="126"/>Atlantic Ocean<Node id="140"/> killing all <Node id="153"/>228 <Node id="157"/>occupants, including 12 crew; bodies and aircraft debris are not recovered until several days later.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="TypeOfAccident" StartNode="111" EndNode="118">
+</Annotation>
+<Annotation Id="17" Type="NumberOfVictims" StartNode="153" EndNode="157">
+</Annotation>
+<Annotation Id="18" Type="Airline" StartNode="14" EndNode="24">
+</Annotation>
+<Annotation Id="19" Type="DateOfAccident" StartNode="5" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">01/06/2009</Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="TypeOfAircraft" StartNode="41" EndNode="57">
+</Annotation>
+<Annotation Id="13" Type="FlightNumber" StartNode="25" EndNode="35">
+</Annotation>
+<Annotation Id="14" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="15" Type="Place" StartNode="126" EndNode="140">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

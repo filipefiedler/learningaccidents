@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-290609e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>June 29, 2009<Node id="13"/> ? A <Node id="18"/>freight train <Node id="32"/>derails<Node id="39"/> at <Node id="43"/>Viareggio<Node id="52"/> . Two wagons carrying Liquefied petroleum gas <Node id="99"/>explode<Node id="106"/> . <Node id="109"/>32 <Node id="112"/>people die, <Node id="124"/>5<Node id="125"/> of them when a house collapses.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Place" StartNode="43" EndNode="52">
+</Annotation>
+<Annotation Id="10" Type="TypeOfAccident" StartNode="99" EndNode="106">
+</Annotation>
+<Annotation Id="11" Type="NumberOfVictims" StartNode="109" EndNode="112">
+</Annotation>
+<Annotation Id="12" Type="Survivors" StartNode="124" EndNode="125">
+</Annotation>
+<Annotation Id="13" Type="DateOfAccident" StartNode="0" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">29/06/2009</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Cause" StartNode="32" EndNode="39">
+</Annotation>
+<Annotation Id="15" Type="TypeOfTrain" StartNode="18" EndNode="32">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

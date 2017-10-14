@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-311002e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 2002 Molise earthquake was a magnitude <Node id="43"/>5.9<Node id="46"/> earthquake that hit the <Node id="71"/>Italian<Node id="78"/> regions of <Node id="90"/>Molise<Node id="96"/> and <Node id="101"/>Puglia<Node id="107"/> on<Node id="110"/> October 31, 2002<Node id="127"/> at <Node id="131"/>10:32:58<Node id="139"/> (UTC). The depth of the earthquake was 10.0 km (6.2 miles).</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="10" Type="Magnitude" StartNode="43" EndNode="46">
+</Annotation>
+<Annotation Id="11" Type="TimeOfEarthquake" StartNode="131" EndNode="139">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="DateOfEarthquake" StartNode="110" EndNode="127">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">31/10/2002</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Country" StartNode="71" EndNode="78">
+</Annotation>
+<Annotation Id="14" Type="Region" StartNode="90" EndNode="96">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="Region" StartNode="101" EndNode="107">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

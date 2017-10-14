@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-061102e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>November 6, 2002<Node id="16"/> ? <Node id="19"/>Nancy, France<Node id="32"/> : A <Node id="37"/>fire breaks<Node id="48"/> out in the front two carriages of an <Node id="86"/>overnight sleeper train <Node id="110"/>heading from Paris to Vienna . <Node id="141"/>12<Node id="143"/> passengers die of smoke inhalation, <Node id="180"/>9<Node id="181"/> are injured.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Place" StartNode="19" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="TypeOfAccident" StartNode="37" EndNode="48">
+</Annotation>
+<Annotation Id="11" Type="NumberOfVictims" StartNode="141" EndNode="143">
+</Annotation>
+<Annotation Id="12" Type="Survivors" StartNode="180" EndNode="181">
+</Annotation>
+<Annotation Id="13" Type="DateOfAccident" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">06/11/2002</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="TypeOfTrain" StartNode="86" EndNode="110">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

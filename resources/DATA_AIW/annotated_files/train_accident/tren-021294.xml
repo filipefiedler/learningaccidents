@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-021294e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>December 2, 1994<Node id="16"/> ? <Node id="19"/>Szajol, Hungary<Node id="34"/> : <Node id="37"/>InterCity train <Node id="53"/>traveling at 65 mph (105 km/h) <Node id="84"/>derails<Node id="91"/> and <Node id="96"/>crashes into the railway station's building<Node id="139"/> , killing <Node id="150"/>31<Node id="152"/> passengers and injuring many people.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Place" StartNode="19" EndNode="34">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="TypeOfAccident" StartNode="96" EndNode="139">
+</Annotation>
+<Annotation Id="9" Type="NumberOfVictims" StartNode="150" EndNode="152">
+</Annotation>
+<Annotation Id="10" Type="DateOfAccident" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">02/12/1994</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Cause" StartNode="84" EndNode="91">
+</Annotation>
+<Annotation Id="12" Type="TypeOfTrain" StartNode="37" EndNode="53">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

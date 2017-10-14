@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-240204e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 2004 <Node id="9"/>Morocco<Node id="16"/> earthquake, at a magnitude <Node id="44"/>6.4<Node id="47"/> Mw, occurred on <Node id="64"/>24 February 2004<Node id="80"/> near the coast of northern Morocco.
+At least <Node id="126"/>628<Node id="129"/> people were killed, 926 injured, 2,539 homes destroyed and more than 15,000 people homeless in the <Node id="229"/>Al Hoceima-Imzourene-Beni Abdallah<Node id="263"/> area, Morocco.
+
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Magnitude" StartNode="44" EndNode="47">
+</Annotation>
+<Annotation Id="10" Type="DateOfEarthquake" StartNode="64" EndNode="80">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">24/02/2004</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Fatalities" StartNode="126" EndNode="129">
+</Annotation>
+<Annotation Id="12" Type="Country" StartNode="9" EndNode="16">
+</Annotation>
+<Annotation Id="13" Type="Region" StartNode="229" EndNode="263">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

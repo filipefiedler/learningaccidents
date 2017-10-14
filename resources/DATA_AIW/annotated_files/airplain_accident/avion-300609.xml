@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-300609e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2009<Node id="4"/>
+<Node id="5"/>June 30<Node id="12"/> ? <Node id="15"/>Yemenia<Node id="22"/> <Node id="23"/>Flight 626<Node id="33"/> , an <Node id="39"/>Airbus A310-300<Node id="54"/> flying from Sana'a, Yemen to Moroni, Comoros , <Node id="102"/>crashes<Node id="109"/> into the <Node id="119"/>Indian Ocean<Node id="131"/> with <Node id="137"/>153<Node id="140"/> people aboard; 1 12-year-old is found clinging to the wreckage.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="23" Type="FlightNumber" StartNode="23" EndNode="33">
+</Annotation>
+<Annotation Id="24" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="25" Type="Place" StartNode="119" EndNode="131">
+</Annotation>
+<Annotation Id="26" Type="TypeOfAccident" StartNode="102" EndNode="109">
+</Annotation>
+<Annotation Id="27" Type="NumberOfVictims" StartNode="137" EndNode="140">
+</Annotation>
+<Annotation Id="28" Type="Airline" StartNode="15" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="29" Type="DateOfAccident" StartNode="5" EndNode="12">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">30/06/2009</Value>
+</Feature>
+</Annotation>
+<Annotation Id="30" Type="TypeOfAircraft" StartNode="39" EndNode="54">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

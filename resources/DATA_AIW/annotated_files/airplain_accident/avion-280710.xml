@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-280710e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2010<Node id="4"/>
+<Node id="5"/>July 28<Node id="12"/> ? <Node id="15"/>Airblue<Node id="22"/> <Node id="23"/>Flight 202<Node id="33"/> , an <Node id="39"/>Airbus A321<Node id="50"/> , <Node id="53"/>crashes<Node id="60"/> into a hill in the<Node id="79"/> Margalla Hills north-east of Islamabad<Node id="118"/> apparently due to bad weather resulting in <Node id="162"/>146<Node id="165"/> passengers and 6 crew members perished. It is the first fatal accident involving an Airbus A321 and Pakistan's worst air disaster.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Place" StartNode="79" EndNode="118">
+</Annotation>
+<Annotation Id="17" Type="TypeOfAccident" StartNode="53" EndNode="60">
+</Annotation>
+<Annotation Id="18" Type="NumberOfVictims" StartNode="162" EndNode="165">
+<Feature>
+  <Name className="java.lang.String">number</Name>
+  <Value className="java.lang.String">152</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="Airline" StartNode="15" EndNode="22">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="DateOfAccident" StartNode="5" EndNode="12">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/07/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="21" Type="TypeOfAircraft" StartNode="39" EndNode="50">
+</Annotation>
+<Annotation Id="14" Type="FlightNumber" StartNode="23" EndNode="33">
+</Annotation>
+<Annotation Id="15" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

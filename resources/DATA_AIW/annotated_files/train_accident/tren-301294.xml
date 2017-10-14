@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-301294e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>December 30, 1994<Node id="17"/> ? According to Myanmarese MRTV and Kyehmon newspaper report, a Mandalay ? Myitkyina <Node id="102"/>passenger train<Node id="117"/> <Node id="118"/>derailed <Node id="127"/>and<Node id="130"/> plummeted into a ravine<Node id="154"/> at the outskirts of <Node id="175"/>Wuntho, central Myanmar<Node id="198"/> , killing <Node id="209"/>102<Node id="212"/> people.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="10" Type="Place" StartNode="175" EndNode="198">
+</Annotation>
+<Annotation Id="11" Type="TypeOfAccident" StartNode="130" EndNode="154">
+</Annotation>
+<Annotation Id="12" Type="NumberOfVictims" StartNode="209" EndNode="212">
+</Annotation>
+<Annotation Id="13" Type="DateOfAccident" StartNode="0" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">30/12/1194</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Cause" StartNode="118" EndNode="127">
+</Annotation>
+<Annotation Id="15" Type="TypeOfTrain" StartNode="102" EndNode="117">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

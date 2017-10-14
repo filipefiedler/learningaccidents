@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-220205e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>February 22<Node id="11"/> ? More than <Node id="24"/>500<Node id="27"/> people are killed and over 1,000 injured, after entire villages are flattened in an earthquake ( <Node id="125"/>6.4<Node id="128"/> on the Richter scale) in the <Node id="158"/>Zarand<Node id="164"/> region of Kerman province in southern <Node id="203"/>Iran<Node id="207"/>
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="8" Type="Magnitude" StartNode="125" EndNode="128">
+</Annotation>
+<Annotation Id="9" Type="DateOfEarthquake" StartNode="0" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">22/02/2005</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Fatalities" StartNode="24" EndNode="27">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Country" StartNode="203" EndNode="207">
+</Annotation>
+<Annotation Id="12" Type="Region" StartNode="158" EndNode="164">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-231272e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 1972 <Node id="9"/>Nicaragua<Node id="18"/> earthquake was an earthquake that occurred at <Node id="65"/>12:29<Node id="70"/> a.m. local time (06:29 UTC) on Saturday, <Node id="112"/>December 23, 1972<Node id="129"/> near Managua, the capital of Nicaragua. It had a magnitude of <Node id="192"/>6.2 <Node id="196"/>and occurred at a depth of about 5 kilometers beneath the centre of the city. Within an hour after the main shock, two aftershocks, one of magnitude 5.0 and the other 5.2, occurred. The earthquake caused widespread damage, among Managua 's residents, <Node id="447"/>5,000<Node id="452"/> were killed, 20,000 were injured and over 250,000 were left homeless.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="11" Type="Magnitude" StartNode="192" EndNode="196">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="TimeOfEarthquake" StartNode="65" EndNode="70">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="DateOfEarthquake" StartNode="112" EndNode="129">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">23/12/1972</Value>
+</Feature>
+</Annotation>
+<Annotation Id="14" Type="Fatalities" StartNode="447" EndNode="452">
+</Annotation>
+<Annotation Id="15" Type="Country" StartNode="9" EndNode="18">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-280297e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 1997 Ardabil earthquake was a destructive earthquake that occurred on <Node id="74"/>28 February 1997<Node id="90"/> . The earthquake occurred at <Node id="120"/>12:57<Node id="125"/> UTC (4:27 p.m. Iran Standard Time) and lasted for 15 seconds. At least <Node id="197"/>1,100<Node id="202"/> people were killed, 2,600 injured, 36,000 homeless, 12,000 houses damaged or destroyed and 160,000 livestock killed in the <Node id="326"/>Ardabil<Node id="333"/> area of northwestern <Node id="355"/>Iran<Node id="359"/> . </TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="10" Type="TimeOfEarthquake" StartNode="120" EndNode="125">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="DateOfEarthquake" StartNode="74" EndNode="90">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/02/1997</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Fatalities" StartNode="197" EndNode="202">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Country" StartNode="355" EndNode="359">
+</Annotation>
+<Annotation Id="14" Type="Region" StartNode="326" EndNode="333">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

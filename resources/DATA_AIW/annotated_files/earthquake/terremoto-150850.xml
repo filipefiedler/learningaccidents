@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-150850e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>15 de agosto de 1950 <Node id="21"/>- On this date in 1950, a massive <Node id="55"/>8.6 <Node id="59"/>magnitude earthquake hit the Assam - <Node id="96"/>Tibet<Node id="101"/> region, killing at least <Node id="127"/>780<Node id="130"/> people, injuring thousands, and destroying many buildings. Cracks developed in the ground and large landslides occurred, and a village slid into a river and was washed away. Severe damage was also experienced in Assam , India and the vicinity. A natural dam broke 8 days after the earthquake, producing a 23 ft tall wave which destroyed several villages downstream and killed <Node id="507"/>536<Node id="510"/> people.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Magnitude" StartNode="55" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="DateOfEarthquake" StartNode="0" EndNode="21">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">15/08/1950</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="Fatalities" StartNode="127" EndNode="130">
+</Annotation>
+<Annotation Id="10" Type="Fatalities" StartNode="507" EndNode="510">
+</Annotation>
+<Annotation Id="11" Type="Region" StartNode="96" EndNode="101">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

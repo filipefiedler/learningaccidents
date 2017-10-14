@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-040701e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2001<Node id="4"/>
+<Node id="5"/>July 4<Node id="11"/> ? <Node id="14"/>Vladivostok Air <Node id="30"/>Flight 352<Node id="40"/> , a<Node id="44"/> Tupolev Tu-154<Node id="59"/> enters a flat spin on approach to <Node id="94"/>Irkutsk Airport in Irkutsk, Russia<Node id="128"/> , <Node id="131"/>crashes down<Node id="143"/> onto its belly and bursts into flames in a wooded area killing all <Node id="211"/>145 <Node id="215"/>aboard.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="NumberOfVictims" StartNode="211" EndNode="215">
+</Annotation>
+<Annotation Id="17" Type="Airline" StartNode="14" EndNode="30">
+</Annotation>
+<Annotation Id="18" Type="DateOfAccident" StartNode="5" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">04/07/2001</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="TypeOfAircraft" StartNode="44" EndNode="59">
+</Annotation>
+<Annotation Id="12" Type="FlightNumber" StartNode="30" EndNode="40">
+</Annotation>
+<Annotation Id="13" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="14" Type="Place" StartNode="94" EndNode="128">
+</Annotation>
+<Annotation Id="15" Type="TypeOfAccident" StartNode="131" EndNode="143">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

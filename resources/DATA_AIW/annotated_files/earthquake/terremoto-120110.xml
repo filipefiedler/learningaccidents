@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-120110e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 2010 <Node id="9"/>Haiti<Node id="14"/> earthquake was a catastrophic magnitude <Node id="55"/>7.0<Node id="58"/> Mw earthquake, with an epicentre near the town of L?og?ne , approximately 25 km (16 miles) west of Port-au-Prince, Haiti's capital. The earthquake occurred at <Node id="218"/>16:53<Node id="223"/> local time (21:53 UTC) on Tuesday, <Node id="259"/>12 January 2010<Node id="274"/> . An estimated 3000000 people were affected by the quake; the Haitian government reported that an estimated <Node id="383"/>316,000<Node id="390"/> people had died, 300,000 had been injured and 1,000,000 made homeless.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Magnitude" StartNode="55" EndNode="58">
+</Annotation>
+<Annotation Id="10" Type="TimeOfEarthquake" StartNode="218" EndNode="223">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">pm</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="TimeOfEarthquake" StartNode="259" EndNode="274">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">12/01/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="12" Type="Fatalities" StartNode="383" EndNode="390">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Country" StartNode="9" EndNode="14">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

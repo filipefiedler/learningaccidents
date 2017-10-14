@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-190985e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>The 1985 Mexico City earthquake, a magnitude<Node id="44"/> 8.1<Node id="48"/> earthquake that struck <Node id="72"/>Mexico<Node id="78"/> on <Node id="82"/>19 September 1985<Node id="99"/> in the morning at <Node id="118"/>7:19<Node id="122"/> local time, caused the deaths of about <Node id="162"/>10,000<Node id="168"/> people and serious damage in the nation's capital. </TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Magnitude" StartNode="44" EndNode="48">
+</Annotation>
+<Annotation Id="8" Type="TimeOfEarthquake" StartNode="118" EndNode="122">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="DateOfEarthquake" StartNode="82" EndNode="99">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">19/09/1985</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Fatalities" StartNode="162" EndNode="168">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Country" StartNode="72" EndNode="78">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

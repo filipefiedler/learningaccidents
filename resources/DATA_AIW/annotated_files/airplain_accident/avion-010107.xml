@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-010107e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2007<Node id="4"/>
+<Node id="5"/>January 1<Node id="14"/> ? <Node id="17"/>Adam Air<Node id="25"/> <Node id="26"/>Flight 574<Node id="36"/> , a <Node id="41"/>Boeing 737-400<Node id="55"/> with <Node id="61"/>102<Node id="64"/> people on board, <Node id="82"/>crashes<Node id="89"/> into the <Node id="99"/>ocean off the island of Sulawesi in Indonesia<Node id="144"/> , killing all on board.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="TypeOfAircraft" StartNode="41" EndNode="55">
+</Annotation>
+<Annotation Id="9" Type="FlightNumber" StartNode="26" EndNode="36">
+</Annotation>
+<Annotation Id="10" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="11" Type="Place" StartNode="99" EndNode="144">
+</Annotation>
+<Annotation Id="12" Type="TypeOfAccident" StartNode="82" EndNode="89">
+</Annotation>
+<Annotation Id="13" Type="NumberOfVictims" StartNode="61" EndNode="64">
+</Annotation>
+<Annotation Id="14" Type="Airline" StartNode="17" EndNode="25">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="15" Type="DateOfAccident" StartNode="5" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">01/01/2007</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

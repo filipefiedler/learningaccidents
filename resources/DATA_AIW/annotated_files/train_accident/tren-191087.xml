@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-191087e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>October 19, 1987<Node id="16"/> ? Bintaro train crash: A <Node id="42"/>commuter train<Node id="56"/> from Rangkasbitung with 600 passengers <Node id="96"/>collides head-on<Node id="112"/> with another <Node id="126"/>commuter train<Node id="140"/> with 300 passengers bound for Merak , at<Node id="181"/> Bintaro Jaya, south of Jakarta, Indonesia<Node id="223"/> , killing at least <Node id="243"/>156<Node id="246"/> people, injuring at least <Node id="273"/>300<Node id="276"/> . Indonesia's worst rail accident in history.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Survivors" StartNode="273" EndNode="276">
+</Annotation>
+<Annotation Id="17" Type="DateOfAccident" StartNode="0" EndNode="16">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">18/10/1987</Value>
+</Feature>
+</Annotation>
+<Annotation Id="18" Type="TypeOfTrain" StartNode="42" EndNode="56">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="19" Type="TypeOfTrain" StartNode="126" EndNode="140">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+<Annotation Id="13" Type="Place" StartNode="181" EndNode="223">
+</Annotation>
+<Annotation Id="14" Type="TypeOfAccident" StartNode="96" EndNode="112">
+</Annotation>
+<Annotation Id="15" Type="NumberOfVictims" StartNode="243" EndNode="246">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-280776e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>At <Node id="3"/>3:42<Node id="7"/> a.m. on <Node id="16"/>July 28, 1976<Node id="29"/> , a magnitude <Node id="44"/>7.8<Node id="47"/> earthquake hit the sleeping city of Tangshan , in northeastern <Node id="111"/>China<Node id="116"/> . The very large earthquake, striking an area where it was totally unexpected, obliterated the city of Tangshan and killed over <Node id="245"/>240,000<Node id="252"/> people - making it the deadliest earthquake of the twentieth century. </TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="7" Type="Magnitude" StartNode="44" EndNode="47">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="8" Type="TimeOfEarthquake" StartNode="3" EndNode="7">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">am</Value>
+</Feature>
+</Annotation>
+<Annotation Id="9" Type="DateOfEarthquake" StartNode="16" EndNode="29">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/07/1976</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Fatalities" StartNode="245" EndNode="252">
+</Annotation>
+<Annotation Id="11" Type="Country" StartNode="111" EndNode="116">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

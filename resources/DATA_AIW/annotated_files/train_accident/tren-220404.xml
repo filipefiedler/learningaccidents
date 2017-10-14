@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-220404e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>April 22, 2004<Node id="14"/> ? <Node id="17"/>Ryongchon<Node id="26"/> disaster, <Node id="37"/>North Korea<Node id="48"/> : <Node id="51"/>161<Node id="54"/> people killed and more than <Node id="83"/>1000<Node id="87"/> injured when an <Node id="104"/>explosion<Node id="113"/> takes place.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="9" Type="Place" StartNode="17" EndNode="26">
+</Annotation>
+<Annotation Id="10" Type="Place" StartNode="37" EndNode="48">
+</Annotation>
+<Annotation Id="11" Type="TypeOfAccident" StartNode="104" EndNode="113">
+</Annotation>
+<Annotation Id="12" Type="NumberOfVictims" StartNode="51" EndNode="54">
+</Annotation>
+<Annotation Id="13" Type="Survivors" StartNode="83" EndNode="87">
+</Annotation>
+<Annotation Id="14" Type="DateOfAccident" StartNode="0" EndNode="14">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">22/04/2004</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Train-Accidents/tren-080808e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>August 8, 2008<Node id="14"/> ? Studenka Train Disaster: <Node id="42"/>Express train EC 108 Comenius<Node id="71"/> from Krak?w, Poland to Prague, Czech Republic travelling at 140 km/h <Node id="141"/>crashes<Node id="148"/> around 10:30 local time (GMT+1) into a section of a <Node id="201"/>bridge undergoing construction that had fallen onto the track<Node id="262"/> . <Node id="265"/>8 <Node id="267"/>people are killed and <Node id="289"/>91<Node id="291"/> injured.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Cause" StartNode="201" EndNode="262">
+</Annotation>
+<Annotation Id="17" Type="TypeOfTrain" StartNode="42" EndNode="71">
+</Annotation>
+<Annotation Id="12" Type="TypeOfAccident" StartNode="141" EndNode="148">
+</Annotation>
+<Annotation Id="13" Type="NumberOfVictims" StartNode="265" EndNode="267">
+</Annotation>
+<Annotation Id="14" Type="Survivors" StartNode="289" EndNode="291">
+</Annotation>
+<Annotation Id="15" Type="DateOfAccident" StartNode="0" EndNode="14">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

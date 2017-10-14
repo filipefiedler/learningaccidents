@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Earthquakes/terremoto-280364e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>At <Node id="3"/>5:36<Node id="7"/> p.m. Alaska Standard Time (3:36 a.m.<Node id="44"/> March 28, 1964<Node id="59"/> UTC), a fault between the Pacific and North American plates ruptured near College Fjord in Prince William Sound. The epicenter of the earthquake was 61?03N 147?29W / 61.05?N 147.48?W/61.05;-147.48, 12.4 mi (20 km) north of Prince William Sound , 78 miles (125 km) <Node id="324"/>east of Anchorage<Node id="341"/> and 40 miles (64 km) <Node id="363"/>west of Valdez<Node id="377"/> . The focus occurred at a depth of approximately 15.5 mi (25 km). Ocean floor shifts created large tsunamis (up to 220 feet (67 m) in height)</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="8" Type="TimeOfEarthquake" StartNode="3" EndNode="7">
+</Annotation>
+<Annotation Id="9" Type="DateOfEarthquake" StartNode="44" EndNode="59">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">28/03/1964</Value>
+</Feature>
+</Annotation>
+<Annotation Id="10" Type="Region" StartNode="324" EndNode="341">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">1</Value>
+</Feature>
+</Annotation>
+<Annotation Id="11" Type="Region" StartNode="363" EndNode="377">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">2</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

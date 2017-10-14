@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/work/horacio/concisus/corpus/concisus-clean-data/annotated-summaries/English/Aviation-Accidents/avion-220510e.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2010<Node id="4"/>
+<Node id="5"/>May 22<Node id="11"/> ? <Node id="14"/>Air India Express <Node id="32"/>Flight 812<Node id="42"/> , a <Node id="47"/>Boeing 737-800<Node id="61"/> , <Node id="64"/>crashes<Node id="71"/> at<Node id="74"/> Mangalore International Airport<Node id="106"/> after overshooting the runway with 160 passengers and 6 crew members on board. A total of <Node id="197"/>158 <Node id="201"/>people are killed with just 8 survivors.</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Gold">
+<Annotation Id="16" Type="Place" StartNode="74" EndNode="106">
+</Annotation>
+<Annotation Id="17" Type="TypeOfAccident" StartNode="64" EndNode="71">
+</Annotation>
+<Annotation Id="18" Type="NumberOfVictims" StartNode="197" EndNode="201">
+</Annotation>
+<Annotation Id="19" Type="Airline" StartNode="14" EndNode="32">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</Annotation>
+<Annotation Id="20" Type="DateOfAccident" StartNode="5" EndNode="11">
+<Feature>
+  <Name className="java.lang.String">name</Name>
+  <Value className="java.lang.String">22/05/2010</Value>
+</Feature>
+</Annotation>
+<Annotation Id="21" Type="TypeOfAircraft" StartNode="47" EndNode="61">
+</Annotation>
+<Annotation Id="14" Type="FlightNumber" StartNode="32" EndNode="42">
+</Annotation>
+<Annotation Id="15" Type="Year" StartNode="0" EndNode="4">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>
