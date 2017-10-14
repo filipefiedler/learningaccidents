@@ -32,14 +32,11 @@ public class CreateTrainingData {
         String floc;
         String line;
         String text;
-        /* airplane accidents */
-        inDir=new File("./resources/DATA_AIW/text_files/airplane_accident");
-        flist=inDir.listFiles();
         
         //Creating a Printwriter object and connecting it to the file
         PrintWriter out;
         try {
-            out = new PrintWriter(new FileWriter(new File("./output.arff")));
+            out = new PrintWriter(new FileWriter(new File("./resources/full_traning_data.arff")));
             
             //Writing the head of the file
             out.println("@relation category");
@@ -49,7 +46,11 @@ public class CreateTrainingData {
             out.println();
             out.println("@data");
             out.println();
-            
+        
+            // airplane accidents
+            inDir=new File("./resources/DATA_AIW/text_files/airplane_accident");
+            flist=inDir.listFiles();
+
             for(int f=0;f<flist.length;f++) {
                 floc=flist[f].getAbsolutePath();
                 try {
@@ -62,6 +63,29 @@ public class CreateTrainingData {
                     //Printing each line on the file
                     out.println("'"+text+"',"+"airplane");
                     //System.out.println("'"+text+"',"+"airplane");
+                } catch (FileNotFoundException ex) {
+                    ex.printStackTrace();
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+            }
+            
+            // earthquake accidents
+            inDir=new File("./resources/DATA_AIW/text_files/earthquake");
+            flist=inDir.listFiles();
+
+            for(int f=0;f<flist.length;f++) {
+                floc=flist[f].getAbsolutePath();
+                try {
+                    reader=new BufferedReader(new FileReader(floc));
+                    text="";
+                    while((line=reader.readLine())!=null) {
+                        line=line.replaceAll("'", " ");
+                        text=text+line+" ";
+                    }
+                    //Printing each line on the file
+                    out.println("'"+text+"',"+"quake");
+                    //System.out.println("'"+text+"',"+"quake");
                 } catch (FileNotFoundException ex) {
                     ex.printStackTrace();
                 } catch (IOException ex) {

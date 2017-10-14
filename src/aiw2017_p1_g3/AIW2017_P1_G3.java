@@ -7,7 +7,7 @@ package aiw2017_p1_g3;
 
 /**
  *
- * @author filip
+ * @author Filipe Fiedler & Nick Schneider
  */
 public class AIW2017_P1_G3 {
 
@@ -15,7 +15,11 @@ public class AIW2017_P1_G3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println(
+            "Text Classification and Extraction App. This App recognizes texts belonging to\n" +
+            "the following two domain: airplane and earthquake accidents"
+        );
+        
     }
     
 }
