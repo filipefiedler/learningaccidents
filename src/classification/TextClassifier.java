@@ -123,7 +123,7 @@ public class TextClassifier {
    
    public static void main(String[] args) {
        try {
-         
+           
            /* YOU NEED TO USE an ARFF CREATED BY YOU */
            String trainFile="./resources/few_instances.arff"; // this file is provided by your teacher, 
            // you have to replace it with your own file with the FULL training data
