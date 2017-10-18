@@ -1,0 +1,41 @@
+Phase: CreateMentionQuake
+Input: DateOfEarthquake Magnitude TimeOfEarthquake Country Region Fatalities
+Options: control = appelt
+
+
+
+Rule: DateOfEarthquake
+
+({DateOfEarthquake}):annotate -->
+:annotate.Mention = { type=DateOfQuake }
+
+
+Rule: Magnitude
+
+({Magnitude}):annotate -->
+:annotate.Mention = { type=Magnitude }
+
+Rule: TimeOfEarthquake
+
+({TimeOfEarthquake}):annotate -->
+:annotate.Mention = { type=Time }
+
+Rule: Country
+
+({Country}):annotate -->
+:annotate.Mention = { type=Country }
+
+
+Rule: Region
+
+({Region}):annotate -->
+:annotate.Mention = { type=Region }
+
+Rule: Fatalities
+
+({Fatalities}):annotate -->
+:annotate.Mention = { type=NumOfDead }
+
+
+
+
