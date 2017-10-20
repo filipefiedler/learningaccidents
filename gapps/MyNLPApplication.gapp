@@ -50,7 +50,7 @@
             </localMap>
           </runtimeParams>
           <resourceType>gate.creole.annotdelete.AnnotationDeletePR</resourceType>
-          <resourceName>Document Reset PR 00033</resourceName>
+          <resourceName>Document Reset PR 0002D</resourceName>
           <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap/>
@@ -79,7 +79,7 @@
             </localMap>
           </runtimeParams>
           <resourceType>gate.creole.tokeniser.DefaultTokeniser</resourceType>
-          <resourceName>ANNIE English Tokeniser 0002B</resourceName>
+          <resourceName>ANNIE English Tokeniser 00024</resourceName>
           <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
@@ -125,7 +125,7 @@
             </localMap>
           </runtimeParams>
           <resourceType>gate.creole.splitter.RegexSentenceSplitter</resourceType>
-          <resourceName>RegEx Sentence Splitter 00035</resourceName>
+          <resourceName>RegEx Sentence Splitter 0002E</resourceName>
           <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
@@ -179,16 +179,16 @@
                 <null/>
               </entry>
               <entry>
-                <string>inputASName</string>
-                <null/>
-              </entry>
-              <entry>
                 <string>posTagAllTokens</string>
                 <boolean>true</boolean>
               </entry>
               <entry>
                 <string>baseTokenAnnotationType</string>
                 <string>Token</string>
+              </entry>
+              <entry>
+                <string>inputASName</string>
+                <null/>
               </entry>
               <entry>
                 <string>baseSentenceAnnotationType</string>
@@ -201,7 +201,7 @@
             </localMap>
           </runtimeParams>
           <resourceType>gate.creole.POSTagger</resourceType>
-          <resourceName>ANNIE POS Tagger 00034</resourceName>
+          <resourceName>ANNIE POS Tagger 0002F</resourceName>
           <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
@@ -228,62 +228,6 @@
             <localMap/>
           </features>
         </gate.util.persistence.LanguageAnalyserPersistence>
-        <gate.util.persistence.PRPersistence>
-          <runtimeParams class="gate.util.persistence.MapPersistence">
-            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-            <localMap>
-              <entry>
-                <string>affixFeatureName</string>
-                <string>affix</string>
-              </entry>
-              <entry>
-                <string>annotationSetName</string>
-                <null/>
-              </entry>
-              <entry>
-                <string>failOnMissingInputAnnotations</string>
-                <boolean>true</boolean>
-              </entry>
-              <entry>
-                <string>rootFeatureName</string>
-                <string>root</string>
-              </entry>
-              <entry>
-                <string>document</string>
-                <null/>
-              </entry>
-              <entry>
-                <string>corpus</string>
-                <null/>
-              </entry>
-              <entry>
-                <string>considerPOSTag</string>
-                <boolean>true</boolean>
-              </entry>
-            </localMap>
-          </runtimeParams>
-          <resourceType>gate.creole.morph.Morph</resourceType>
-          <resourceName>GATE Morphological analyser 00038</resourceName>
-          <initParams class="gate.util.persistence.MapPersistence">
-            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-            <localMap>
-              <entry>
-                <string>rulesFile</string>
-                <gate.util.persistence.PersistenceManager-URLHolder>
-                  <urlString>$gatehome$plugins/Tools/resources/morph/default.rul</urlString>
-                </gate.util.persistence.PersistenceManager-URLHolder>
-              </entry>
-              <entry>
-                <string>caseSensitive</string>
-                <boolean>false</boolean>
-              </entry>
-            </localMap>
-          </initParams>
-          <features class="gate.util.persistence.MapPersistence">
-            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
-            <localMap/>
-          </features>
-        </gate.util.persistence.PRPersistence>
         <gate.util.persistence.LanguageAnalyserPersistence>
           <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
@@ -311,7 +255,7 @@
             </localMap>
           </runtimeParams>
           <resourceType>gate.creole.gazetteer.DefaultGazetteer</resourceType>
-          <resourceName>ANNIE Gazetteer 00036</resourceName>
+          <resourceName>ANNIE Gazetteer 00030</resourceName>
           <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
@@ -367,7 +311,7 @@
             </localMap>
           </runtimeParams>
           <resourceType>gate.creole.ANNIETransducer</resourceType>
-          <resourceName>ANNIE NE Transducer 00037</resourceName>
+          <resourceName>ANNIE NE Transducer 00031</resourceName>
           <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
@@ -396,6 +340,62 @@
             <localMap/>
           </features>
         </gate.util.persistence.LanguageAnalyserPersistence>
+        <gate.util.persistence.PRPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>affixFeatureName</string>
+                <string>affix</string>
+              </entry>
+              <entry>
+                <string>annotationSetName</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>failOnMissingInputAnnotations</string>
+                <boolean>true</boolean>
+              </entry>
+              <entry>
+                <string>rootFeatureName</string>
+                <string>root</string>
+              </entry>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>corpus</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>considerPOSTag</string>
+                <boolean>true</boolean>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>gate.creole.morph.Morph</resourceType>
+          <resourceName>GATE Morphological analyser 00037</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>rulesFile</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$gatehome$plugins/Tools/resources/morph/default.rul</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>caseSensitive</string>
+                <boolean>false</boolean>
+              </entry>
+            </localMap>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.PRPersistence>
         <gate.util.persistence.LanguageAnalyserPersistence>
           <runtimeParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
@@ -427,7 +427,7 @@
             </localMap>
           </runtimeParams>
           <resourceType>gate.creole.Transducer</resourceType>
-          <resourceName>JAPE Transducer 00059</resourceName>
+          <resourceName>JAPE Transducer 00068</resourceName>
           <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
@@ -464,7 +464,7 @@
       <collectionType>java.util.ArrayList</collectionType>
     </prList>
     <resourceType>gate.creole.SerialAnalyserController</resourceType>
-    <resourceName>MyNLPApp</resourceName>
+    <resourceName>MyNLPApp2</resourceName>
     <initParams class="gate.util.persistence.MapPersistence">
       <mapType>gate.util.SimpleFeatureMapImpl</mapType>
       <localMap/>

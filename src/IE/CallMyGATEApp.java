@@ -50,7 +50,7 @@ public class CallMyGATEApp {
     
     
     public static void main(String[] args) {
-        String pathToMyGapp="PATH TO YOUR NLP GAPP HERE";
+        String pathToMyGapp="./gapps/NLPAnalyzer.gapp";
         String pathToIE="PATH TO YOUR IE GAPP HRE";
         try {
             // initialize GATE

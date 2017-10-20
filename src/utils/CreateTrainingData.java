@@ -93,6 +93,7 @@ public class CreateTrainingData {
                 }
             }
             
+            
             //Closing the connection to the file
             out.flush();
             out.close();
