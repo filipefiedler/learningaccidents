@@ -1,0 +1,51 @@
+Phase: CreateMentionAvion
+Input: Airline Date FlightNumber NumberOfVictims Place TypeOfAccident TypeOfAircraft Year
+Options: control = appelt
+
+Rule: Airline
+
+({Airline}):annotate -->
+:annotate.Mention = { type=Airline }
+
+
+Rule: Date
+
+({Date}):annotate -->
+:annotate.Mention = { type=Date }
+
+
+Rule: FlightNumber
+
+({FlightNumber}):annotate -->
+:annotate.Mention = { type=FlightNumber }
+
+
+Rule: NumberOfVictims
+
+({NumberOfVictims}):annotate -->
+:annotate.Mention = { type=NumberOfVictims }
+
+
+Rule: Place
+
+({Place}):annotate -->
+:annotate.Mention = { type=Place }
+
+
+Rule: TypeOfAccident
+
+({TypeOfAccident}):annotate -->
+:annotate.Mention = { type=TypeOfAccident }
+
+Rule: TypeOfAircraft
+
+({TypeOfAircraft}):annotate -->
+:annotate.Mention = { type=TypeOfAircraft }
+
+Rule: Year
+
+({Year}):annotate -->
+:annotate.Mention = { type=Year }
+
+
+

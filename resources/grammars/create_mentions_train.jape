@@ -1,0 +1,39 @@
+Phase: CreateMentionTrain
+Input: TypeOfTrain TypeOfAccident NumberOfVictims Place  DateOfAccident Cause
+Options: control = appelt
+
+Rule: Train
+
+({TypeOfTrain}):annotate -->
+:annotate.Mention = { type=Train }
+
+
+Rule: Accident
+
+({TypeOfAccident}):annotate -->
+:annotate.Mention = { type=Accident}
+
+Rule: Victims
+
+({NumberOfVictims}):annotate -->
+:annotate.Mention = { type=Victims}
+
+
+Rule: Place
+
+({Place}):annotate -->
+:annotate.Mention = { type=Place}
+
+Rule: Date
+
+({DateOfAccident}):annotate -->
+:annotate.Mention = { type=Date}
+
+
+Rule: Cause
+
+({Cause}):annotate -->
+:annotate.Mention = { type=CauseOfAccident}
+
+
+

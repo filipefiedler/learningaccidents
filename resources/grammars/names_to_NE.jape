@@ -1,0 +1,34 @@
+Phase: Copy
+Input: Date Location Organization Person Number Address
+Options: 
+
+Rule: Date
+
+({Date}):annotate -->
+:annotate.NE = { type = Date }
+
+Rule: Location
+
+({Location}):annotate -->
+:annotate.NE = { type = Location }
+
+
+Rule: Organization
+
+({Organization}):annotate -->
+:annotate.NE = { type = Organization }
+
+Rule: Person
+
+({Person}):annotate -->
+:annotate.NE = { type = Person }
+
+Rule: Number
+
+({Number}):annotate -->
+:annotate.NE = { type = Number }
+
+Rule: Address
+
+({Address}):annotate -->
+:annotate.NE = { type =  Address }
