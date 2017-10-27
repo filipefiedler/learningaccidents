@@ -1,0 +1,97 @@
+<gate.util.persistence.GateApplication>
+  <urlList class="gate.util.persistence.CollectionPersistence">
+    <localList>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$gatehome$plugins/ANNIE/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$gatehome$plugins/Tools/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$gatehome$plugins/Learning/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+    </localList>
+    <collectionType>java.util.ArrayList</collectionType>
+  </urlList>
+  <application class="gate.util.persistence.SerialAnalyserControllerPersistence">
+    <prList class="gate.util.persistence.CollectionPersistence">
+      <localList>
+        <gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>enableDebugging</string>
+                <boolean>false</boolean>
+              </entry>
+              <entry>
+                <string>corpus</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>outputASName</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>inputASName</string>
+                <string>Gold</string>
+              </entry>
+              <entry>
+                <string>ontology</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>gate.creole.Transducer</resourceType>
+          <resourceName>JAPE Transducer 000FD</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>binaryGrammarURL</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>annotationAccessors</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>grammarURL</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$../resources/grammars/create_mentions_earthquake.jape</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>encoding</string>
+                <string>UTF-8</string>
+              </entry>
+              <entry>
+                <string>operators</string>
+                <null/>
+              </entry>
+            </localMap>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence>
+      </localList>
+      <collectionType>java.util.ArrayList</collectionType>
+    </prList>
+    <resourceType>gate.creole.SerialAnalyserController</resourceType>
+    <resourceName>Earth</resourceName>
+    <initParams class="gate.util.persistence.MapPersistence">
+      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+      <localMap/>
+    </initParams>
+    <features class="gate.util.persistence.MapPersistence">
+      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+      <localMap/>
+    </features>
+  </application>
+</gate.util.persistence.GateApplication>
