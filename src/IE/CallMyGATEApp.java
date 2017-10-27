@@ -48,8 +48,10 @@ public class CallMyGATEApp {
 
 		this.application.execute();
 	}
-
-	public static void main(String[] args) {
+	public void init(String txt, int n){
+		
+	}
+	public void init(String txt) {
 		String pathToMyGapp = "./gapps/NLPAnalyzer.gapp";
 		String pathToIE = "./gapps/LEARNING.gapp";
 		try {
@@ -65,8 +67,7 @@ public class CallMyGATEApp {
 			// create a GATE corpus
 			Corpus corpus = Factory.newCorpus("");
 			// create a GATE document from a string
-			Document document = Factory.newDocument(
-					"December 20 American Airlines Flight 965 , a Boeing 757 , crashes into a mountain while approaching Santiago de Cali, Colombia ; of the 164 people on board, only 4 people and a dog survive.");
+			Document document = Factory.newDocument(txt);
 			// put document in corpus
 			corpus.add(document);
 			// pass corpus to app
