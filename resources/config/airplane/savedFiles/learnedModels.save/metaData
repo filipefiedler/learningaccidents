@@ -1,7 +1,7 @@
-31 #numTrainingDocs
-14 #numClasses
-997 #numNullLabelInstances
-9001060 #totalFeatures
+40 #numTrainingDocs
+2 #numClasses
+2442 #numNullLabelInstances
+9001515 #totalFeatures
 /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles/learnedModels.save #modelFile
 SVMLibSvmJava #learnerName
 null #learnerExecutable
