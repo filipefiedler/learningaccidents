@@ -7633,3 +7633,1276 @@ Overall results as:
   (correct, partialCorrect, spurious, missing)= (7.4, 0.5, 0.0, 1.0);  (precision, recall, F1)= (0.9340476, 0.84146106, 0.8828551);  Lenient: (1.0, 0.8951155, 0.9419567)
 
 27.10.2017 15:01:50: This learning session finished!.
+27.10.2017 15:18:23: 
+
+*************************
+A new session for NLP learning is starting: 20171027_151823file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 3899secs ago)The initiliased time of NLP learning: Fri Oct 27 15:18:23 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 15:18:23: 
+*** A new run starts.
+27.10.2017 15:18:23: 
+The execution time (pre-processing the first document): Fri Oct 27 15:18:23 CEST 2017
+27.10.2017 15:18:23: ** Application mode for document from 0 to 1(not included):
+27.10.2017 15:18:23: Creating temp directory for application-mode files
+27.10.2017 15:18:23: 
+Application starts.
+27.10.2017 15:18:23: Multi to binary conversion.
+27.10.2017 15:18:23: The learners: SVMLibSvmJava
+27.10.2017 15:18:23: One against others for multi to binary class conversion.
+Number of classes in model: 2
+27.10.2017 15:18:23: Application time for class: 45ms
+27.10.2017 15:18:23: The learning start at Fri Oct 27 15:18:23 CEST 2017
+27.10.2017 15:18:23: The number of documents in dataset: 1
+27.10.2017 15:18:23: This learning session finished!.
+27.10.2017 15:28:51: 
+
+*************************
+A new session for NLP learning is starting: 20171027_152851file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 4527secs ago)The initiliased time of NLP learning: Fri Oct 27 15:28:51 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 15:29:33: 
+*** A new run starts.
+27.10.2017 15:29:33: 
+The execution time (pre-processing the first document): Fri Oct 27 15:29:33 CEST 2017
+27.10.2017 15:29:33: The learning start at Fri Oct 27 15:29:33 CEST 2017
+27.10.2017 15:29:33: The number of documents in dataset: 44
+27.10.2017 15:29:33: ** Evaluation mode:
+27.10.2017 15:29:33: K-fold evaluation: k=10
+27.10.2017 15:29:33: Kfold k=10, numDoc=44, len=4.
+27.10.2017 15:29:33: 
+*** Fold 1
+Number of docs for training: 40
+1 terremoto-090357.xml_00109
+2 terremoto-100597.xml_0010A
+3 terremoto-120110.xml_0010B
+4 terremoto-120508.xml_0010C
+5 terremoto-121292.xml_0010D
+6 terremoto-150850.xml_0010E
+7 terremoto-160790.xml_0010F
+8 terremoto-170195.xml_00110
+9 terremoto-170706.xml_00111
+10 terremoto-170899.xml_00112
+11 terremoto-18041906.xml_00113
+12 terremoto-180798.xml_00114
+13 terremoto-190985.xml_00115
+14 terremoto-200999.xml_00116
+15 terremoto-201091.xml_00117
+16 terremoto-210503.xml_00118
+17 terremoto-210690.xml_00119
+18 terremoto-220205.xml_0011A
+19 terremoto-220392.xml_0011B
+20 terremoto-220560.xml_0011C
+21 terremoto-231180.xml_0011D
+22 terremoto-231272.xml_0011E
+23 terremoto-240204.xml_0011F
+24 terremoto-250199.xml_00120
+25 terremoto-260101.xml_00121
+26 terremoto-260302.xml_00122
+27 terremoto-261203.xml_00123
+28 terremoto-261204.xml_00124
+29 terremoto-270210.xml_00125
+30 terremoto-270595.xml_00126
+31 terremoto-270776.xml_00127
+32 terremoto-280297.xml_00128
+33 terremoto-280305.xml_00129
+34 terremoto-280364.xml_0012A
+35 terremoto-280776.xml_0012B
+36 terremoto-28121908.xml_0012C
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+
+27.10.2017 15:29:35: 
+Filtering starts.
+27.10.2017 15:29:35: Multi to binary conversion.
+27.10.2017 15:29:35: The number of classes in dataset: 1
+27.10.2017 15:29:35: The learners: SVMLibSvmJava
+27.10.2017 15:29:35: total Number of classes for learning is 1
+27.10.2017 15:29:35: One against others for multi to binary class conversion.
+27.10.2017 15:29:37: Training time for class 1: 1763ms
+27.10.2017 15:29:37: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:29:37: Application time for class: 13ms
+27.10.2017 15:29:37: 
+Training starts.
+
+27.10.2017 15:29:37: Multi to binary conversion.
+27.10.2017 15:29:37: The learners: SVMLibSvmJava
+27.10.2017 15:29:37: The number of classes in dataset: 12
+27.10.2017 15:29:37: total Number of classes for learning is 12
+27.10.2017 15:29:37: One against others for multi to binary class conversion.
+27.10.2017 15:29:38: Training time for class 1: 378ms
+27.10.2017 15:29:38: Training time for class 2: 290ms
+27.10.2017 15:29:38: Training time for class 3: 277ms
+27.10.2017 15:29:39: Training time for class 4: 252ms
+27.10.2017 15:29:39: Training time for class 5: 205ms
+27.10.2017 15:29:39: Training time for class 6: 193ms
+27.10.2017 15:29:39: Training time for class 7: 277ms
+27.10.2017 15:29:40: Training time for class 8: 245ms
+27.10.2017 15:29:40: Training time for class 9: 333ms
+27.10.2017 15:29:40: Training time for class 10: 316ms
+27.10.2017 15:29:40: Training time for class 11: 141ms
+27.10.2017 15:29:40: Training time for class 12: 169ms
+27.10.2017 15:29:41: 
+Application starts.
+27.10.2017 15:29:41: Multi to binary conversion.
+27.10.2017 15:29:41: The learners: SVMLibSvmJava
+27.10.2017 15:29:41: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:29:41: Application time for class: 73ms
+27.10.2017 15:29:41: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=30
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=DateOfQuake, number of instances=36
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.5, 0.6666667);  Lenient: (1.0, 0.5, 0.6666667)
+2 LabelName=Magnitude, number of instances=30
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.6666667, 1.0, 0.8);  Lenient: (0.6666667, 1.0, 0.8)
+3 LabelName=NumOfDead, number of instances=34
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 2.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (0.5, 0.33333334, 0.4)
+4 LabelName=Region, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (0.0, 1.0, 0.0, 3.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (1.0, 0.25, 0.4)
+5 LabelName=Time, number of instances=21
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 1.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (1.0, 0.6666667, 0.8)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (6.0, 2.0, 2.0, 9.0);  (precision, recall, F1)= (0.6, 0.3529412, 0.44444448);  Lenient: (0.8, 0.47058824, 0.5925926)
+
+27.10.2017 15:29:41: 
+*** Fold 2
+Number of docs for training: 40
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+5 terremoto-121292.xml_0010D
+6 terremoto-150850.xml_0010E
+7 terremoto-160790.xml_0010F
+8 terremoto-170195.xml_00110
+9 terremoto-170706.xml_00111
+10 terremoto-170899.xml_00112
+11 terremoto-18041906.xml_00113
+12 terremoto-180798.xml_00114
+13 terremoto-190985.xml_00115
+14 terremoto-200999.xml_00116
+15 terremoto-201091.xml_00117
+16 terremoto-210503.xml_00118
+17 terremoto-210690.xml_00119
+18 terremoto-220205.xml_0011A
+19 terremoto-220392.xml_0011B
+20 terremoto-220560.xml_0011C
+21 terremoto-231180.xml_0011D
+22 terremoto-231272.xml_0011E
+23 terremoto-240204.xml_0011F
+24 terremoto-250199.xml_00120
+25 terremoto-260101.xml_00121
+26 terremoto-260302.xml_00122
+27 terremoto-261203.xml_00123
+28 terremoto-261204.xml_00124
+29 terremoto-270210.xml_00125
+30 terremoto-270595.xml_00126
+31 terremoto-270776.xml_00127
+32 terremoto-280297.xml_00128
+33 terremoto-280305.xml_00129
+34 terremoto-280364.xml_0012A
+35 terremoto-280776.xml_0012B
+36 terremoto-28121908.xml_0012C
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-090357.xml_00109
+2 terremoto-100597.xml_0010A
+3 terremoto-120110.xml_0010B
+4 terremoto-120508.xml_0010C
+
+27.10.2017 15:29:42: 
+Filtering starts.
+27.10.2017 15:29:42: Multi to binary conversion.
+27.10.2017 15:29:42: The number of classes in dataset: 1
+27.10.2017 15:29:42: The learners: SVMLibSvmJava
+27.10.2017 15:29:42: total Number of classes for learning is 1
+27.10.2017 15:29:42: One against others for multi to binary class conversion.
+27.10.2017 15:29:44: Training time for class 1: 1466ms
+27.10.2017 15:29:44: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:29:44: Application time for class: 30ms
+27.10.2017 15:29:44: 
+Training starts.
+
+27.10.2017 15:29:44: Multi to binary conversion.
+27.10.2017 15:29:44: The learners: SVMLibSvmJava
+27.10.2017 15:29:44: The number of classes in dataset: 12
+27.10.2017 15:29:44: total Number of classes for learning is 12
+27.10.2017 15:29:44: One against others for multi to binary class conversion.
+27.10.2017 15:29:44: Training time for class 1: 400ms
+27.10.2017 15:29:45: Training time for class 2: 359ms
+27.10.2017 15:29:45: Training time for class 3: 141ms
+27.10.2017 15:29:45: Training time for class 4: 169ms
+27.10.2017 15:29:45: Training time for class 5: 291ms
+27.10.2017 15:29:45: Training time for class 6: 281ms
+27.10.2017 15:29:46: Training time for class 7: 283ms
+27.10.2017 15:29:46: Training time for class 8: 226ms
+27.10.2017 15:29:46: Training time for class 9: 345ms
+27.10.2017 15:29:47: Training time for class 10: 291ms
+27.10.2017 15:29:47: Training time for class 11: 141ms
+27.10.2017 15:29:47: Training time for class 12: 181ms
+27.10.2017 15:29:47: 
+Application starts.
+27.10.2017 15:29:47: Multi to binary conversion.
+27.10.2017 15:29:47: The learners: SVMLibSvmJava
+27.10.2017 15:29:47: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:29:47: Application time for class: 70ms
+27.10.2017 15:29:47: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.5, 0.5, 0.5);  Lenient: (0.5, 0.5, 0.5)
+1 LabelName=DateOfQuake, number of instances=38
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 2.0, 0.0);  (precision, recall, F1)= (0.5, 1.0, 0.6666667);  Lenient: (0.5, 1.0, 0.6666667)
+2 LabelName=Magnitude, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 2.0, 1.0);  (precision, recall, F1)= (0.5, 0.6666667, 0.57142854);  Lenient: (0.5, 0.6666667, 0.57142854)
+3 LabelName=NumOfDead, number of instances=34
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.75, 1.0, 0.85714287);  Lenient: (0.75, 1.0, 0.85714287)
+4 LabelName=Region, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 2.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+5 LabelName=Time, number of instances=21
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.33333334, 0.5);  Lenient: (1.0, 0.33333334, 0.5)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (9.0, 0.0, 7.0, 6.0);  (precision, recall, F1)= (0.5625, 0.6, 0.58064514);  Lenient: (0.5625, 0.6, 0.58064514)
+
+27.10.2017 15:29:47: 
+*** Fold 3
+Number of docs for training: 40
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+5 terremoto-090357.xml_00109
+6 terremoto-100597.xml_0010A
+7 terremoto-120110.xml_0010B
+8 terremoto-120508.xml_0010C
+9 terremoto-170706.xml_00111
+10 terremoto-170899.xml_00112
+11 terremoto-18041906.xml_00113
+12 terremoto-180798.xml_00114
+13 terremoto-190985.xml_00115
+14 terremoto-200999.xml_00116
+15 terremoto-201091.xml_00117
+16 terremoto-210503.xml_00118
+17 terremoto-210690.xml_00119
+18 terremoto-220205.xml_0011A
+19 terremoto-220392.xml_0011B
+20 terremoto-220560.xml_0011C
+21 terremoto-231180.xml_0011D
+22 terremoto-231272.xml_0011E
+23 terremoto-240204.xml_0011F
+24 terremoto-250199.xml_00120
+25 terremoto-260101.xml_00121
+26 terremoto-260302.xml_00122
+27 terremoto-261203.xml_00123
+28 terremoto-261204.xml_00124
+29 terremoto-270210.xml_00125
+30 terremoto-270595.xml_00126
+31 terremoto-270776.xml_00127
+32 terremoto-280297.xml_00128
+33 terremoto-280305.xml_00129
+34 terremoto-280364.xml_0012A
+35 terremoto-280776.xml_0012B
+36 terremoto-28121908.xml_0012C
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-121292.xml_0010D
+2 terremoto-150850.xml_0010E
+3 terremoto-160790.xml_0010F
+4 terremoto-170195.xml_00110
+
+27.10.2017 15:29:48: 
+Filtering starts.
+27.10.2017 15:29:48: Multi to binary conversion.
+27.10.2017 15:29:49: The number of classes in dataset: 1
+27.10.2017 15:29:49: The learners: SVMLibSvmJava
+27.10.2017 15:29:49: total Number of classes for learning is 1
+27.10.2017 15:29:49: One against others for multi to binary class conversion.
+27.10.2017 15:29:50: Training time for class 1: 1604ms
+27.10.2017 15:29:50: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:29:50: Application time for class: 11ms
+27.10.2017 15:29:50: 
+Training starts.
+
+27.10.2017 15:29:50: Multi to binary conversion.
+27.10.2017 15:29:50: The learners: SVMLibSvmJava
+27.10.2017 15:29:50: The number of classes in dataset: 12
+27.10.2017 15:29:50: total Number of classes for learning is 12
+27.10.2017 15:29:50: One against others for multi to binary class conversion.
+27.10.2017 15:29:51: Training time for class 1: 372ms
+27.10.2017 15:29:51: Training time for class 2: 331ms
+27.10.2017 15:29:51: Training time for class 3: 138ms
+27.10.2017 15:29:51: Training time for class 4: 188ms
+27.10.2017 15:29:52: Training time for class 5: 314ms
+27.10.2017 15:29:52: Training time for class 6: 386ms
+27.10.2017 15:29:52: Training time for class 7: 339ms
+27.10.2017 15:29:53: Training time for class 8: 249ms
+27.10.2017 15:29:53: Training time for class 9: 303ms
+27.10.2017 15:29:53: Training time for class 10: 288ms
+27.10.2017 15:29:53: Training time for class 11: 130ms
+27.10.2017 15:29:54: Training time for class 12: 204ms
+27.10.2017 15:29:54: 
+Application starts.
+27.10.2017 15:29:54: Multi to binary conversion.
+27.10.2017 15:29:54: The learners: SVMLibSvmJava
+27.10.2017 15:29:54: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:29:54: Application time for class: 85ms
+27.10.2017 15:29:54: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 2.0, 2.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=DateOfQuake, number of instances=36
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 2.0);  (precision, recall, F1)= (0.5, 0.25, 0.33333334);  Lenient: (1.0, 0.5, 0.6666667)
+2 LabelName=Magnitude, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (1.0, 2.0, 0.0, 0.0);  (precision, recall, F1)= (0.33333334, 0.33333334, 0.33333334);  Lenient: (1.0, 1.0, 1.0)
+3 LabelName=NumOfDead, number of instances=32
+  (correct, partialCorrect, spurious, missing)= (4.0, 0.0, 2.0, 1.0);  (precision, recall, F1)= (0.6666667, 0.8, 0.72727275);  Lenient: (0.6666667, 0.8, 0.72727275)
+4 LabelName=Region, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (0.0, 1.0, 1.0, 2.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.5, 0.33333334, 0.4)
+5 LabelName=Time, number of instances=22
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (8.0, 4.0, 5.0, 7.0);  (precision, recall, F1)= (0.47058824, 0.42105263, 0.44444445);  Lenient: (0.7058824, 0.6315789, 0.6666667)
+
+27.10.2017 15:29:54: 
+*** Fold 4
+Number of docs for training: 40
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+5 terremoto-090357.xml_00109
+6 terremoto-100597.xml_0010A
+7 terremoto-120110.xml_0010B
+8 terremoto-120508.xml_0010C
+9 terremoto-121292.xml_0010D
+10 terremoto-150850.xml_0010E
+11 terremoto-160790.xml_0010F
+12 terremoto-170195.xml_00110
+13 terremoto-190985.xml_00115
+14 terremoto-200999.xml_00116
+15 terremoto-201091.xml_00117
+16 terremoto-210503.xml_00118
+17 terremoto-210690.xml_00119
+18 terremoto-220205.xml_0011A
+19 terremoto-220392.xml_0011B
+20 terremoto-220560.xml_0011C
+21 terremoto-231180.xml_0011D
+22 terremoto-231272.xml_0011E
+23 terremoto-240204.xml_0011F
+24 terremoto-250199.xml_00120
+25 terremoto-260101.xml_00121
+26 terremoto-260302.xml_00122
+27 terremoto-261203.xml_00123
+28 terremoto-261204.xml_00124
+29 terremoto-270210.xml_00125
+30 terremoto-270595.xml_00126
+31 terremoto-270776.xml_00127
+32 terremoto-280297.xml_00128
+33 terremoto-280305.xml_00129
+34 terremoto-280364.xml_0012A
+35 terremoto-280776.xml_0012B
+36 terremoto-28121908.xml_0012C
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-170706.xml_00111
+2 terremoto-170899.xml_00112
+3 terremoto-18041906.xml_00113
+4 terremoto-180798.xml_00114
+
+27.10.2017 15:29:55: 
+Filtering starts.
+27.10.2017 15:29:55: Multi to binary conversion.
+27.10.2017 15:29:55: The number of classes in dataset: 1
+27.10.2017 15:29:55: The learners: SVMLibSvmJava
+27.10.2017 15:29:55: total Number of classes for learning is 1
+27.10.2017 15:29:55: One against others for multi to binary class conversion.
+27.10.2017 15:29:56: Training time for class 1: 1341ms
+27.10.2017 15:29:56: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:29:56: Application time for class: 10ms
+27.10.2017 15:29:57: 
+Training starts.
+
+27.10.2017 15:29:57: Multi to binary conversion.
+27.10.2017 15:29:57: The learners: SVMLibSvmJava
+27.10.2017 15:29:57: The number of classes in dataset: 12
+27.10.2017 15:29:57: total Number of classes for learning is 12
+27.10.2017 15:29:57: One against others for multi to binary class conversion.
+27.10.2017 15:29:57: Training time for class 1: 320ms
+27.10.2017 15:29:57: Training time for class 2: 294ms
+27.10.2017 15:29:57: Training time for class 3: 130ms
+27.10.2017 15:29:57: Training time for class 4: 170ms
+27.10.2017 15:29:58: Training time for class 5: 255ms
+27.10.2017 15:29:58: Training time for class 6: 304ms
+27.10.2017 15:29:58: Training time for class 7: 233ms
+27.10.2017 15:29:58: Training time for class 8: 207ms
+27.10.2017 15:29:59: Training time for class 9: 247ms
+27.10.2017 15:29:59: Training time for class 10: 337ms
+27.10.2017 15:29:59: Training time for class 11: 182ms
+27.10.2017 15:29:59: Training time for class 12: 219ms
+27.10.2017 15:30:00: 
+Application starts.
+27.10.2017 15:30:00: Multi to binary conversion.
+27.10.2017 15:30:00: The learners: SVMLibSvmJava
+27.10.2017 15:30:00: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:30:00: Application time for class: 127ms
+27.10.2017 15:30:00: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 3.0);  (precision, recall, F1)= (0.5, 0.25, 0.33333334);  Lenient: (0.5, 0.25, 0.33333334)
+1 LabelName=DateOfQuake, number of instances=37
+  (correct, partialCorrect, spurious, missing)= (0.0, 2.0, 1.0, 1.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.6666667, 0.6666667, 0.6666667)
+2 LabelName=Magnitude, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (0.0, 3.0, 0.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (1.0, 1.0, 1.0)
+3 LabelName=NumOfDead, number of instances=34
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.33333334, 0.5);  Lenient: (1.0, 0.33333334, 0.5)
+4 LabelName=Region, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 2.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+5 LabelName=Time, number of instances=22
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (4.0, 5.0, 3.0, 8.0);  (precision, recall, F1)= (0.33333334, 0.23529412, 0.27586207);  Lenient: (0.75, 0.5294118, 0.6206897)
+
+27.10.2017 15:30:00: 
+*** Fold 5
+Number of docs for training: 40
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+5 terremoto-090357.xml_00109
+6 terremoto-100597.xml_0010A
+7 terremoto-120110.xml_0010B
+8 terremoto-120508.xml_0010C
+9 terremoto-121292.xml_0010D
+10 terremoto-150850.xml_0010E
+11 terremoto-160790.xml_0010F
+12 terremoto-170195.xml_00110
+13 terremoto-170706.xml_00111
+14 terremoto-170899.xml_00112
+15 terremoto-18041906.xml_00113
+16 terremoto-180798.xml_00114
+17 terremoto-210690.xml_00119
+18 terremoto-220205.xml_0011A
+19 terremoto-220392.xml_0011B
+20 terremoto-220560.xml_0011C
+21 terremoto-231180.xml_0011D
+22 terremoto-231272.xml_0011E
+23 terremoto-240204.xml_0011F
+24 terremoto-250199.xml_00120
+25 terremoto-260101.xml_00121
+26 terremoto-260302.xml_00122
+27 terremoto-261203.xml_00123
+28 terremoto-261204.xml_00124
+29 terremoto-270210.xml_00125
+30 terremoto-270595.xml_00126
+31 terremoto-270776.xml_00127
+32 terremoto-280297.xml_00128
+33 terremoto-280305.xml_00129
+34 terremoto-280364.xml_0012A
+35 terremoto-280776.xml_0012B
+36 terremoto-28121908.xml_0012C
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-190985.xml_00115
+2 terremoto-200999.xml_00116
+3 terremoto-201091.xml_00117
+4 terremoto-210503.xml_00118
+
+27.10.2017 15:30:01: 
+Filtering starts.
+27.10.2017 15:30:01: Multi to binary conversion.
+27.10.2017 15:30:01: The number of classes in dataset: 1
+27.10.2017 15:30:01: The learners: SVMLibSvmJava
+27.10.2017 15:30:01: total Number of classes for learning is 1
+27.10.2017 15:30:01: One against others for multi to binary class conversion.
+27.10.2017 15:30:03: Training time for class 1: 1520ms
+27.10.2017 15:30:03: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:30:03: Application time for class: 12ms
+27.10.2017 15:30:03: 
+Training starts.
+
+27.10.2017 15:30:03: Multi to binary conversion.
+27.10.2017 15:30:03: The learners: SVMLibSvmJava
+27.10.2017 15:30:03: The number of classes in dataset: 12
+27.10.2017 15:30:03: total Number of classes for learning is 12
+27.10.2017 15:30:03: One against others for multi to binary class conversion.
+27.10.2017 15:30:03: Training time for class 1: 428ms
+27.10.2017 15:30:04: Training time for class 2: 358ms
+27.10.2017 15:30:04: Training time for class 3: 143ms
+27.10.2017 15:30:04: Training time for class 4: 205ms
+27.10.2017 15:30:04: Training time for class 5: 357ms
+27.10.2017 15:30:05: Training time for class 6: 308ms
+27.10.2017 15:30:05: Training time for class 7: 306ms
+27.10.2017 15:30:05: Training time for class 8: 237ms
+27.10.2017 15:30:05: Training time for class 9: 354ms
+27.10.2017 15:30:06: Training time for class 10: 311ms
+27.10.2017 15:30:06: Training time for class 11: 152ms
+27.10.2017 15:30:06: Training time for class 12: 166ms
+27.10.2017 15:30:06: 
+Application starts.
+27.10.2017 15:30:06: Multi to binary conversion.
+27.10.2017 15:30:06: The learners: SVMLibSvmJava
+27.10.2017 15:30:06: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:30:06: Application time for class: 82ms
+27.10.2017 15:30:06: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=DateOfQuake, number of instances=37
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.6666667, 0.8);  Lenient: (1.0, 0.6666667, 0.8)
+2 LabelName=Magnitude, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (3.0, 1.0, 1.0, 0.0);  (precision, recall, F1)= (0.6, 0.75, 0.6666667);  Lenient: (0.8, 1.0, 0.88888896)
+3 LabelName=NumOfDead, number of instances=33
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 4.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+4 LabelName=Region, number of instances=30
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+5 LabelName=Time, number of instances=23
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (7.0, 1.0, 1.0, 8.0);  (precision, recall, F1)= (0.7777778, 0.4375, 0.56);  Lenient: (0.8888889, 0.5, 0.64000005)
+
+27.10.2017 15:30:06: 
+*** Fold 6
+Number of docs for training: 40
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+5 terremoto-090357.xml_00109
+6 terremoto-100597.xml_0010A
+7 terremoto-120110.xml_0010B
+8 terremoto-120508.xml_0010C
+9 terremoto-121292.xml_0010D
+10 terremoto-150850.xml_0010E
+11 terremoto-160790.xml_0010F
+12 terremoto-170195.xml_00110
+13 terremoto-170706.xml_00111
+14 terremoto-170899.xml_00112
+15 terremoto-18041906.xml_00113
+16 terremoto-180798.xml_00114
+17 terremoto-190985.xml_00115
+18 terremoto-200999.xml_00116
+19 terremoto-201091.xml_00117
+20 terremoto-210503.xml_00118
+21 terremoto-231180.xml_0011D
+22 terremoto-231272.xml_0011E
+23 terremoto-240204.xml_0011F
+24 terremoto-250199.xml_00120
+25 terremoto-260101.xml_00121
+26 terremoto-260302.xml_00122
+27 terremoto-261203.xml_00123
+28 terremoto-261204.xml_00124
+29 terremoto-270210.xml_00125
+30 terremoto-270595.xml_00126
+31 terremoto-270776.xml_00127
+32 terremoto-280297.xml_00128
+33 terremoto-280305.xml_00129
+34 terremoto-280364.xml_0012A
+35 terremoto-280776.xml_0012B
+36 terremoto-28121908.xml_0012C
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-210690.xml_00119
+2 terremoto-220205.xml_0011A
+3 terremoto-220392.xml_0011B
+4 terremoto-220560.xml_0011C
+
+27.10.2017 15:30:08: 
+Filtering starts.
+27.10.2017 15:30:08: Multi to binary conversion.
+27.10.2017 15:30:08: The number of classes in dataset: 1
+27.10.2017 15:30:08: The learners: SVMLibSvmJava
+27.10.2017 15:30:08: total Number of classes for learning is 1
+27.10.2017 15:30:08: One against others for multi to binary class conversion.
+27.10.2017 15:30:09: Training time for class 1: 1547ms
+27.10.2017 15:30:09: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:30:09: Application time for class: 11ms
+27.10.2017 15:30:09: 
+Training starts.
+
+27.10.2017 15:30:09: Multi to binary conversion.
+27.10.2017 15:30:09: The learners: SVMLibSvmJava
+27.10.2017 15:30:09: The number of classes in dataset: 12
+27.10.2017 15:30:09: total Number of classes for learning is 12
+27.10.2017 15:30:09: One against others for multi to binary class conversion.
+27.10.2017 15:30:10: Training time for class 1: 403ms
+27.10.2017 15:30:10: Training time for class 2: 331ms
+27.10.2017 15:30:10: Training time for class 3: 136ms
+27.10.2017 15:30:10: Training time for class 4: 180ms
+27.10.2017 15:30:11: Training time for class 5: 262ms
+27.10.2017 15:30:11: Training time for class 6: 293ms
+27.10.2017 15:30:11: Training time for class 7: 323ms
+27.10.2017 15:30:11: Training time for class 8: 227ms
+27.10.2017 15:30:12: Training time for class 9: 372ms
+27.10.2017 15:30:12: Training time for class 10: 325ms
+27.10.2017 15:30:12: Training time for class 11: 165ms
+27.10.2017 15:30:13: Training time for class 12: 167ms
+27.10.2017 15:30:13: 
+Application starts.
+27.10.2017 15:30:13: Multi to binary conversion.
+27.10.2017 15:30:13: The learners: SVMLibSvmJava
+27.10.2017 15:30:13: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:30:13: Application time for class: 73ms
+27.10.2017 15:30:13: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=DateOfQuake, number of instances=36
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (1.0, 0.25, 0.4);  Lenient: (1.0, 0.25, 0.4)
+2 LabelName=Magnitude, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.75, 1.0, 0.85714287);  Lenient: (0.75, 1.0, 0.85714287)
+3 LabelName=NumOfDead, number of instances=35
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+4 LabelName=Region, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (1.0, 0.25, 0.4);  Lenient: (1.0, 0.25, 0.4)
+5 LabelName=Time, number of instances=21
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.33333334, 0.5);  Lenient: (1.0, 0.33333334, 0.5)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (6.0, 0.0, 1.0, 13.0);  (precision, recall, F1)= (0.85714287, 0.31578946, 0.4615384);  Lenient: (0.85714287, 0.31578946, 0.4615384)
+
+27.10.2017 15:30:13: 
+*** Fold 7
+Number of docs for training: 40
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+5 terremoto-090357.xml_00109
+6 terremoto-100597.xml_0010A
+7 terremoto-120110.xml_0010B
+8 terremoto-120508.xml_0010C
+9 terremoto-121292.xml_0010D
+10 terremoto-150850.xml_0010E
+11 terremoto-160790.xml_0010F
+12 terremoto-170195.xml_00110
+13 terremoto-170706.xml_00111
+14 terremoto-170899.xml_00112
+15 terremoto-18041906.xml_00113
+16 terremoto-180798.xml_00114
+17 terremoto-190985.xml_00115
+18 terremoto-200999.xml_00116
+19 terremoto-201091.xml_00117
+20 terremoto-210503.xml_00118
+21 terremoto-210690.xml_00119
+22 terremoto-220205.xml_0011A
+23 terremoto-220392.xml_0011B
+24 terremoto-220560.xml_0011C
+25 terremoto-260101.xml_00121
+26 terremoto-260302.xml_00122
+27 terremoto-261203.xml_00123
+28 terremoto-261204.xml_00124
+29 terremoto-270210.xml_00125
+30 terremoto-270595.xml_00126
+31 terremoto-270776.xml_00127
+32 terremoto-280297.xml_00128
+33 terremoto-280305.xml_00129
+34 terremoto-280364.xml_0012A
+35 terremoto-280776.xml_0012B
+36 terremoto-28121908.xml_0012C
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-231180.xml_0011D
+2 terremoto-231272.xml_0011E
+3 terremoto-240204.xml_0011F
+4 terremoto-250199.xml_00120
+
+27.10.2017 15:30:14: 
+Filtering starts.
+27.10.2017 15:30:14: Multi to binary conversion.
+27.10.2017 15:30:14: The number of classes in dataset: 1
+27.10.2017 15:30:14: The learners: SVMLibSvmJava
+27.10.2017 15:30:14: total Number of classes for learning is 1
+27.10.2017 15:30:14: One against others for multi to binary class conversion.
+27.10.2017 15:30:16: Training time for class 1: 1484ms
+27.10.2017 15:30:16: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:30:16: Application time for class: 14ms
+27.10.2017 15:30:16: 
+Training starts.
+
+27.10.2017 15:30:16: Multi to binary conversion.
+27.10.2017 15:30:16: The learners: SVMLibSvmJava
+27.10.2017 15:30:16: The number of classes in dataset: 12
+27.10.2017 15:30:16: total Number of classes for learning is 12
+27.10.2017 15:30:16: One against others for multi to binary class conversion.
+27.10.2017 15:30:16: Training time for class 1: 419ms
+27.10.2017 15:30:16: Training time for class 2: 324ms
+27.10.2017 15:30:17: Training time for class 3: 141ms
+27.10.2017 15:30:17: Training time for class 4: 184ms
+27.10.2017 15:30:17: Training time for class 5: 299ms
+27.10.2017 15:30:17: Training time for class 6: 337ms
+27.10.2017 15:30:18: Training time for class 7: 312ms
+27.10.2017 15:30:18: Training time for class 8: 253ms
+27.10.2017 15:30:18: Training time for class 9: 376ms
+27.10.2017 15:30:19: Training time for class 10: 332ms
+27.10.2017 15:30:19: Training time for class 11: 183ms
+27.10.2017 15:30:19: Training time for class 12: 157ms
+27.10.2017 15:30:19: 
+Application starts.
+27.10.2017 15:30:19: Multi to binary conversion.
+27.10.2017 15:30:19: The learners: SVMLibSvmJava
+27.10.2017 15:30:19: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:30:19: Application time for class: 71ms
+27.10.2017 15:30:19: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+1 LabelName=DateOfQuake, number of instances=37
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.6666667, 0.8);  Lenient: (1.0, 0.6666667, 0.8)
+2 LabelName=Magnitude, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (3.0, 1.0, 2.0, 0.0);  (precision, recall, F1)= (0.5, 0.75, 0.6);  Lenient: (0.6666667, 1.0, 0.8)
+3 LabelName=NumOfDead, number of instances=34
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 2.0, 2.0);  (precision, recall, F1)= (0.33333334, 0.33333334, 0.33333334);  Lenient: (0.33333334, 0.33333334, 0.33333334)
+4 LabelName=Region, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+5 LabelName=Time, number of instances=22
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 0.0);  (precision, recall, F1)= (0.5, 0.5, 0.5);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (7.0, 2.0, 4.0, 8.0);  (precision, recall, F1)= (0.53846157, 0.4117647, 0.46666667);  Lenient: (0.6923077, 0.5294118, 0.6)
+
+27.10.2017 15:30:19: 
+*** Fold 8
+Number of docs for training: 40
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+5 terremoto-090357.xml_00109
+6 terremoto-100597.xml_0010A
+7 terremoto-120110.xml_0010B
+8 terremoto-120508.xml_0010C
+9 terremoto-121292.xml_0010D
+10 terremoto-150850.xml_0010E
+11 terremoto-160790.xml_0010F
+12 terremoto-170195.xml_00110
+13 terremoto-170706.xml_00111
+14 terremoto-170899.xml_00112
+15 terremoto-18041906.xml_00113
+16 terremoto-180798.xml_00114
+17 terremoto-190985.xml_00115
+18 terremoto-200999.xml_00116
+19 terremoto-201091.xml_00117
+20 terremoto-210503.xml_00118
+21 terremoto-210690.xml_00119
+22 terremoto-220205.xml_0011A
+23 terremoto-220392.xml_0011B
+24 terremoto-220560.xml_0011C
+25 terremoto-231180.xml_0011D
+26 terremoto-231272.xml_0011E
+27 terremoto-240204.xml_0011F
+28 terremoto-250199.xml_00120
+29 terremoto-270210.xml_00125
+30 terremoto-270595.xml_00126
+31 terremoto-270776.xml_00127
+32 terremoto-280297.xml_00128
+33 terremoto-280305.xml_00129
+34 terremoto-280364.xml_0012A
+35 terremoto-280776.xml_0012B
+36 terremoto-28121908.xml_0012C
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-260101.xml_00121
+2 terremoto-260302.xml_00122
+3 terremoto-261203.xml_00123
+4 terremoto-261204.xml_00124
+
+27.10.2017 15:30:20: 
+Filtering starts.
+27.10.2017 15:30:20: Multi to binary conversion.
+27.10.2017 15:30:21: The number of classes in dataset: 1
+27.10.2017 15:30:21: The learners: SVMLibSvmJava
+27.10.2017 15:30:21: total Number of classes for learning is 1
+27.10.2017 15:30:21: One against others for multi to binary class conversion.
+27.10.2017 15:30:22: Training time for class 1: 1417ms
+27.10.2017 15:30:22: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:30:22: Application time for class: 12ms
+27.10.2017 15:30:22: 
+Training starts.
+
+27.10.2017 15:30:22: Multi to binary conversion.
+27.10.2017 15:30:22: The learners: SVMLibSvmJava
+27.10.2017 15:30:22: The number of classes in dataset: 12
+27.10.2017 15:30:22: total Number of classes for learning is 12
+27.10.2017 15:30:22: One against others for multi to binary class conversion.
+27.10.2017 15:30:22: Training time for class 1: 420ms
+27.10.2017 15:30:23: Training time for class 2: 309ms
+27.10.2017 15:30:23: Training time for class 3: 117ms
+27.10.2017 15:30:23: Training time for class 4: 175ms
+27.10.2017 15:30:23: Training time for class 5: 267ms
+27.10.2017 15:30:24: Training time for class 6: 328ms
+27.10.2017 15:30:24: Training time for class 7: 231ms
+27.10.2017 15:30:24: Training time for class 8: 203ms
+27.10.2017 15:30:24: Training time for class 9: 349ms
+27.10.2017 15:30:25: Training time for class 10: 300ms
+27.10.2017 15:30:25: Training time for class 11: 150ms
+27.10.2017 15:30:25: Training time for class 12: 139ms
+27.10.2017 15:30:25: 
+Application starts.
+27.10.2017 15:30:25: Multi to binary conversion.
+27.10.2017 15:30:25: The learners: SVMLibSvmJava
+27.10.2017 15:30:25: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:30:25: Application time for class: 72ms
+27.10.2017 15:30:25: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.5, 0.5, 0.5);  Lenient: (0.5, 0.5, 0.5)
+1 LabelName=DateOfQuake, number of instances=35
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (1.0, 0.4, 0.5714286);  Lenient: (1.0, 0.4, 0.5714286)
+2 LabelName=Magnitude, number of instances=30
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=NumOfDead, number of instances=33
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 2.0, 1.0);  (precision, recall, F1)= (0.6, 0.75, 0.6666667);  Lenient: (0.6, 0.75, 0.6666667)
+4 LabelName=Region, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 2.0, 1.0);  (precision, recall, F1)= (0.5, 0.6666667, 0.57142854);  Lenient: (0.5, 0.6666667, 0.57142854)
+5 LabelName=Time, number of instances=23
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (8.0, 0.0, 6.0, 9.0);  (precision, recall, F1)= (0.5714286, 0.47058824, 0.516129);  Lenient: (0.5714286, 0.47058824, 0.516129)
+
+27.10.2017 15:30:25: 
+*** Fold 9
+Number of docs for training: 40
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+5 terremoto-090357.xml_00109
+6 terremoto-100597.xml_0010A
+7 terremoto-120110.xml_0010B
+8 terremoto-120508.xml_0010C
+9 terremoto-121292.xml_0010D
+10 terremoto-150850.xml_0010E
+11 terremoto-160790.xml_0010F
+12 terremoto-170195.xml_00110
+13 terremoto-170706.xml_00111
+14 terremoto-170899.xml_00112
+15 terremoto-18041906.xml_00113
+16 terremoto-180798.xml_00114
+17 terremoto-190985.xml_00115
+18 terremoto-200999.xml_00116
+19 terremoto-201091.xml_00117
+20 terremoto-210503.xml_00118
+21 terremoto-210690.xml_00119
+22 terremoto-220205.xml_0011A
+23 terremoto-220392.xml_0011B
+24 terremoto-220560.xml_0011C
+25 terremoto-231180.xml_0011D
+26 terremoto-231272.xml_0011E
+27 terremoto-240204.xml_0011F
+28 terremoto-250199.xml_00120
+29 terremoto-260101.xml_00121
+30 terremoto-260302.xml_00122
+31 terremoto-261203.xml_00123
+32 terremoto-261204.xml_00124
+33 terremoto-280305.xml_00129
+34 terremoto-280364.xml_0012A
+35 terremoto-280776.xml_0012B
+36 terremoto-28121908.xml_0012C
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-270210.xml_00125
+2 terremoto-270595.xml_00126
+3 terremoto-270776.xml_00127
+4 terremoto-280297.xml_00128
+
+27.10.2017 15:30:27: 
+Filtering starts.
+27.10.2017 15:30:27: Multi to binary conversion.
+27.10.2017 15:30:27: The number of classes in dataset: 1
+27.10.2017 15:30:27: The learners: SVMLibSvmJava
+27.10.2017 15:30:27: total Number of classes for learning is 1
+27.10.2017 15:30:27: One against others for multi to binary class conversion.
+27.10.2017 15:30:28: Training time for class 1: 1515ms
+27.10.2017 15:30:28: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:30:28: Application time for class: 7ms
+27.10.2017 15:30:28: 
+Training starts.
+
+27.10.2017 15:30:28: Multi to binary conversion.
+27.10.2017 15:30:28: The learners: SVMLibSvmJava
+27.10.2017 15:30:28: The number of classes in dataset: 12
+27.10.2017 15:30:28: total Number of classes for learning is 12
+27.10.2017 15:30:28: One against others for multi to binary class conversion.
+27.10.2017 15:30:29: Training time for class 1: 382ms
+27.10.2017 15:30:29: Training time for class 2: 322ms
+27.10.2017 15:30:29: Training time for class 3: 147ms
+27.10.2017 15:30:29: Training time for class 4: 187ms
+27.10.2017 15:30:30: Training time for class 5: 272ms
+27.10.2017 15:30:30: Training time for class 6: 316ms
+27.10.2017 15:30:30: Training time for class 7: 310ms
+27.10.2017 15:30:30: Training time for class 8: 264ms
+27.10.2017 15:30:31: Training time for class 9: 350ms
+27.10.2017 15:30:31: Training time for class 10: 319ms
+27.10.2017 15:30:31: Training time for class 11: 159ms
+27.10.2017 15:30:31: Training time for class 12: 180ms
+27.10.2017 15:30:32: 
+Application starts.
+27.10.2017 15:30:32: Multi to binary conversion.
+27.10.2017 15:30:32: The learners: SVMLibSvmJava
+27.10.2017 15:30:32: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:30:32: Application time for class: 69ms
+27.10.2017 15:30:32: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.5, 0.6666667);  Lenient: (1.0, 0.5, 0.6666667)
+1 LabelName=DateOfQuake, number of instances=36
+  (correct, partialCorrect, spurious, missing)= (1.0, 2.0, 3.0, 1.0);  (precision, recall, F1)= (0.16666667, 0.25, 0.2);  Lenient: (0.5, 0.75, 0.6)
+2 LabelName=Magnitude, number of instances=30
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.5, 0.6666667);  Lenient: (1.0, 0.5, 0.6666667)
+3 LabelName=NumOfDead, number of instances=33
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.5, 0.6666667);  Lenient: (1.0, 0.5, 0.6666667)
+4 LabelName=Region, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+5 LabelName=Time, number of instances=21
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.75, 1.0, 0.85714287);  Lenient: (0.75, 1.0, 0.85714287)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (9.0, 2.0, 4.0, 9.0);  (precision, recall, F1)= (0.6, 0.45, 0.51428574);  Lenient: (0.73333335, 0.55, 0.62857145)
+
+27.10.2017 15:30:32: 
+*** Fold 10
+Number of docs for training: 40
+1 terremoto-010923.xml_00105
+2 terremoto-040298.xml_00106
+3 terremoto-041152.xml_00107
+4 terremoto-081005.xml_00108
+5 terremoto-090357.xml_00109
+6 terremoto-100597.xml_0010A
+7 terremoto-120110.xml_0010B
+8 terremoto-120508.xml_0010C
+9 terremoto-121292.xml_0010D
+10 terremoto-150850.xml_0010E
+11 terremoto-160790.xml_0010F
+12 terremoto-170195.xml_00110
+13 terremoto-170706.xml_00111
+14 terremoto-170899.xml_00112
+15 terremoto-18041906.xml_00113
+16 terremoto-180798.xml_00114
+17 terremoto-190985.xml_00115
+18 terremoto-200999.xml_00116
+19 terremoto-201091.xml_00117
+20 terremoto-210503.xml_00118
+21 terremoto-210690.xml_00119
+22 terremoto-220205.xml_0011A
+23 terremoto-220392.xml_0011B
+24 terremoto-220560.xml_0011C
+25 terremoto-231180.xml_0011D
+26 terremoto-231272.xml_0011E
+27 terremoto-240204.xml_0011F
+28 terremoto-250199.xml_00120
+29 terremoto-260101.xml_00121
+30 terremoto-260302.xml_00122
+31 terremoto-261203.xml_00123
+32 terremoto-261204.xml_00124
+33 terremoto-270210.xml_00125
+34 terremoto-270595.xml_00126
+35 terremoto-270776.xml_00127
+36 terremoto-280297.xml_00128
+37 terremoto-300598.xml_0012D
+38 terremoto-300993.xml_0012E
+39 terremoto-31011906.xml_0012F
+40 terremoto-311002.xml_00130
+Number of docs for application: 4
+1 terremoto-280305.xml_00129
+2 terremoto-280364.xml_0012A
+3 terremoto-280776.xml_0012B
+4 terremoto-28121908.xml_0012C
+
+27.10.2017 15:30:33: 
+Filtering starts.
+27.10.2017 15:30:33: Multi to binary conversion.
+27.10.2017 15:30:33: The number of classes in dataset: 1
+27.10.2017 15:30:33: The learners: SVMLibSvmJava
+27.10.2017 15:30:33: total Number of classes for learning is 1
+27.10.2017 15:30:33: One against others for multi to binary class conversion.
+27.10.2017 15:30:34: Training time for class 1: 1463ms
+27.10.2017 15:30:34: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:30:34: Application time for class: 11ms
+27.10.2017 15:30:35: 
+Training starts.
+
+27.10.2017 15:30:35: Multi to binary conversion.
+27.10.2017 15:30:35: The learners: SVMLibSvmJava
+27.10.2017 15:30:35: The number of classes in dataset: 12
+27.10.2017 15:30:35: total Number of classes for learning is 12
+27.10.2017 15:30:35: One against others for multi to binary class conversion.
+27.10.2017 15:30:35: Training time for class 1: 448ms
+27.10.2017 15:30:35: Training time for class 2: 350ms
+27.10.2017 15:30:36: Training time for class 3: 153ms
+27.10.2017 15:30:36: Training time for class 4: 180ms
+27.10.2017 15:30:36: Training time for class 5: 284ms
+27.10.2017 15:30:36: Training time for class 6: 355ms
+27.10.2017 15:30:37: Training time for class 7: 300ms
+27.10.2017 15:30:37: Training time for class 8: 277ms
+27.10.2017 15:30:37: Training time for class 9: 337ms
+27.10.2017 15:30:38: Training time for class 10: 310ms
+27.10.2017 15:30:38: Training time for class 11: 157ms
+27.10.2017 15:30:38: Training time for class 12: 180ms
+27.10.2017 15:30:38: 
+Application starts.
+27.10.2017 15:30:38: Multi to binary conversion.
+27.10.2017 15:30:38: The learners: SVMLibSvmJava
+27.10.2017 15:30:38: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:30:38: Application time for class: 77ms
+27.10.2017 15:30:38: Results of this run:
+
+
+Results of single label:
+0 LabelName=Country, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.33333334, 0.5);  Lenient: (1.0, 0.33333334, 0.5)
+1 LabelName=DateOfQuake, number of instances=36
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 1.0, 2.0);  (precision, recall, F1)= (0.33333334, 0.25, 0.28571427);  Lenient: (0.6666667, 0.5, 0.57142854)
+2 LabelName=Magnitude, number of instances=30
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+3 LabelName=NumOfDead, number of instances=34
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 2.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (0.5, 0.33333334, 0.4)
+4 LabelName=Region, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+5 LabelName=Time, number of instances=22
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.6666667, 1.0, 0.8);  Lenient: (0.6666667, 1.0, 0.8)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (7.0, 1.0, 3.0, 9.0);  (precision, recall, F1)= (0.6363636, 0.4117647, 0.5);  Lenient: (0.72727275, 0.47058824, 0.5714286)
+
+27.10.2017 15:30:38: 
+*** Averaged results for each label over 10 runs as:
+
+Results of single label:
+0 LabelName=Country, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (0.6, 0.0, 0.5, 2.1);  (precision, recall, F1)= (0.35, 0.20833333, 0.25);  Lenient: (0.35, 0.20833333, 0.25)
+1 LabelName=DateOfQuake, number of instances=36
+  (correct, partialCorrect, spurious, missing)= (1.4, 0.6, 0.7, 1.6);  (precision, recall, F1)= (0.65, 0.42333335, 0.47238094);  Lenient: (0.8333334, 0.59000003, 0.6409524)
+2 LabelName=Magnitude, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (1.7, 0.7, 0.7, 0.4);  (precision, recall, F1)= (0.535, 0.6, 0.5495238);  Lenient: (0.73833334, 0.8166667, 0.7584127)
+3 LabelName=NumOfDead, number of instances=33
+  (correct, partialCorrect, spurious, missing)= (1.6, 0.0, 0.9, 1.8);  (precision, recall, F1)= (0.53499997, 0.43833336, 0.45510823);  Lenient: (0.53499997, 0.43833336, 0.45510823)
+4 LabelName=Region, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (0.4, 0.2, 0.5, 2.1);  (precision, recall, F1)= (0.25, 0.19166668, 0.19714285);  Lenient: (0.4, 0.25, 0.27714285)
+5 LabelName=Time, number of instances=21
+  (correct, partialCorrect, spurious, missing)= (1.4, 0.2, 0.3, 0.6);  (precision, recall, F1)= (0.7416667, 0.65, 0.65571433);  Lenient: (0.8416667, 0.73333335, 0.7457143)
+
+Overall results as:
+  (correct, partialCorrect, spurious, missing)= (7.1, 1.7, 3.6, 8.6);  (precision, recall, F1)= (0.5947596, 0.4106695, 0.47640157);  Lenient: (0.72887564, 0.5067957, 0.5878262)
+
+27.10.2017 15:30:38: This learning session finished!.
+27.10.2017 15:31:08: 
+*** A new run starts.
+27.10.2017 15:31:08: 
+The execution time (pre-processing the first document): Fri Oct 27 15:31:08 CEST 2017
+27.10.2017 15:31:08: The learning start at Fri Oct 27 15:31:08 CEST 2017
+27.10.2017 15:31:08: The number of documents in dataset: 44
+27.10.2017 15:31:09: ** Training mode:
+27.10.2017 15:31:10: 
+Filtering starts.
+27.10.2017 15:31:10: Multi to binary conversion.
+27.10.2017 15:31:10: The number of classes in dataset: 1
+27.10.2017 15:31:10: The learners: SVMLibSvmJava
+27.10.2017 15:31:10: total Number of classes for learning is 1
+27.10.2017 15:31:10: One against others for multi to binary class conversion.
+27.10.2017 15:31:12: Training time for class 1: 1793ms
+27.10.2017 15:31:12: One against others for multi to binary class conversion.
+Number of classes in model: 1
+27.10.2017 15:31:12: Application time for class: 7ms
+27.10.2017 15:31:12: 
+Training starts.
+
+27.10.2017 15:31:12: Multi to binary conversion.
+27.10.2017 15:31:12: The learners: SVMLibSvmJava
+27.10.2017 15:31:12: The number of classes in dataset: 12
+27.10.2017 15:31:12: total Number of classes for learning is 12
+27.10.2017 15:31:12: One against others for multi to binary class conversion.
+27.10.2017 15:31:12: Training time for class 1: 394ms
+27.10.2017 15:31:13: Training time for class 2: 362ms
+27.10.2017 15:31:13: Training time for class 3: 129ms
+27.10.2017 15:31:13: Training time for class 4: 186ms
+27.10.2017 15:31:13: Training time for class 5: 285ms
+27.10.2017 15:31:14: Training time for class 6: 335ms
+27.10.2017 15:31:14: Training time for class 7: 265ms
+27.10.2017 15:31:14: Training time for class 8: 230ms
+27.10.2017 15:31:14: Training time for class 9: 329ms
+27.10.2017 15:31:15: Training time for class 10: 300ms
+27.10.2017 15:31:15: Training time for class 11: 154ms
+27.10.2017 15:31:15: Training time for class 12: 187ms
+27.10.2017 15:31:15: This learning session finished!.
+27.10.2017 15:38:33: 
+
+*************************
+A new session for NLP learning is starting: 20171027_153833file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 5109secs ago)The initiliased time of NLP learning: Fri Oct 27 15:38:33 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 15:49:23: 
+
+*************************
+A new session for NLP learning is starting: 20171027_154923file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 5759secs ago)The initiliased time of NLP learning: Fri Oct 27 15:49:23 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 15:50:41: 
+
+*************************
+A new session for NLP learning is starting: 20171027_155041file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 5837secs ago)The initiliased time of NLP learning: Fri Oct 27 15:50:41 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 15:50:41: 
+*** A new run starts.
+27.10.2017 15:50:41: 
+The execution time (pre-processing the first document): Fri Oct 27 15:50:41 CEST 2017
+27.10.2017 15:50:41: ** Application mode for document from 0 to 1(not included):
+27.10.2017 15:50:41: Creating temp directory for application-mode files
+27.10.2017 15:50:41: 
+Application starts.
+27.10.2017 15:50:41: Multi to binary conversion.
+27.10.2017 15:50:41: The learners: SVMLibSvmJava
+27.10.2017 15:50:41: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:50:41: Application time for class: 219ms
+27.10.2017 15:50:41: The learning start at Fri Oct 27 15:50:41 CEST 2017
+27.10.2017 15:50:41: The number of documents in dataset: 1
+27.10.2017 15:50:41: This learning session finished!.
+27.10.2017 15:51:28: 
+
+*************************
+A new session for NLP learning is starting: 20171027_155128file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 5884secs ago)The initiliased time of NLP learning: Fri Oct 27 15:51:28 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 15:51:28: 
+*** A new run starts.
+27.10.2017 15:51:28: 
+The execution time (pre-processing the first document): Fri Oct 27 15:51:28 CEST 2017
+27.10.2017 15:51:28: ** Application mode for document from 0 to 1(not included):
+27.10.2017 15:51:28: Creating temp directory for application-mode files
+27.10.2017 15:51:28: 
+Application starts.
+27.10.2017 15:51:28: Multi to binary conversion.
+27.10.2017 15:51:28: The learners: SVMLibSvmJava
+27.10.2017 15:51:28: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:51:28: Application time for class: 152ms
+27.10.2017 15:51:28: The learning start at Fri Oct 27 15:51:28 CEST 2017
+27.10.2017 15:51:28: The number of documents in dataset: 1
+27.10.2017 15:51:28: This learning session finished!.
+27.10.2017 15:53:22: 
+
+*************************
+A new session for NLP learning is starting: 20171027_155322file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 5998secs ago)The initiliased time of NLP learning: Fri Oct 27 15:53:22 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 15:53:23: 
+*** A new run starts.
+27.10.2017 15:53:23: 
+The execution time (pre-processing the first document): Fri Oct 27 15:53:23 CEST 2017
+27.10.2017 15:53:23: ** Application mode for document from 0 to 1(not included):
+27.10.2017 15:53:23: Creating temp directory for application-mode files
+27.10.2017 15:53:23: 
+Application starts.
+27.10.2017 15:53:23: Multi to binary conversion.
+27.10.2017 15:53:23: The learners: SVMLibSvmJava
+27.10.2017 15:53:23: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 15:53:23: Application time for class: 144ms
+27.10.2017 15:53:23: The learning start at Fri Oct 27 15:53:23 CEST 2017
+27.10.2017 15:53:23: The number of documents in dataset: 1
+27.10.2017 15:53:23: This learning session finished!.

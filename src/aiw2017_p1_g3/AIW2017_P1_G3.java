@@ -76,8 +76,8 @@ public class AIW2017_P1_G3 {
 	               System.out.println("It is about "+topic);
 	               txtCl.removeInstance();
 	               //call MyGateApp 
-	               
-	               gateDoc.init(txt);
+	               System.out.println("Calling the extraction system");
+	               gateDoc.init(txt, topic);
 	               
 	               System.out.print("Enter your  text: ");
 	               txt = in.readLine();

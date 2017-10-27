@@ -43,7 +43,7 @@
             </localMap>
           </runtimeParams>
           <resourceType>gate.learning.LearningAPIMain</resourceType>
-          <resourceName>Batch Learning PR 00089</resourceName>
+          <resourceName>Batch Learning PR 0013E</resourceName>
           <initParams class="gate.util.persistence.MapPersistence">
             <mapType>gate.util.SimpleFeatureMapImpl</mapType>
             <localMap>
