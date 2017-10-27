@@ -8906,3 +8906,107 @@ Number of classes in model: 12
 27.10.2017 15:53:23: The learning start at Fri Oct 27 15:53:23 CEST 2017
 27.10.2017 15:53:23: The number of documents in dataset: 1
 27.10.2017 15:53:23: This learning session finished!.
+27.10.2017 16:15:01: 
+
+*************************
+A new session for NLP learning is starting: 20171027_161500file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 7296secs ago)The initiliased time of NLP learning: Fri Oct 27 16:15:00 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 16:15:01: 
+*** A new run starts.
+27.10.2017 16:15:01: 
+The execution time (pre-processing the first document): Fri Oct 27 16:15:01 CEST 2017
+27.10.2017 16:15:01: ** Application mode for document from 0 to 1(not included):
+27.10.2017 16:15:01: Creating temp directory for application-mode files
+27.10.2017 16:15:01: 
+Application starts.
+27.10.2017 16:15:01: Multi to binary conversion.
+27.10.2017 16:15:01: The learners: SVMLibSvmJava
+27.10.2017 16:15:01: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 16:15:01: Application time for class: 125ms
+27.10.2017 16:15:01: The learning start at Fri Oct 27 16:15:01 CEST 2017
+27.10.2017 16:15:01: The number of documents in dataset: 1
+27.10.2017 16:15:01: This learning session finished!.
+27.10.2017 16:15:59: 
+
+*************************
+A new session for NLP learning is starting: 20171027_161559file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 7355secs ago)The initiliased time of NLP learning: Fri Oct 27 16:15:59 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 16:15:59: 
+*** A new run starts.
+27.10.2017 16:15:59: 
+The execution time (pre-processing the first document): Fri Oct 27 16:15:59 CEST 2017
+27.10.2017 16:15:59: ** Application mode for document from 0 to 1(not included):
+27.10.2017 16:15:59: Creating temp directory for application-mode files
+27.10.2017 16:16:00: 
+Application starts.
+27.10.2017 16:16:00: Multi to binary conversion.
+27.10.2017 16:16:00: The learners: SVMLibSvmJava
+27.10.2017 16:16:00: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 16:16:00: Application time for class: 116ms
+27.10.2017 16:16:00: The learning start at Fri Oct 27 16:16:00 CEST 2017
+27.10.2017 16:16:00: The number of documents in dataset: 1
+27.10.2017 16:16:00: This learning session finished!.
+27.10.2017 16:16:15: 
+
+*************************
+A new session for NLP learning is starting: 20171027_161615file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 7371secs ago)The initiliased time of NLP learning: Fri Oct 27 16:16:15 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 16:16:15: 
+*** A new run starts.
+27.10.2017 16:16:15: 
+The execution time (pre-processing the first document): Fri Oct 27 16:16:15 CEST 2017
+27.10.2017 16:16:15: ** Application mode for document from 0 to 1(not included):
+27.10.2017 16:16:15: Creating temp directory for application-mode files
+27.10.2017 16:16:15: 
+Application starts.
+27.10.2017 16:16:15: Multi to binary conversion.
+27.10.2017 16:16:15: The learners: SVMLibSvmJava
+27.10.2017 16:16:15: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 16:16:16: Application time for class: 1032ms
+27.10.2017 16:16:16: The learning start at Fri Oct 27 16:16:16 CEST 2017
+27.10.2017 16:16:16: The number of documents in dataset: 1
+27.10.2017 16:16:16: This learning session finished!.
+27.10.2017 16:25:40: 
+
+*************************
+A new session for NLP learning is starting: 20171027_162540file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171027_141324, 7936secs ago)The initiliased time of NLP learning: Fri Oct 27 16:25:40 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+27.10.2017 16:25:40: 
+*** A new run starts.
+27.10.2017 16:25:40: 
+The execution time (pre-processing the first document): Fri Oct 27 16:25:40 CEST 2017
+27.10.2017 16:25:40: ** Application mode for document from 0 to 1(not included):
+27.10.2017 16:25:40: Creating temp directory for application-mode files
+27.10.2017 16:25:41: 
+Application starts.
+27.10.2017 16:25:41: Multi to binary conversion.
+27.10.2017 16:25:41: The learners: SVMLibSvmJava
+27.10.2017 16:25:41: One against others for multi to binary class conversion.
+Number of classes in model: 12
+27.10.2017 16:25:41: Application time for class: 143ms
+27.10.2017 16:25:41: The learning start at Fri Oct 27 16:25:41 CEST 2017
+27.10.2017 16:25:41: The number of documents in dataset: 1
+27.10.2017 16:25:41: This learning session finished!.

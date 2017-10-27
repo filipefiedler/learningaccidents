@@ -66,7 +66,7 @@ public class CallMyGATEApp {
 			myanalyser.loadMyGapp(pathToMyGapp);
 			if (topic.equalsIgnoreCase("airplane")){
 			myLearning.loadMyGapp(pathToIE);
-			}else {
+			}else if (topic.equalsIgnoreCase("quake")) {
 				myLearning.loadMyGapp(pathToIE_Earth);
 			}
 			// create a GATE corpus
