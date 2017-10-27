@@ -38,7 +38,7 @@
               </entry>
               <entry>
                 <string>learningMode</string>
-                <gate.learning.RunMode>EVALUATION</gate.learning.RunMode>
+                <gate.learning.RunMode>APPLICATION</gate.learning.RunMode>
               </entry>
             </localMap>
           </runtimeParams>

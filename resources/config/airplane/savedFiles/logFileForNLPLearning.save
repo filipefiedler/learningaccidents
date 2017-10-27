@@ -5494,3 +5494,1138 @@ Overall results as:
   (correct, partialCorrect, spurious, missing)= (2.9, 0.1, 0.0, 3.1);  (precision, recall, F1)= (0.9666667, 0.47857141, 0.64);  Lenient: (1.0, 0.49285716, 0.65999997)
 
 19.10.2017 16:14:12: This learning session finished!.
+25.10.2017 12:50:25: 
+
+*************************
+A new session for NLP learning is starting: 20171025_125025file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171004_164844, 1800101secs ago)The initiliased time of NLP learning: Wed Oct 25 12:50:25 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+25.10.2017 13:03:24: 
+
+*************************
+A new session for NLP learning is starting: 20171025_130324file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171004_164844, 1800880secs ago)The initiliased time of NLP learning: Wed Oct 25 13:03:24 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+25.10.2017 13:06:49: 
+*** A new run starts.
+25.10.2017 13:06:49: 
+The execution time (pre-processing the first document): Wed Oct 25 13:06:49 CEST 2017
+25.10.2017 13:06:49: The learning start at Wed Oct 25 13:06:49 CEST 2017
+25.10.2017 13:06:49: The number of documents in dataset: 31
+25.10.2017 13:06:49: ** Evaluation mode:
+25.10.2017 13:06:49: K-fold evaluation: k=10
+25.10.2017 13:06:49: Kfold k=10, numDoc=31, len=3.
+25.10.2017 13:06:49: 
+*** Fold 1
+Number of docs for training: 28
+1 avion-040701.xml_0000D
+2 avion-040809.xml_0000E
+3 avion-041110.xml_0000F
+4 avion-060701.xml_00010
+5 avion-100410.xml_00011
+6 avion-120209.xml_00012
+7 avion-121101.xml_00013
+8 avion-121196.xml_00014
+9 avion-150109.xml_00015
+10 avion-160805.xml_00016
+11 avion-160810.xml_00017
+12 avion-160907.xml_00018
+13 avion-170108.xml_00019
+14 avion-170707.xml_0001A
+15 avion-201295.xml_0001B
+16 avion-210208.xml_0001C
+17 avion-220510.xml_0001D
+18 avion-230309.xml_0001E
+19 avion-240808.xml_0001F
+20 avion-241294.xml_00020
+21 avion-250190.xml_00021
+22 avion-250607.xml_00022
+23 avion-271189.xml_00023
+24 avion-280488.xml_00024
+25 avion-280710.xml_00025
+26 avion-290906.xml_00026
+27 avion-291291.xml_00027
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+
+25.10.2017 13:06:51: 
+Filtering starts.
+25.10.2017 13:06:51: Multi to binary conversion.
+25.10.2017 13:06:51: The number of classes in dataset: 1
+25.10.2017 13:06:51: The learners: SVMLibSvmJava
+25.10.2017 13:06:51: total Number of classes for learning is 1
+25.10.2017 13:06:51: One against others for multi to binary class conversion.
+25.10.2017 13:06:51: Training time for class 1: 582ms
+25.10.2017 13:06:51: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:06:51: Application time for class: 27ms
+25.10.2017 13:06:52: 
+Training starts.
+
+25.10.2017 13:06:52: Multi to binary conversion.
+25.10.2017 13:06:52: The learners: SVMLibSvmJava
+25.10.2017 13:06:52: The number of classes in dataset: 14
+25.10.2017 13:06:52: total Number of classes for learning is 14
+25.10.2017 13:06:52: One against others for multi to binary class conversion.
+25.10.2017 13:06:52: Training time for class 1: 191ms
+25.10.2017 13:06:52: Training time for class 2: 72ms
+25.10.2017 13:06:52: Training time for class 3: 84ms
+25.10.2017 13:06:52: Training time for class 4: 86ms
+25.10.2017 13:06:52: Training time for class 5: 76ms
+25.10.2017 13:06:52: Training time for class 6: 69ms
+25.10.2017 13:06:52: Training time for class 7: 82ms
+25.10.2017 13:06:52: Training time for class 8: 93ms
+25.10.2017 13:06:52: Training time for class 9: 105ms
+25.10.2017 13:06:53: Training time for class 10: 100ms
+25.10.2017 13:06:53: Training time for class 11: 88ms
+25.10.2017 13:06:53: Training time for class 12: 98ms
+25.10.2017 13:06:53: Training time for class 13: 90ms
+25.10.2017 13:06:53: Training time for class 14: 83ms
+25.10.2017 13:06:53: 
+Application starts.
+25.10.2017 13:06:53: Multi to binary conversion.
+25.10.2017 13:06:53: The learners: SVMLibSvmJava
+25.10.2017 13:06:53: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:06:53: Application time for class: 121ms
+25.10.2017 13:06:53: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+1 LabelName=FlightNumber, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+2 LabelName=NumberOfVictims, number of instances=20
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 1.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (1.0, 0.6666667, 0.8)
+3 LabelName=Place, number of instances=24
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 1.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (1.0, 0.6666667, 0.8)
+4 LabelName=TypeOfAccident, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.6666667, 0.8);  Lenient: (1.0, 0.6666667, 0.8)
+5 LabelName=TypeOfAircraft, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 1.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (1.0, 0.6666667, 0.8)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (14.0, 3.0, 0.0, 4.0);  (precision, recall, F1)= (0.8235294, 0.6666667, 0.73684216);  Lenient: (1.0, 0.8095238, 0.8947368)
+
+25.10.2017 13:06:53: 
+*** Fold 2
+Number of docs for training: 28
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+4 avion-060701.xml_00010
+5 avion-100410.xml_00011
+6 avion-120209.xml_00012
+7 avion-121101.xml_00013
+8 avion-121196.xml_00014
+9 avion-150109.xml_00015
+10 avion-160805.xml_00016
+11 avion-160810.xml_00017
+12 avion-160907.xml_00018
+13 avion-170108.xml_00019
+14 avion-170707.xml_0001A
+15 avion-201295.xml_0001B
+16 avion-210208.xml_0001C
+17 avion-220510.xml_0001D
+18 avion-230309.xml_0001E
+19 avion-240808.xml_0001F
+20 avion-241294.xml_00020
+21 avion-250190.xml_00021
+22 avion-250607.xml_00022
+23 avion-271189.xml_00023
+24 avion-280488.xml_00024
+25 avion-280710.xml_00025
+26 avion-290906.xml_00026
+27 avion-291291.xml_00027
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-040701.xml_0000D
+2 avion-040809.xml_0000E
+3 avion-041110.xml_0000F
+
+25.10.2017 13:06:54: 
+Filtering starts.
+25.10.2017 13:06:54: Multi to binary conversion.
+25.10.2017 13:06:54: The number of classes in dataset: 1
+25.10.2017 13:06:54: The learners: SVMLibSvmJava
+25.10.2017 13:06:54: total Number of classes for learning is 1
+25.10.2017 13:06:54: One against others for multi to binary class conversion.
+25.10.2017 13:06:55: Training time for class 1: 505ms
+25.10.2017 13:06:55: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:06:55: Application time for class: 8ms
+25.10.2017 13:06:55: 
+Training starts.
+
+25.10.2017 13:06:55: Multi to binary conversion.
+25.10.2017 13:06:55: The learners: SVMLibSvmJava
+25.10.2017 13:06:55: The number of classes in dataset: 14
+25.10.2017 13:06:55: total Number of classes for learning is 14
+25.10.2017 13:06:55: One against others for multi to binary class conversion.
+25.10.2017 13:06:55: Training time for class 1: 55ms
+25.10.2017 13:06:55: Training time for class 2: 67ms
+25.10.2017 13:06:55: Training time for class 3: 83ms
+25.10.2017 13:06:55: Training time for class 4: 112ms
+25.10.2017 13:06:55: Training time for class 5: 91ms
+25.10.2017 13:06:55: Training time for class 6: 88ms
+25.10.2017 13:06:55: Training time for class 7: 61ms
+25.10.2017 13:06:55: Training time for class 8: 98ms
+25.10.2017 13:06:56: Training time for class 9: 87ms
+25.10.2017 13:06:56: Training time for class 10: 87ms
+25.10.2017 13:06:56: Training time for class 11: 83ms
+25.10.2017 13:06:56: Training time for class 12: 98ms
+25.10.2017 13:06:56: Training time for class 13: 119ms
+25.10.2017 13:06:56: Training time for class 14: 119ms
+25.10.2017 13:06:56: 
+Application starts.
+25.10.2017 13:06:56: Multi to binary conversion.
+25.10.2017 13:06:56: The learners: SVMLibSvmJava
+25.10.2017 13:06:56: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:06:56: Application time for class: 88ms
+25.10.2017 13:06:56: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 1.0, 0.0, 0.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (1.0, 1.0, 1.0)
+1 LabelName=FlightNumber, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 1.0, 1.0, 0.0);  (precision, recall, F1)= (0.5, 0.6666667, 0.57142854);  Lenient: (0.75, 1.0, 0.85714287)
+2 LabelName=NumberOfVictims, number of instances=20
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 1.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (1.0, 0.6666667, 0.8)
+3 LabelName=Place, number of instances=24
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.6666667, 0.8);  Lenient: (1.0, 0.6666667, 0.8)
+4 LabelName=TypeOfAccident, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (2.0, 1.0, 0.0, 0.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (1.0, 1.0, 1.0)
+5 LabelName=TypeOfAircraft, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.33333334, 0.5);  Lenient: (1.0, 0.33333334, 0.5)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (13.0, 4.0, 1.0, 4.0);  (precision, recall, F1)= (0.7222222, 0.61904764, 0.6666667);  Lenient: (0.9444444, 0.8095238, 0.8717949)
+
+25.10.2017 13:06:56: 
+*** Fold 3
+Number of docs for training: 28
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+4 avion-040701.xml_0000D
+5 avion-040809.xml_0000E
+6 avion-041110.xml_0000F
+7 avion-121101.xml_00013
+8 avion-121196.xml_00014
+9 avion-150109.xml_00015
+10 avion-160805.xml_00016
+11 avion-160810.xml_00017
+12 avion-160907.xml_00018
+13 avion-170108.xml_00019
+14 avion-170707.xml_0001A
+15 avion-201295.xml_0001B
+16 avion-210208.xml_0001C
+17 avion-220510.xml_0001D
+18 avion-230309.xml_0001E
+19 avion-240808.xml_0001F
+20 avion-241294.xml_00020
+21 avion-250190.xml_00021
+22 avion-250607.xml_00022
+23 avion-271189.xml_00023
+24 avion-280488.xml_00024
+25 avion-280710.xml_00025
+26 avion-290906.xml_00026
+27 avion-291291.xml_00027
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-060701.xml_00010
+2 avion-100410.xml_00011
+3 avion-120209.xml_00012
+
+25.10.2017 13:06:57: 
+Filtering starts.
+25.10.2017 13:06:57: Multi to binary conversion.
+25.10.2017 13:06:57: The number of classes in dataset: 1
+25.10.2017 13:06:57: The learners: SVMLibSvmJava
+25.10.2017 13:06:57: total Number of classes for learning is 1
+25.10.2017 13:06:57: One against others for multi to binary class conversion.
+25.10.2017 13:06:58: Training time for class 1: 439ms
+25.10.2017 13:06:58: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:06:58: Application time for class: 7ms
+25.10.2017 13:06:58: 
+Training starts.
+
+25.10.2017 13:06:58: Multi to binary conversion.
+25.10.2017 13:06:58: The learners: SVMLibSvmJava
+25.10.2017 13:06:58: The number of classes in dataset: 14
+25.10.2017 13:06:58: total Number of classes for learning is 14
+25.10.2017 13:06:58: One against others for multi to binary class conversion.
+25.10.2017 13:06:58: Training time for class 1: 107ms
+25.10.2017 13:06:58: Training time for class 2: 92ms
+25.10.2017 13:06:58: Training time for class 3: 99ms
+25.10.2017 13:06:58: Training time for class 4: 95ms
+25.10.2017 13:06:58: Training time for class 5: 115ms
+25.10.2017 13:06:58: Training time for class 6: 112ms
+25.10.2017 13:06:58: Training time for class 7: 102ms
+25.10.2017 13:06:59: Training time for class 8: 106ms
+25.10.2017 13:06:59: Training time for class 9: 86ms
+25.10.2017 13:06:59: Training time for class 10: 87ms
+25.10.2017 13:06:59: Training time for class 11: 75ms
+25.10.2017 13:06:59: Training time for class 12: 100ms
+25.10.2017 13:06:59: Training time for class 13: 119ms
+25.10.2017 13:06:59: Training time for class 14: 110ms
+25.10.2017 13:06:59: 
+Application starts.
+25.10.2017 13:06:59: Multi to binary conversion.
+25.10.2017 13:06:59: The learners: SVMLibSvmJava
+25.10.2017 13:06:59: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:06:59: Application time for class: 81ms
+25.10.2017 13:06:59: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+1 LabelName=FlightNumber, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.6666667, 0.8);  Lenient: (1.0, 0.6666667, 0.8)
+2 LabelName=NumberOfVictims, number of instances=21
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+3 LabelName=Place, number of instances=24
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.6666667, 0.8);  Lenient: (1.0, 0.6666667, 0.8)
+4 LabelName=TypeOfAccident, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 1.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (1.0, 0.6666667, 0.8)
+5 LabelName=TypeOfAircraft, number of instances=29
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.5, 1.0, 0.6666667);  Lenient: (0.5, 1.0, 0.6666667)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.75, 1.0, 0.85714287);  Lenient: (0.75, 1.0, 0.85714287)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (13.0, 1.0, 2.0, 3.0);  (precision, recall, F1)= (0.8125, 0.7647059, 0.78787875);  Lenient: (0.875, 0.8235294, 0.8484849)
+
+25.10.2017 13:06:59: 
+*** Fold 4
+Number of docs for training: 28
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+4 avion-040701.xml_0000D
+5 avion-040809.xml_0000E
+6 avion-041110.xml_0000F
+7 avion-060701.xml_00010
+8 avion-100410.xml_00011
+9 avion-120209.xml_00012
+10 avion-160805.xml_00016
+11 avion-160810.xml_00017
+12 avion-160907.xml_00018
+13 avion-170108.xml_00019
+14 avion-170707.xml_0001A
+15 avion-201295.xml_0001B
+16 avion-210208.xml_0001C
+17 avion-220510.xml_0001D
+18 avion-230309.xml_0001E
+19 avion-240808.xml_0001F
+20 avion-241294.xml_00020
+21 avion-250190.xml_00021
+22 avion-250607.xml_00022
+23 avion-271189.xml_00023
+24 avion-280488.xml_00024
+25 avion-280710.xml_00025
+26 avion-290906.xml_00026
+27 avion-291291.xml_00027
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-121101.xml_00013
+2 avion-121196.xml_00014
+3 avion-150109.xml_00015
+
+25.10.2017 13:07:00: 
+Filtering starts.
+25.10.2017 13:07:00: Multi to binary conversion.
+25.10.2017 13:07:00: The number of classes in dataset: 1
+25.10.2017 13:07:00: The learners: SVMLibSvmJava
+25.10.2017 13:07:00: total Number of classes for learning is 1
+25.10.2017 13:07:00: One against others for multi to binary class conversion.
+25.10.2017 13:07:01: Training time for class 1: 599ms
+25.10.2017 13:07:01: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:07:01: Application time for class: 9ms
+25.10.2017 13:07:01: 
+Training starts.
+
+25.10.2017 13:07:01: Multi to binary conversion.
+25.10.2017 13:07:01: The learners: SVMLibSvmJava
+25.10.2017 13:07:01: The number of classes in dataset: 14
+25.10.2017 13:07:01: total Number of classes for learning is 14
+25.10.2017 13:07:01: One against others for multi to binary class conversion.
+25.10.2017 13:07:01: Training time for class 1: 91ms
+25.10.2017 13:07:01: Training time for class 2: 76ms
+25.10.2017 13:07:01: Training time for class 3: 82ms
+25.10.2017 13:07:01: Training time for class 4: 102ms
+25.10.2017 13:07:01: Training time for class 5: 100ms
+25.10.2017 13:07:01: Training time for class 6: 75ms
+25.10.2017 13:07:01: Training time for class 7: 60ms
+25.10.2017 13:07:01: Training time for class 8: 89ms
+25.10.2017 13:07:02: Training time for class 9: 78ms
+25.10.2017 13:07:02: Training time for class 10: 77ms
+25.10.2017 13:07:02: Training time for class 11: 86ms
+25.10.2017 13:07:02: Training time for class 12: 98ms
+25.10.2017 13:07:02: Training time for class 13: 118ms
+25.10.2017 13:07:02: Training time for class 14: 106ms
+25.10.2017 13:07:02: 
+Application starts.
+25.10.2017 13:07:02: Multi to binary conversion.
+25.10.2017 13:07:02: The learners: SVMLibSvmJava
+25.10.2017 13:07:02: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:07:02: Application time for class: 78ms
+25.10.2017 13:07:02: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=26
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.75, 0.85714287);  Lenient: (1.0, 0.75, 0.85714287)
+1 LabelName=FlightNumber, number of instances=26
+  (correct, partialCorrect, spurious, missing)= (4.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+2 LabelName=NumberOfVictims, number of instances=20
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 2.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (0.5, 0.33333334, 0.4)
+3 LabelName=Place, number of instances=24
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 2.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (0.5, 0.33333334, 0.4)
+4 LabelName=TypeOfAccident, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.33333334, 0.5);  Lenient: (1.0, 0.33333334, 0.5)
+5 LabelName=TypeOfAircraft, number of instances=26
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.75, 0.85714287);  Lenient: (1.0, 0.75, 0.85714287)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (16.0, 0.0, 2.0, 8.0);  (precision, recall, F1)= (0.8888889, 0.6666667, 0.7619048);  Lenient: (0.8888889, 0.6666667, 0.7619048)
+
+25.10.2017 13:07:02: 
+*** Fold 5
+Number of docs for training: 28
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+4 avion-040701.xml_0000D
+5 avion-040809.xml_0000E
+6 avion-041110.xml_0000F
+7 avion-060701.xml_00010
+8 avion-100410.xml_00011
+9 avion-120209.xml_00012
+10 avion-121101.xml_00013
+11 avion-121196.xml_00014
+12 avion-150109.xml_00015
+13 avion-170108.xml_00019
+14 avion-170707.xml_0001A
+15 avion-201295.xml_0001B
+16 avion-210208.xml_0001C
+17 avion-220510.xml_0001D
+18 avion-230309.xml_0001E
+19 avion-240808.xml_0001F
+20 avion-241294.xml_00020
+21 avion-250190.xml_00021
+22 avion-250607.xml_00022
+23 avion-271189.xml_00023
+24 avion-280488.xml_00024
+25 avion-280710.xml_00025
+26 avion-290906.xml_00026
+27 avion-291291.xml_00027
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-160805.xml_00016
+2 avion-160810.xml_00017
+3 avion-160907.xml_00018
+
+25.10.2017 13:07:03: 
+Filtering starts.
+25.10.2017 13:07:03: Multi to binary conversion.
+25.10.2017 13:07:03: The number of classes in dataset: 1
+25.10.2017 13:07:03: The learners: SVMLibSvmJava
+25.10.2017 13:07:03: total Number of classes for learning is 1
+25.10.2017 13:07:03: One against others for multi to binary class conversion.
+25.10.2017 13:07:03: Training time for class 1: 407ms
+25.10.2017 13:07:03: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:07:03: Application time for class: 8ms
+25.10.2017 13:07:03: 
+Training starts.
+
+25.10.2017 13:07:03: Multi to binary conversion.
+25.10.2017 13:07:03: The learners: SVMLibSvmJava
+25.10.2017 13:07:03: The number of classes in dataset: 14
+25.10.2017 13:07:03: total Number of classes for learning is 14
+25.10.2017 13:07:03: One against others for multi to binary class conversion.
+25.10.2017 13:07:04: Training time for class 1: 62ms
+25.10.2017 13:07:04: Training time for class 2: 60ms
+25.10.2017 13:07:04: Training time for class 3: 76ms
+25.10.2017 13:07:04: Training time for class 4: 79ms
+25.10.2017 13:07:04: Training time for class 5: 80ms
+25.10.2017 13:07:04: Training time for class 6: 76ms
+25.10.2017 13:07:04: Training time for class 7: 77ms
+25.10.2017 13:07:04: Training time for class 8: 110ms
+25.10.2017 13:07:04: Training time for class 9: 85ms
+25.10.2017 13:07:04: Training time for class 10: 84ms
+25.10.2017 13:07:04: Training time for class 11: 87ms
+25.10.2017 13:07:04: Training time for class 12: 116ms
+25.10.2017 13:07:05: Training time for class 13: 124ms
+25.10.2017 13:07:05: Training time for class 14: 116ms
+25.10.2017 13:07:05: 
+Application starts.
+25.10.2017 13:07:05: Multi to binary conversion.
+25.10.2017 13:07:05: The learners: SVMLibSvmJava
+25.10.2017 13:07:05: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:07:05: Application time for class: 81ms
+25.10.2017 13:07:05: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=26
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.75, 0.85714287);  Lenient: (1.0, 0.75, 0.85714287)
+1 LabelName=FlightNumber, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+2 LabelName=NumberOfVictims, number of instances=22
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=Place, number of instances=24
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 0.0, 3.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+4 LabelName=TypeOfAccident, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (1.0, 2.0, 0.0, 0.0);  (precision, recall, F1)= (0.33333334, 0.33333334, 0.33333334);  Lenient: (1.0, 1.0, 1.0)
+5 LabelName=TypeOfAircraft, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 1.0, 0.0, 0.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (1.0, 1.0, 1.0)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (12.0, 3.0, 1.0, 5.0);  (precision, recall, F1)= (0.75, 0.6, 0.6666667);  Lenient: (0.9375, 0.75, 0.8333333)
+
+25.10.2017 13:07:05: 
+*** Fold 6
+Number of docs for training: 28
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+4 avion-040701.xml_0000D
+5 avion-040809.xml_0000E
+6 avion-041110.xml_0000F
+7 avion-060701.xml_00010
+8 avion-100410.xml_00011
+9 avion-120209.xml_00012
+10 avion-121101.xml_00013
+11 avion-121196.xml_00014
+12 avion-150109.xml_00015
+13 avion-160805.xml_00016
+14 avion-160810.xml_00017
+15 avion-160907.xml_00018
+16 avion-210208.xml_0001C
+17 avion-220510.xml_0001D
+18 avion-230309.xml_0001E
+19 avion-240808.xml_0001F
+20 avion-241294.xml_00020
+21 avion-250190.xml_00021
+22 avion-250607.xml_00022
+23 avion-271189.xml_00023
+24 avion-280488.xml_00024
+25 avion-280710.xml_00025
+26 avion-290906.xml_00026
+27 avion-291291.xml_00027
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-170108.xml_00019
+2 avion-170707.xml_0001A
+3 avion-201295.xml_0001B
+
+25.10.2017 13:07:06: 
+Filtering starts.
+25.10.2017 13:07:06: Multi to binary conversion.
+25.10.2017 13:07:06: The number of classes in dataset: 1
+25.10.2017 13:07:06: The learners: SVMLibSvmJava
+25.10.2017 13:07:06: total Number of classes for learning is 1
+25.10.2017 13:07:06: One against others for multi to binary class conversion.
+25.10.2017 13:07:06: Training time for class 1: 409ms
+25.10.2017 13:07:06: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:07:06: Application time for class: 10ms
+25.10.2017 13:07:06: 
+Training starts.
+
+25.10.2017 13:07:06: Multi to binary conversion.
+25.10.2017 13:07:06: The learners: SVMLibSvmJava
+25.10.2017 13:07:06: The number of classes in dataset: 14
+25.10.2017 13:07:06: total Number of classes for learning is 14
+25.10.2017 13:07:06: One against others for multi to binary class conversion.
+25.10.2017 13:07:06: Training time for class 1: 68ms
+25.10.2017 13:07:06: Training time for class 2: 57ms
+25.10.2017 13:07:06: Training time for class 3: 77ms
+25.10.2017 13:07:07: Training time for class 4: 78ms
+25.10.2017 13:07:07: Training time for class 5: 74ms
+25.10.2017 13:07:07: Training time for class 6: 68ms
+25.10.2017 13:07:07: Training time for class 7: 76ms
+25.10.2017 13:07:07: Training time for class 8: 120ms
+25.10.2017 13:07:07: Training time for class 9: 87ms
+25.10.2017 13:07:07: Training time for class 10: 84ms
+25.10.2017 13:07:07: Training time for class 11: 91ms
+25.10.2017 13:07:07: Training time for class 12: 98ms
+25.10.2017 13:07:07: Training time for class 13: 101ms
+25.10.2017 13:07:07: Training time for class 14: 119ms
+25.10.2017 13:07:08: 
+Application starts.
+25.10.2017 13:07:08: Multi to binary conversion.
+25.10.2017 13:07:08: The learners: SVMLibSvmJava
+25.10.2017 13:07:08: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:07:08: Application time for class: 81ms
+25.10.2017 13:07:08: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 1.0, 0.0);  (precision, recall, F1)= (0.33333334, 0.5, 0.4);  Lenient: (0.6666667, 1.0, 0.8)
+1 LabelName=FlightNumber, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.6666667, 1.0, 0.8);  Lenient: (0.6666667, 1.0, 0.8)
+2 LabelName=NumberOfVictims, number of instances=23
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=Place, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.5, 0.5, 0.5);  Lenient: (0.5, 0.5, 0.5)
+4 LabelName=TypeOfAccident, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (0.0, 1.0, 1.0, 0.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.5, 1.0, 0.6666667)
+5 LabelName=TypeOfAircraft, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.6666667, 1.0, 0.8);  Lenient: (0.6666667, 1.0, 0.8)
+6 LabelName=Year, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.6666667, 1.0, 0.8);  Lenient: (0.6666667, 1.0, 0.8)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (8.0, 2.0, 7.0, 1.0);  (precision, recall, F1)= (0.47058824, 0.72727275, 0.5714286);  Lenient: (0.5882353, 0.90909094, 0.71428573)
+
+25.10.2017 13:07:08: 
+*** Fold 7
+Number of docs for training: 28
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+4 avion-040701.xml_0000D
+5 avion-040809.xml_0000E
+6 avion-041110.xml_0000F
+7 avion-060701.xml_00010
+8 avion-100410.xml_00011
+9 avion-120209.xml_00012
+10 avion-121101.xml_00013
+11 avion-121196.xml_00014
+12 avion-150109.xml_00015
+13 avion-160805.xml_00016
+14 avion-160810.xml_00017
+15 avion-160907.xml_00018
+16 avion-170108.xml_00019
+17 avion-170707.xml_0001A
+18 avion-201295.xml_0001B
+19 avion-240808.xml_0001F
+20 avion-241294.xml_00020
+21 avion-250190.xml_00021
+22 avion-250607.xml_00022
+23 avion-271189.xml_00023
+24 avion-280488.xml_00024
+25 avion-280710.xml_00025
+26 avion-290906.xml_00026
+27 avion-291291.xml_00027
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-210208.xml_0001C
+2 avion-220510.xml_0001D
+3 avion-230309.xml_0001E
+
+25.10.2017 13:07:08: 
+Filtering starts.
+25.10.2017 13:07:08: Multi to binary conversion.
+25.10.2017 13:07:08: The number of classes in dataset: 1
+25.10.2017 13:07:08: The learners: SVMLibSvmJava
+25.10.2017 13:07:08: total Number of classes for learning is 1
+25.10.2017 13:07:08: One against others for multi to binary class conversion.
+25.10.2017 13:07:09: Training time for class 1: 417ms
+25.10.2017 13:07:09: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:07:09: Application time for class: 9ms
+25.10.2017 13:07:09: 
+Training starts.
+
+25.10.2017 13:07:09: Multi to binary conversion.
+25.10.2017 13:07:09: The learners: SVMLibSvmJava
+25.10.2017 13:07:09: The number of classes in dataset: 14
+25.10.2017 13:07:09: total Number of classes for learning is 14
+25.10.2017 13:07:09: One against others for multi to binary class conversion.
+25.10.2017 13:07:09: Training time for class 1: 59ms
+25.10.2017 13:07:09: Training time for class 2: 56ms
+25.10.2017 13:07:09: Training time for class 3: 86ms
+25.10.2017 13:07:09: Training time for class 4: 74ms
+25.10.2017 13:07:09: Training time for class 5: 88ms
+25.10.2017 13:07:09: Training time for class 6: 73ms
+25.10.2017 13:07:09: Training time for class 7: 71ms
+25.10.2017 13:07:10: Training time for class 8: 111ms
+25.10.2017 13:07:10: Training time for class 9: 86ms
+25.10.2017 13:07:10: Training time for class 10: 75ms
+25.10.2017 13:07:10: Training time for class 11: 85ms
+25.10.2017 13:07:10: Training time for class 12: 106ms
+25.10.2017 13:07:10: Training time for class 13: 121ms
+25.10.2017 13:07:10: Training time for class 14: 115ms
+25.10.2017 13:07:10: 
+Application starts.
+25.10.2017 13:07:10: Multi to binary conversion.
+25.10.2017 13:07:10: The learners: SVMLibSvmJava
+25.10.2017 13:07:10: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:07:10: Application time for class: 75ms
+25.10.2017 13:07:10: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 1.0, 0.0, 0.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (1.0, 1.0, 1.0)
+1 LabelName=FlightNumber, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 0.0);  (precision, recall, F1)= (0.6666667, 1.0, 0.8);  Lenient: (0.6666667, 1.0, 0.8)
+2 LabelName=NumberOfVictims, number of instances=20
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 1.0, 2.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (0.5, 0.33333334, 0.4)
+3 LabelName=Place, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (0.0, 1.0, 0.0, 1.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (1.0, 0.5, 0.6666667)
+4 LabelName=TypeOfAccident, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.33333334, 0.5);  Lenient: (1.0, 0.33333334, 0.5)
+5 LabelName=TypeOfAircraft, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 1.0, 1.0);  (precision, recall, F1)= (0.33333334, 0.33333334, 0.33333334);  Lenient: (0.6666667, 0.6666667, 0.6666667)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (10.0, 3.0, 3.0, 6.0);  (precision, recall, F1)= (0.625, 0.5263158, 0.57142854);  Lenient: (0.8125, 0.68421054, 0.74285716)
+
+25.10.2017 13:07:10: 
+*** Fold 8
+Number of docs for training: 28
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+4 avion-040701.xml_0000D
+5 avion-040809.xml_0000E
+6 avion-041110.xml_0000F
+7 avion-060701.xml_00010
+8 avion-100410.xml_00011
+9 avion-120209.xml_00012
+10 avion-121101.xml_00013
+11 avion-121196.xml_00014
+12 avion-150109.xml_00015
+13 avion-160805.xml_00016
+14 avion-160810.xml_00017
+15 avion-160907.xml_00018
+16 avion-170108.xml_00019
+17 avion-170707.xml_0001A
+18 avion-201295.xml_0001B
+19 avion-210208.xml_0001C
+20 avion-220510.xml_0001D
+21 avion-230309.xml_0001E
+22 avion-250607.xml_00022
+23 avion-271189.xml_00023
+24 avion-280488.xml_00024
+25 avion-280710.xml_00025
+26 avion-290906.xml_00026
+27 avion-291291.xml_00027
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-240808.xml_0001F
+2 avion-241294.xml_00020
+3 avion-250190.xml_00021
+
+25.10.2017 13:07:11: 
+Filtering starts.
+25.10.2017 13:07:11: Multi to binary conversion.
+25.10.2017 13:07:11: The number of classes in dataset: 1
+25.10.2017 13:07:11: The learners: SVMLibSvmJava
+25.10.2017 13:07:11: total Number of classes for learning is 1
+25.10.2017 13:07:11: One against others for multi to binary class conversion.
+25.10.2017 13:07:11: Training time for class 1: 420ms
+25.10.2017 13:07:11: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:07:12: Application time for class: 9ms
+25.10.2017 13:07:12: 
+Training starts.
+
+25.10.2017 13:07:12: Multi to binary conversion.
+25.10.2017 13:07:12: The learners: SVMLibSvmJava
+25.10.2017 13:07:12: The number of classes in dataset: 14
+25.10.2017 13:07:12: total Number of classes for learning is 14
+25.10.2017 13:07:12: One against others for multi to binary class conversion.
+25.10.2017 13:07:12: Training time for class 1: 64ms
+25.10.2017 13:07:12: Training time for class 2: 62ms
+25.10.2017 13:07:12: Training time for class 3: 79ms
+25.10.2017 13:07:12: Training time for class 4: 80ms
+25.10.2017 13:07:12: Training time for class 5: 72ms
+25.10.2017 13:07:12: Training time for class 6: 72ms
+25.10.2017 13:07:12: Training time for class 7: 80ms
+25.10.2017 13:07:12: Training time for class 8: 113ms
+25.10.2017 13:07:12: Training time for class 9: 94ms
+25.10.2017 13:07:12: Training time for class 10: 77ms
+25.10.2017 13:07:12: Training time for class 11: 78ms
+25.10.2017 13:07:13: Training time for class 12: 105ms
+25.10.2017 13:07:13: Training time for class 13: 114ms
+25.10.2017 13:07:13: Training time for class 14: 136ms
+25.10.2017 13:07:13: 
+Application starts.
+25.10.2017 13:07:13: Multi to binary conversion.
+25.10.2017 13:07:13: The learners: SVMLibSvmJava
+25.10.2017 13:07:13: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:07:13: Application time for class: 97ms
+25.10.2017 13:07:13: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 1.0);  (precision, recall, F1)= (0.5, 0.33333334, 0.4);  Lenient: (1.0, 0.6666667, 0.8)
+1 LabelName=FlightNumber, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+2 LabelName=NumberOfVictims, number of instances=22
+  (correct, partialCorrect, spurious, missing)= (0.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.0, 0.0, 0.0);  Lenient: (0.0, 0.0, 0.0)
+3 LabelName=Place, number of instances=24
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.6666667, 0.8);  Lenient: (1.0, 0.6666667, 0.8)
+4 LabelName=TypeOfAccident, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 2.0);  (precision, recall, F1)= (1.0, 0.33333334, 0.5);  Lenient: (1.0, 0.33333334, 0.5)
+5 LabelName=TypeOfAircraft, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (13.0, 1.0, 1.0, 5.0);  (precision, recall, F1)= (0.8666667, 0.68421054, 0.7647059);  Lenient: (0.93333334, 0.7368421, 0.8235294)
+
+25.10.2017 13:07:13: 
+*** Fold 9
+Number of docs for training: 28
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+4 avion-040701.xml_0000D
+5 avion-040809.xml_0000E
+6 avion-041110.xml_0000F
+7 avion-060701.xml_00010
+8 avion-100410.xml_00011
+9 avion-120209.xml_00012
+10 avion-121101.xml_00013
+11 avion-121196.xml_00014
+12 avion-150109.xml_00015
+13 avion-160805.xml_00016
+14 avion-160810.xml_00017
+15 avion-160907.xml_00018
+16 avion-170108.xml_00019
+17 avion-170707.xml_0001A
+18 avion-201295.xml_0001B
+19 avion-210208.xml_0001C
+20 avion-220510.xml_0001D
+21 avion-230309.xml_0001E
+22 avion-240808.xml_0001F
+23 avion-241294.xml_00020
+24 avion-250190.xml_00021
+25 avion-280710.xml_00025
+26 avion-290906.xml_00026
+27 avion-291291.xml_00027
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-250607.xml_00022
+2 avion-271189.xml_00023
+3 avion-280488.xml_00024
+
+25.10.2017 13:07:14: 
+Filtering starts.
+25.10.2017 13:07:14: Multi to binary conversion.
+25.10.2017 13:07:14: The number of classes in dataset: 1
+25.10.2017 13:07:14: The learners: SVMLibSvmJava
+25.10.2017 13:07:14: total Number of classes for learning is 1
+25.10.2017 13:07:14: One against others for multi to binary class conversion.
+25.10.2017 13:07:14: Training time for class 1: 413ms
+25.10.2017 13:07:14: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:07:14: Application time for class: 10ms
+25.10.2017 13:07:14: 
+Training starts.
+
+25.10.2017 13:07:14: Multi to binary conversion.
+25.10.2017 13:07:14: The learners: SVMLibSvmJava
+25.10.2017 13:07:14: The number of classes in dataset: 14
+25.10.2017 13:07:14: total Number of classes for learning is 14
+25.10.2017 13:07:14: One against others for multi to binary class conversion.
+25.10.2017 13:07:14: Training time for class 1: 64ms
+25.10.2017 13:07:15: Training time for class 2: 65ms
+25.10.2017 13:07:15: Training time for class 3: 86ms
+25.10.2017 13:07:15: Training time for class 4: 88ms
+25.10.2017 13:07:15: Training time for class 5: 73ms
+25.10.2017 13:07:15: Training time for class 6: 91ms
+25.10.2017 13:07:15: Training time for class 7: 82ms
+25.10.2017 13:07:15: Training time for class 8: 110ms
+25.10.2017 13:07:15: Training time for class 9: 93ms
+25.10.2017 13:07:15: Training time for class 10: 90ms
+25.10.2017 13:07:15: Training time for class 11: 102ms
+25.10.2017 13:07:15: Training time for class 12: 105ms
+25.10.2017 13:07:16: Training time for class 13: 123ms
+25.10.2017 13:07:16: Training time for class 14: 108ms
+25.10.2017 13:07:16: 
+Application starts.
+25.10.2017 13:07:16: Multi to binary conversion.
+25.10.2017 13:07:16: The learners: SVMLibSvmJava
+25.10.2017 13:07:16: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:07:16: Application time for class: 84ms
+25.10.2017 13:07:16: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (0.6666667, 0.6666667, 0.6666667)
+1 LabelName=FlightNumber, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 1.0, 0.0, 0.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (1.0, 1.0, 1.0)
+2 LabelName=NumberOfVictims, number of instances=20
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (0.6666667, 0.6666667, 0.6666667)
+3 LabelName=Place, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.5, 0.6666667);  Lenient: (1.0, 0.5, 0.6666667)
+4 LabelName=TypeOfAccident, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 0.0, 1.0);  (precision, recall, F1)= (1.0, 0.6666667, 0.8);  Lenient: (1.0, 0.6666667, 0.8)
+5 LabelName=TypeOfAircraft, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (3.0, 0.0, 0.0, 0.0);  (precision, recall, F1)= (1.0, 1.0, 1.0);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (15.0, 1.0, 2.0, 4.0);  (precision, recall, F1)= (0.8333333, 0.75, 0.7894737);  Lenient: (0.8888889, 0.8, 0.84210527)
+
+25.10.2017 13:07:16: 
+*** Fold 10
+Number of docs for training: 28
+1 avion-010107.xml_0000A
+2 avion-010609.xml_0000B
+3 avion-030788.xml_0000C
+4 avion-040701.xml_0000D
+5 avion-040809.xml_0000E
+6 avion-041110.xml_0000F
+7 avion-060701.xml_00010
+8 avion-100410.xml_00011
+9 avion-120209.xml_00012
+10 avion-121101.xml_00013
+11 avion-121196.xml_00014
+12 avion-150109.xml_00015
+13 avion-160805.xml_00016
+14 avion-160810.xml_00017
+15 avion-160907.xml_00018
+16 avion-170108.xml_00019
+17 avion-170707.xml_0001A
+18 avion-201295.xml_0001B
+19 avion-210208.xml_0001C
+20 avion-220510.xml_0001D
+21 avion-230309.xml_0001E
+22 avion-240808.xml_0001F
+23 avion-241294.xml_00020
+24 avion-250190.xml_00021
+25 avion-250607.xml_00022
+26 avion-271189.xml_00023
+27 avion-280488.xml_00024
+28 avion-300609.xml_00028
+Number of docs for application: 3
+1 avion-280710.xml_00025
+2 avion-290906.xml_00026
+3 avion-291291.xml_00027
+
+25.10.2017 13:07:17: 
+Filtering starts.
+25.10.2017 13:07:17: Multi to binary conversion.
+25.10.2017 13:07:17: The number of classes in dataset: 1
+25.10.2017 13:07:17: The learners: SVMLibSvmJava
+25.10.2017 13:07:17: total Number of classes for learning is 1
+25.10.2017 13:07:17: One against others for multi to binary class conversion.
+25.10.2017 13:07:17: Training time for class 1: 420ms
+25.10.2017 13:07:17: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:07:17: Application time for class: 7ms
+25.10.2017 13:07:17: 
+Training starts.
+
+25.10.2017 13:07:17: Multi to binary conversion.
+25.10.2017 13:07:17: The learners: SVMLibSvmJava
+25.10.2017 13:07:17: The number of classes in dataset: 14
+25.10.2017 13:07:17: total Number of classes for learning is 14
+25.10.2017 13:07:17: One against others for multi to binary class conversion.
+25.10.2017 13:07:17: Training time for class 1: 58ms
+25.10.2017 13:07:17: Training time for class 2: 58ms
+25.10.2017 13:07:17: Training time for class 3: 88ms
+25.10.2017 13:07:17: Training time for class 4: 87ms
+25.10.2017 13:07:17: Training time for class 5: 58ms
+25.10.2017 13:07:18: Training time for class 6: 59ms
+25.10.2017 13:07:18: Training time for class 7: 88ms
+25.10.2017 13:07:18: Training time for class 8: 114ms
+25.10.2017 13:07:18: Training time for class 9: 98ms
+25.10.2017 13:07:18: Training time for class 10: 99ms
+25.10.2017 13:07:18: Training time for class 11: 143ms
+25.10.2017 13:07:18: Training time for class 12: 157ms
+25.10.2017 13:07:18: Training time for class 13: 152ms
+25.10.2017 13:07:19: Training time for class 14: 177ms
+25.10.2017 13:07:19: 
+Application starts.
+25.10.2017 13:07:19: Multi to binary conversion.
+25.10.2017 13:07:19: The learners: SVMLibSvmJava
+25.10.2017 13:07:19: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:07:19: Application time for class: 92ms
+25.10.2017 13:07:19: Results of this run:
+
+
+Results of single label:
+0 LabelName=Airline, number of instances=28
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 2.0, 0.0);  (precision, recall, F1)= (0.5, 1.0, 0.6666667);  Lenient: (0.5, 1.0, 0.6666667)
+1 LabelName=FlightNumber, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (0.6666667, 0.6666667, 0.6666667)
+2 LabelName=NumberOfVictims, number of instances=20
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 1.0, 1.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (0.6666667, 0.6666667, 0.6666667)
+3 LabelName=Place, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (1.0, 1.0, 0.0, 0.0);  (precision, recall, F1)= (0.5, 0.5, 0.5);  Lenient: (1.0, 1.0, 1.0)
+4 LabelName=TypeOfAccident, number of instances=26
+  (correct, partialCorrect, spurious, missing)= (2.0, 0.0, 2.0, 0.0);  (precision, recall, F1)= (0.5, 1.0, 0.6666667);  Lenient: (0.5, 1.0, 0.6666667)
+5 LabelName=TypeOfAircraft, number of instances=26
+  (correct, partialCorrect, spurious, missing)= (1.0, 2.0, 0.0, 1.0);  (precision, recall, F1)= (0.33333334, 0.25, 0.28571427);  Lenient: (1.0, 0.75, 0.85714287)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.0, 1.0, 0.0, 0.0);  (precision, recall, F1)= (0.6666667, 0.6666667, 0.6666667);  Lenient: (1.0, 1.0, 1.0)
+
+Overall results(micro-averaged over all labels):
+  (correct, partialCorrect, spurious, missing)= (12.0, 4.0, 6.0, 3.0);  (precision, recall, F1)= (0.54545456, 0.6315789, 0.58536583);  Lenient: (0.72727275, 0.84210527, 0.78048784)
+
+25.10.2017 13:07:19: 
+*** Averaged results for each label over 10 runs as:
+
+Results of single label:
+0 LabelName=Airline, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.1, 0.4, 0.4, 0.4);  (precision, recall, F1)= (0.73333335, 0.73333335, 0.7180952);  Lenient: (0.8833333, 0.8833333, 0.86476195)
+1 LabelName=FlightNumber, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.5, 0.2, 0.4, 0.2);  (precision, recall, F1)= (0.8166666, 0.8666667, 0.83047616);  Lenient: (0.875, 0.9333334, 0.892381)
+2 LabelName=NumberOfVictims, number of instances=20
+  (correct, partialCorrect, spurious, missing)= (1.0, 0.2, 0.7, 1.0);  (precision, recall, F1)= (0.43333334, 0.36666667, 0.39333338);  Lenient: (0.5333333, 0.43333334, 0.4733333)
+3 LabelName=Place, number of instances=24
+  (correct, partialCorrect, spurious, missing)= (1.1, 0.3, 0.2, 1.2);  (precision, recall, F1)= (0.6, 0.4166667, 0.48666668);  Lenient: (0.8, 0.55, 0.6433333)
+4 LabelName=TypeOfAccident, number of instances=25
+  (correct, partialCorrect, spurious, missing)= (1.3, 0.5, 0.3, 0.9);  (precision, recall, F1)= (0.7, 0.46666664, 0.51666665);  Lenient: (0.9, 0.70000005, 0.7233333)
+5 LabelName=TypeOfAircraft, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (1.8, 0.5, 0.3, 0.6);  (precision, recall, F1)= (0.70000005, 0.6666667, 0.6509524);  Lenient: (0.8833333, 0.8166666, 0.81476194)
+6 LabelName=Year, number of instances=27
+  (correct, partialCorrect, spurious, missing)= (2.8, 0.1, 0.2, 0.0);  (precision, recall, F1)= (0.9083333, 0.9666667, 0.932381);  Lenient: (0.9416666, 1.0, 0.9657143)
+
+Overall results as:
+  (correct, partialCorrect, spurious, missing)= (12.6, 2.2, 2.5, 4.3);  (precision, recall, F1)= (0.73381835, 0.6636466, 0.69023615);  Lenient: (0.8596064, 0.7831493, 0.81135195)
+
+25.10.2017 13:07:19: This learning session finished!.
+25.10.2017 13:10:21: 
+*** A new run starts.
+25.10.2017 13:10:21: 
+The execution time (pre-processing the first document): Wed Oct 25 13:10:21 CEST 2017
+25.10.2017 13:10:21: The learning start at Wed Oct 25 13:10:21 CEST 2017
+25.10.2017 13:10:21: The number of documents in dataset: 31
+25.10.2017 13:10:21: ** Training mode:
+25.10.2017 13:10:22: 
+Filtering starts.
+25.10.2017 13:10:22: Multi to binary conversion.
+25.10.2017 13:10:22: The number of classes in dataset: 1
+25.10.2017 13:10:22: The learners: SVMLibSvmJava
+25.10.2017 13:10:22: total Number of classes for learning is 1
+25.10.2017 13:10:22: One against others for multi to binary class conversion.
+25.10.2017 13:10:22: Training time for class 1: 562ms
+25.10.2017 13:10:22: One against others for multi to binary class conversion.
+Number of classes in model: 1
+25.10.2017 13:10:22: Application time for class: 10ms
+25.10.2017 13:10:22: 
+Training starts.
+
+25.10.2017 13:10:22: Multi to binary conversion.
+25.10.2017 13:10:22: The learners: SVMLibSvmJava
+25.10.2017 13:10:22: The number of classes in dataset: 14
+25.10.2017 13:10:22: total Number of classes for learning is 14
+25.10.2017 13:10:22: One against others for multi to binary class conversion.
+25.10.2017 13:10:22: Training time for class 1: 81ms
+25.10.2017 13:10:22: Training time for class 2: 80ms
+25.10.2017 13:10:22: Training time for class 3: 91ms
+25.10.2017 13:10:23: Training time for class 4: 123ms
+25.10.2017 13:10:23: Training time for class 5: 99ms
+25.10.2017 13:10:23: Training time for class 6: 78ms
+25.10.2017 13:10:23: Training time for class 7: 65ms
+25.10.2017 13:10:23: Training time for class 8: 106ms
+25.10.2017 13:10:23: Training time for class 9: 94ms
+25.10.2017 13:10:23: Training time for class 10: 101ms
+25.10.2017 13:10:23: Training time for class 11: 109ms
+25.10.2017 13:10:23: Training time for class 12: 114ms
+25.10.2017 13:10:23: Training time for class 13: 127ms
+25.10.2017 13:10:24: Training time for class 14: 147ms
+25.10.2017 13:10:24: This learning session finished!.
+25.10.2017 13:14:36: 
+
+*************************
+A new session for NLP learning is starting: 20171025_131436file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171004_164844, 1801552secs ago)The initiliased time of NLP learning: Wed Oct 25 13:14:36 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+25.10.2017 13:15:57: 
+
+*************************
+A new session for NLP learning is starting: 20171025_131557file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171004_164844, 1801633secs ago)The initiliased time of NLP learning: Wed Oct 25 13:15:57 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+25.10.2017 13:21:45: 
+*** A new run starts.
+25.10.2017 13:21:45: 
+The execution time (pre-processing the first document): Wed Oct 25 13:21:45 CEST 2017
+25.10.2017 13:21:45: ** Application mode for document from 0 to 1(not included):
+25.10.2017 13:21:45: Creating temp directory for application-mode files
+25.10.2017 13:21:45: 
+Application starts.
+25.10.2017 13:21:45: Multi to binary conversion.
+25.10.2017 13:21:45: The learners: SVMLibSvmJava
+25.10.2017 13:21:45: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:21:45: Application time for class: 99ms
+25.10.2017 13:21:45: The learning start at Wed Oct 25 13:21:45 CEST 2017
+25.10.2017 13:21:45: The number of documents in dataset: 1
+25.10.2017 13:21:45: This learning session finished!.
+25.10.2017 13:40:49: 
+
+*************************
+A new session for NLP learning is starting: 20171025_134049file:/Users/nickschneider/learningaccidents/resources/config/airplane/config.xml (saved 20171004_164844, 1803125secs ago)The initiliased time of NLP learning: Wed Oct 25 13:40:49 CEST 2017
+Working directory: /Users/nickschneider/learningaccidents/resources/config/airplane
+The feature files and models are saved at: /Users/nickschneider/learningaccidents/resources/config/airplane/savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+25.10.2017 13:40:49: 
+*** A new run starts.
+25.10.2017 13:40:49: 
+The execution time (pre-processing the first document): Wed Oct 25 13:40:49 CEST 2017
+25.10.2017 13:40:49: ** Application mode for document from 0 to 1(not included):
+25.10.2017 13:40:49: Creating temp directory for application-mode files
+25.10.2017 13:40:49: 
+Application starts.
+25.10.2017 13:40:49: Multi to binary conversion.
+25.10.2017 13:40:49: The learners: SVMLibSvmJava
+25.10.2017 13:40:49: One against others for multi to binary class conversion.
+Number of classes in model: 14
+25.10.2017 13:40:49: Application time for class: 194ms
+25.10.2017 13:40:49: The learning start at Wed Oct 25 13:40:49 CEST 2017
+25.10.2017 13:40:49: The number of documents in dataset: 1
+25.10.2017 13:40:49: This learning session finished!.
