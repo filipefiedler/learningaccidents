@@ -7,6 +7,10 @@ package aiw2017_p1_g3;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+//import java.util.logging.Level;
+import org.apache.log4j.*;
+
+//import com.sun.istack.internal.logging.Logger;
 
 import IE.CallMyGATEApp;
 import classification.TextClassifier;
@@ -32,6 +36,7 @@ public class AIW2017_P1_G3 {
 	}
 
 	private void init() {
+		Logger.getRootLogger().setLevel(Level.OFF);
 		txtCl = new TextClassifier();
 		gateDoc = new CallMyGATEApp();
 		trainDat = new CreateTrainingData();
