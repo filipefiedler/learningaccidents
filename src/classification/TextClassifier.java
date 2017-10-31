@@ -125,6 +125,9 @@ public class TextClassifier {
        try {
            
            /* YOU NEED TO USE an ARFF CREATED BY YOU 
+            * 
+            *
+            
            //String trainFile="./resources/few_instances.arff"; // this file is provided by your teacher, 
            // you have to replace it with your own file with the FULL training data
            String trainFile="./resources/full_traning_data.arff";
