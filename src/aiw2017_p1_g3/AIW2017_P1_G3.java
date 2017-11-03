@@ -90,7 +90,9 @@ public class AIW2017_P1_G3 {
 					if (topic.equalsIgnoreCase("quake") || topic.equalsIgnoreCase("airplane")) {
 						// if the topic is not one of the given ones ask to
 						// enter the text again
-						System.out.println();
+						
+                                                
+                                                System.out.println();
                                                 System.out.println("It is about " + topic);
                                                 System.out.println();
 
@@ -99,6 +101,8 @@ public class AIW2017_P1_G3 {
 						System.out.println("Calling the extraction system");
                                                 System.out.println();
 						gateDoc.init(txt, topic);
+                                                
+                                                
 
 					}else{
 						System.out.println("The text does not belong to a topic present in the database");
@@ -131,8 +135,8 @@ public class AIW2017_P1_G3 {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Text Classification and Extraction App. This App recognizes texts belonging to\n"
-				+ "the following two domain: airplane and earthquake accidents"
+                System.out.println("Text Classification and Extraction App. This App recognizes texts belonging to\n"
+                            + "the following two domain: airplane and earthquake accidents"
 		// first call the textclassifier
 		//
 		);

@@ -123,6 +123,9 @@ public class CallMyGATEApp {
 				// get feature type of NE
 				System.out.println(fm.get("type") + "=" + dc.substring(start.intValue(), end.intValue()));
 			}
+                        
+                        corpus.remove(document);
+                        Factory.deleteResource(document);
 
 			/*
 			 * // show annotations after call
