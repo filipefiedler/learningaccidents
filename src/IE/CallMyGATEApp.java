@@ -65,9 +65,9 @@ public class CallMyGATEApp {
 			// load the application
 			myanalyser.loadMyGapp(pathToMyGapp);
 			if (topic.equalsIgnoreCase("airplane")){
-			myLearning.loadMyGapp(pathToIE);
+                            myLearning.loadMyGapp(pathToIE);
 			}else if (topic.equalsIgnoreCase("quake")) {
-				myLearning.loadMyGapp(pathToIE_Earth);
+                            myLearning.loadMyGapp(pathToIE_Earth);
 			}
 			// create a GATE corpus
 			Corpus corpus = Factory.newCorpus("");
@@ -107,7 +107,7 @@ public class CallMyGATEApp {
 			// iterate on each annotation
 
 			Iterator<Annotation> ite = NEs.iterator();
-
+                        System.out.println("I found the following useful information about the " + topic + " accident:");
 			while (ite.hasNext()) {
 
 				// next NE

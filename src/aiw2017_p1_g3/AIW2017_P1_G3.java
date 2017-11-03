@@ -58,6 +58,7 @@ public class AIW2017_P1_G3 {
 
 			txtCl.initClassifier();
 			System.out.println("Training classifier...");
+                        System.out.println();
 			txtCl.loadTrainingInstances(trainFile);
 			txtCl.createTestInstances();
 
@@ -89,20 +90,26 @@ public class AIW2017_P1_G3 {
 					if (topic.equalsIgnoreCase("quake") || topic.equalsIgnoreCase("airplane")) {
 						// if the topic is not one of the given ones ask to
 						// enter the text again
-						System.out.println("It is about " + topic);
+						System.out.println();
+                                                System.out.println("It is about " + topic);
+                                                System.out.println();
 
 						txtCl.removeInstance();
 						// call MyGateApp
 						System.out.println("Calling the extraction system");
+                                                System.out.println();
 						gateDoc.init(txt, topic);
 
 					}else{
-						System.out.println("The text does not contain a topic of the database");
+						System.out.println("The text does not belong to a topic present in the database");
 					}
 				}
 				System.out.print("Enter your  text: ");
 				txt = in.readLine();
 			}
+                        
+                        System.out.println("Good bye!");
+                        System.out.println("****");
 
 			/**
 			 * Batch testing of the classifier
@@ -129,6 +136,7 @@ public class AIW2017_P1_G3 {
 		// first call the textclassifier
 		//
 		);
+                System.out.println();
 		AIW2017_P1_G3 myApp = new AIW2017_P1_G3();
 		myApp.classifying();
 

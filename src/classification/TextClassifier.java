@@ -106,7 +106,7 @@ public class TextClassifier {
            filter.setInputFormat(trainInstances);
            trainInstances = 
                    Filter.useFilter(trainInstances, filter);
-           System.out.println(trainInstances.numAttributes());
+           //System.out.println(trainInstances.numAttributes());
            naiveClassifier.buildClassifier(trainInstances);
            ArrayList fvWekaAttributes = new ArrayList();
            

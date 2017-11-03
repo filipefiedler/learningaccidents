@@ -9218,3 +9218,137 @@ Number of classes in model: 12
 31.10.2017 09:28:43: The learning start at Tue Oct 31 09:28:43 CET 2017
 31.10.2017 09:28:43: The number of documents in dataset: 1
 31.10.2017 09:28:43: This learning session finished!.
+Nov 3, 2017 11:45:35 AM: 
+
+*************************
+A new session for NLP learning is starting: 20171103_114535file:/C:/Users/filip/Documents/UPF/IWA/Lab/AIW2017_P1_G3/resources/config/airplane/config.xml (saved 20171030_125058, 341677secs ago)The initiliased time of NLP learning: Fri Nov 03 11:45:35 CET 2017
+Working directory: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane
+The feature files and models are saved at: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane\savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+Nov 3, 2017 11:45:36 AM: 
+*** A new run starts.
+Nov 3, 2017 11:45:36 AM: 
+The execution time (pre-processing the first document): Fri Nov 03 11:45:36 CET 2017
+Nov 3, 2017 11:45:36 AM: ** Application mode for document from 0 to 1(not included):
+Nov 3, 2017 11:45:36 AM: Creating temp directory for application-mode files
+Nov 3, 2017 11:45:36 AM: 
+Application starts.
+Nov 3, 2017 11:45:36 AM: Multi to binary conversion.
+Nov 3, 2017 11:45:36 AM: The learners: SVMLibSvmJava
+Nov 3, 2017 11:45:36 AM: One against others for multi to binary class conversion.
+Number of classes in model: 12
+Nov 3, 2017 11:45:36 AM: Application time for class: 125ms
+Nov 3, 2017 11:45:36 AM: The learning start at Fri Nov 03 11:45:36 CET 2017
+Nov 3, 2017 11:45:36 AM: The number of documents in dataset: 1
+Nov 3, 2017 11:45:36 AM: This learning session finished!.
+Nov 3, 2017 11:46:22 AM: 
+
+*************************
+A new session for NLP learning is starting: 20171103_114622file:/C:/Users/filip/Documents/UPF/IWA/Lab/AIW2017_P1_G3/resources/config/airplane/config.xml (saved 20171030_125058, 341723secs ago)The initiliased time of NLP learning: Fri Nov 03 11:46:22 CET 2017
+Working directory: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane
+The feature files and models are saved at: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane\savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+Nov 3, 2017 11:46:22 AM: 
+*** A new run starts.
+Nov 3, 2017 11:46:22 AM: 
+The execution time (pre-processing the first document): Fri Nov 03 11:46:22 CET 2017
+Nov 3, 2017 11:46:22 AM: ** Application mode for document from 0 to 1(not included):
+Nov 3, 2017 11:46:22 AM: Creating temp directory for application-mode files
+Nov 3, 2017 11:46:23 AM: 
+Application starts.
+Nov 3, 2017 11:46:23 AM: Multi to binary conversion.
+Nov 3, 2017 11:46:23 AM: The learners: SVMLibSvmJava
+Nov 3, 2017 11:46:23 AM: One against others for multi to binary class conversion.
+Number of classes in model: 12
+Nov 3, 2017 11:46:23 AM: Application time for class: 246ms
+Nov 3, 2017 11:46:23 AM: The learning start at Fri Nov 03 11:46:23 CET 2017
+Nov 3, 2017 11:46:23 AM: The number of documents in dataset: 1
+Nov 3, 2017 11:46:23 AM: This learning session finished!.
+Nov 3, 2017 11:48:26 AM: 
+
+*************************
+A new session for NLP learning is starting: 20171103_114826file:/C:/Users/filip/Documents/UPF/IWA/Lab/AIW2017_P1_G3/resources/config/airplane/config.xml (saved 20171030_125058, 341847secs ago)The initiliased time of NLP learning: Fri Nov 03 11:48:26 CET 2017
+Working directory: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane
+The feature files and models are saved at: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane\savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+Nov 3, 2017 11:48:26 AM: 
+*** A new run starts.
+Nov 3, 2017 11:48:26 AM: 
+The execution time (pre-processing the first document): Fri Nov 03 11:48:26 CET 2017
+Nov 3, 2017 11:48:26 AM: ** Application mode for document from 0 to 1(not included):
+Nov 3, 2017 11:48:26 AM: Creating temp directory for application-mode files
+Nov 3, 2017 11:48:27 AM: 
+Application starts.
+Nov 3, 2017 11:48:27 AM: Multi to binary conversion.
+Nov 3, 2017 11:48:27 AM: The learners: SVMLibSvmJava
+Nov 3, 2017 11:48:27 AM: One against others for multi to binary class conversion.
+Number of classes in model: 12
+Nov 3, 2017 11:48:27 AM: Application time for class: 187ms
+Nov 3, 2017 11:48:27 AM: The learning start at Fri Nov 03 11:48:27 CET 2017
+Nov 3, 2017 11:48:27 AM: The number of documents in dataset: 1
+Nov 3, 2017 11:48:27 AM: This learning session finished!.
+Nov 3, 2017 12:09:58 PM: 
+
+*************************
+A new session for NLP learning is starting: 20171103_120958file:/C:/Users/filip/Documents/UPF/IWA/Lab/AIW2017_P1_G3/resources/config/airplane/config.xml (saved 20171030_125058, 343139secs ago)The initiliased time of NLP learning: Fri Nov 03 12:09:58 CET 2017
+Working directory: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane
+The feature files and models are saved at: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane\savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+Nov 3, 2017 12:13:51 PM: 
+
+*************************
+A new session for NLP learning is starting: 20171103_121351file:/C:/Users/filip/Documents/UPF/IWA/Lab/AIW2017_P1_G3/resources/config/airplane/config.xml (saved 20171030_125058, 343372secs ago)The initiliased time of NLP learning: Fri Nov 03 12:13:51 CET 2017
+Working directory: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane
+The feature files and models are saved at: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane\savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+Nov 3, 2017 12:14:13 PM: 
+
+*************************
+A new session for NLP learning is starting: 20171103_121412file:/C:/Users/filip/Documents/UPF/IWA/Lab/AIW2017_P1_G3/resources/config/airplane/config.xml (saved 20171030_125058, 343394secs ago)The initiliased time of NLP learning: Fri Nov 03 12:14:13 CET 2017
+Working directory: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane
+The feature files and models are saved at: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane\savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+Nov 3, 2017 12:27:00 PM: 
+
+*************************
+A new session for NLP learning is starting: 20171103_122700file:/C:/Users/filip/Documents/UPF/IWA/Lab/AIW2017_P1_G3/resources/config/airplane/config.xml (saved 20171103_122541, 79secs ago)The initiliased time of NLP learning: Fri Nov 03 12:27:00 CET 2017
+Working directory: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane
+The feature files and models are saved at: C:\Users\filip\Documents\UPF\IWA\Lab\AIW2017_P1_G3\resources\config\airplane\savedFiles
+Learner name: SVMLibSvmJava
+Learner nick name: SVM
+Learner parameter settings: SVMLibSvmJava
+Surroud mode (or chunk learning): true
+Nov 3, 2017 12:27:00 PM: 
+*** A new run starts.
+Nov 3, 2017 12:27:00 PM: 
+The execution time (pre-processing the first document): Fri Nov 03 12:27:00 CET 2017
+Nov 3, 2017 12:27:00 PM: ** Application mode for document from 0 to 1(not included):
+Nov 3, 2017 12:27:00 PM: Creating temp directory for application-mode files
+Nov 3, 2017 12:27:06 PM: 
+Application starts.
+Nov 3, 2017 12:27:06 PM: Multi to binary conversion.
+Nov 3, 2017 12:27:06 PM: The learners: SVMLibSvmJava
+Nov 3, 2017 12:27:06 PM: One against others for multi to binary class conversion.
+Number of classes in model: 12
+Nov 3, 2017 12:27:07 PM: Application time for class: 779ms
+Nov 3, 2017 12:27:07 PM: The learning start at Fri Nov 03 12:27:07 CET 2017
+Nov 3, 2017 12:27:07 PM: The number of documents in dataset: 1
+Nov 3, 2017 12:27:07 PM: This learning session finished!.
