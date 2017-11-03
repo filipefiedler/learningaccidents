@@ -34,15 +34,16 @@ public class CreateTrainingData {
     private PrintWriter out;
 	
 	public CreateTrainingData (){
-		init();
+		/*init();
 		createArff();
 		//Closing the connection to the file
 		out.close();
-		out.flush();
+		out.flush();*/
 	}
 	
 	
-	private void init (){
+	public void init (){
+		
 		try {
             out = new PrintWriter(new FileWriter(new File("./resources/full_traning_data.arff")));
             
@@ -70,14 +71,16 @@ public class CreateTrainingData {
 		identifiers[1]="quake";
 		identifiers[2]="train";
 		
-		
+		createArff();
+		out.close();
+		out.flush();
 	}
-    /* CREATE YOUR OWN TRAINING  ARFF FILE  */
+    /* CREATE YOUR OWN TRAINING  ARFF FILE  
     public static void main(String[] args) {
         
     	CreateTrainingData ctd = new CreateTrainingData();
  
-    }
+    }*/
     private void createArff (){
     	
     	

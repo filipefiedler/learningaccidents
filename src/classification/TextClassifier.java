@@ -58,8 +58,8 @@ public class TextClassifier {
         
         instance.setValue((Attribute)testInstances.attribute(0),txt);
         
-        instance.setValue((Attribute)testInstances.attribute(1),trainInstances.
-                attribute(trainInstances.classIndex()).value(0));
+        //instance.setValue((Attribute)testInstances.attribute(1),trainInstances.
+          //      attribute(trainInstances.classIndex()).value(0));
         testInstances.add(instance);
         
         Instances m_Test2 = Filter.useFilter(testInstances, filter);
@@ -121,10 +121,13 @@ public class TextClassifier {
    }
    
    
-   public static void main(String[] args) {
+   /*public static void main(String[] args) {
        try {
            
-           /* YOU NEED TO USE an ARFF CREATED BY YOU */
+           /* YOU NEED TO USE an ARFF CREATED BY YOU 
+            * 
+            *
+            
            //String trainFile="./resources/few_instances.arff"; // this file is provided by your teacher, 
            // you have to replace it with your own file with the FULL training data
            String trainFile="./resources/full_traning_data.arff";
@@ -144,7 +147,7 @@ public class TextClassifier {
            
            /**
             *  Iterative testing the classifier
-            */
+            
           
             
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -170,7 +173,7 @@ public class TextClassifier {
            
            /**
             *  Batch testing of the classifier 
-            */
+            
            /*
            BufferedReader reader=new BufferedReader(new FileReader(testTXTFile));
            while((txt=reader.readLine())!=null) {
@@ -180,7 +183,7 @@ public class TextClassifier {
                classifier.removeInstance();
                
            }
-           */
+           
            
        } catch (Exception ex) {
            ex.printStackTrace();
@@ -188,5 +191,5 @@ public class TextClassifier {
    }
    
  
-    
+    */
 }
